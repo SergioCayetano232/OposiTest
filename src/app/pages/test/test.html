@@ -1,41 +1,65 @@
 <a routerLink="/" class="volver">← Salir del test</a>
 
-<header class="progreso">
-  <p>Pregunta {{ indice + 1 }} de {{ preguntas.length }}</p>
-  <div class="barra">
-    <div
-      class="relleno"
-      [style.width.%]="((indice + 1) / preguntas.length) * 100"
-    ></div>
-  </div>
-</header>
+@if (!terminado) {
+  <header class="progreso">
+    <p>Pregunta {{ indice + 1 }} de {{ preguntas.length }}</p>
+    <div class="barra">
+      <div
+        class="relleno"
+        [style.width.%]="((indice + 1) / preguntas.length) * 100"
+      ></div>
+    </div>
+  </header>
 
-<section class="pregunta">
-  <h2>{{ preguntaActual.enunciado }}</h2>
+  <section class="pregunta">
+    <h2>{{ preguntaActual.enunciado }}</h2>
 
-  <div class="opciones">
-    @for (opcion of preguntaActual.opciones; track $index) {
-      <button
-        class="opcion"
-        [class.elegida]="respuestas[indice] === $index"
-        (click)="seleccionar($index)"
-      >
-        <span class="letra">{{ letra($index) }})</span> {{ opcion }}
+    <div class="opciones">
+      @for (opcion of preguntaActual.opciones; track $index) {
+        <button
+          class="opcion"
+          [class.elegida]="respuestas[indice] === $index"
+          (click)="seleccionar($index)"
+        >
+          <span class="letra">{{ letra($index) }})</span> {{ opcion }}
+        </button>
+      }
+    </div>
+  </section>
+
+  <footer class="navegacion">
+    <button class="secundario" (click)="anterior()" [disabled]="indice === 0">
+      Anterior
+    </button>
+
+    @if (!esUltima) {
+      <button (click)="siguiente()">Siguiente</button>
+    } @else {
+      <button class="terminar" (click)="corregir()">
+        Corregir ({{ respondidas }}/{{ preguntas.length }})
       </button>
     }
-  </div>
-</section>
+  </footer>
+} @else {
+  <section class="resultados">
+    <h2>Resultado</h2>
+    <p class="nota">{{ nota }}</p>
+    <p class="sobre">sobre 10</p>
 
-<footer class="navegacion">
-  <button class="secundario" (click)="anterior()" [disabled]="indice === 0">
-    Anterior
-  </button>
+    <ul class="desglose">
+      <li class="ok"><strong>{{ aciertos }}</strong> aciertos</li>
+      <li class="ko"><strong>{{ fallos }}</strong> fallos</li>
+      <li class="blanco"><strong>{{ enBlanco }}</strong> en blanco</li>
+    </ul>
 
-  @if (!esUltima) {
-    <button (click)="siguiente()">Siguiente</button>
-  } @else {
-    <button class="terminar">
-      Corregir ({{ respondidas }}/{{ preguntas.length }})
-    </button>
-  }
-</footer>
+    <p class="formula">
+      Puntuación real: {{ aciertos }} − ({{ fallos }} ÷ 3) =
+      <strong>{{ puntos }}</strong> puntos de {{ preguntas.length }}
+    </p>
+
+    <div class="acciones">
+      <button (click)="repetir()">Repetir con otras preguntas</button>
+      <a routerLink="/" class="enlace-inicio">Volver al inicio</a>
+    </div>
+  </section>
+}
