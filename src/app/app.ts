@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { PreguntasService } from './services/preguntas.service';
 
 // Un tema del examen
 export interface Tema {
@@ -14,6 +15,12 @@ export interface Tema {
   styleUrl: './app.css',
 })
 export class App {
+  private preguntasService = inject(PreguntasService);
+
+  numPreguntas(temaId: string): number {
+    return this.preguntasService.contarPorTema(temaId);
+  }
+
   temas: Tema[] = [
     {
       id: 'convenio',
