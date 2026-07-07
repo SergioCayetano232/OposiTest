@@ -48,7 +48,7 @@
 } @else {
   <section class="resultados">
     <h2>Resultado</h2>
-    <p class="nota">{{ nota }}</p>
+    <p class="nota" [class.aprobado]="nota >= 5" [class.suspenso]="nota < 5">{{ nota }}</p>
     <p class="sobre">sobre 10</p>
 
     <ul class="desglose">
