@@ -91,4 +91,12 @@ export class Test {
     const sobre10 = (this.puntos / this.preguntas.length) * 10;
     return Math.max(0, Math.round(sobre10 * 100) / 100);
   }
+
+  // preguntas falladas junto a lo que se marcó
+  get falladas(): { pregunta: Pregunta; marcada: number }[] {
+    return this.preguntas
+      .map((pregunta, i) => ({ pregunta, marcada: this.respuestas[i] }))
+      .filter((f) => f.marcada !== null && f.marcada !== f.pregunta.correcta)
+      .map((f) => ({ pregunta: f.pregunta, marcada: f.marcada as number }));
+  }
 }

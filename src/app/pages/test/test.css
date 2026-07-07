@@ -198,3 +198,72 @@
   color: #64748b;
   font-size: 14px;
 }
+
+.repaso {
+  margin-top: 24px;
+  text-align: left;
+}
+
+.repaso h3 {
+  font-size: 17px;
+  margin-bottom: 14px;
+  color: #1c2434;
+}
+
+.fallo {
+  background: #fff;
+  border: 1px solid #e5e9f0;
+  border-radius: 14px;
+  padding: 18px;
+  margin-bottom: 14px;
+}
+
+.fallo .enunciado {
+  font-weight: 600;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.opciones-repaso {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.opcion-repaso {
+  padding: 9px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  background: #f8fafc;
+  border: 1px solid #edf1f5;
+}
+
+.opcion-repaso.correcta {
+  background: #ecf7f0;
+  border-color: #2e9e5b;
+}
+
+.opcion-repaso.marcada-mal {
+  background: #fdeef0;
+  border-color: #d1495b;
+}
+
+.etiqueta {
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 8px;
+}
+
+.etiqueta.ok { color: #2e9e5b; }
+.etiqueta.ko { color: #d1495b; }
+
+.explicacion {
+  font-size: 14px;
+  color: #475569;
+  background: #f6f8fb;
+  border-left: 3px solid #c98f2d;
+  border-radius: 0 8px 8px 0;
+  padding: 10px 12px;
+  line-height: 1.5;
+}

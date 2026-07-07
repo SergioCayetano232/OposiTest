@@ -62,4 +62,36 @@
       <a routerLink="/" class="enlace-inicio">Volver al inicio</a>
     </div>
   </section>
+
+  @if (falladas.length > 0) {
+    <section class="repaso">
+      <h3>Repaso de falladas ({{ falladas.length }})</h3>
+
+      @for (fallo of falladas; track fallo.pregunta.id) {
+        <article class="fallo">
+          <p class="enunciado">{{ fallo.pregunta.enunciado }}</p>
+
+          <div class="opciones-repaso">
+            @for (opcion of fallo.pregunta.opciones; track $index) {
+              <p
+                class="opcion-repaso"
+                [class.correcta]="$index === fallo.pregunta.correcta"
+                [class.marcada-mal]="$index === fallo.marcada"
+              >
+                <span class="letra">{{ letra($index) }})</span> {{ opcion }}
+                @if ($index === fallo.pregunta.correcta) {
+                  <span class="etiqueta ok">✓ correcta</span>
+                }
+                @if ($index === fallo.marcada) {
+                  <span class="etiqueta ko">✗ tu respuesta</span>
+                }
+              </p>
+            }
+          </div>
+
+          <p class="explicacion">💡 {{ fallo.pregunta.explicacion }}</p>
+        </article>
+      }
+    </section>
+  }
 }
