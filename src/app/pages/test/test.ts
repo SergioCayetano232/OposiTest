@@ -2,6 +2,7 @@ import { Component, inject } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { Pregunta } from '../../models/pregunta';
 import { PreguntasService } from '../../services/preguntas.service';
+import { EstadisticasService } from '../../services/estadisticas.service';
 
 @Component({
   selector: 'app-test',
@@ -12,6 +13,7 @@ import { PreguntasService } from '../../services/preguntas.service';
 export class Test {
   private ruta = inject(ActivatedRoute);
   private preguntasService = inject(PreguntasService);
+  private estadisticasService = inject(EstadisticasService);
 
   tema = this.ruta.snapshot.paramMap.get('tema') ?? '';
 
@@ -57,6 +59,14 @@ export class Test {
 
   corregir() {
     this.terminado = true;
+    this.estadisticasService.guardar({
+      tema: this.tema,
+      fecha: new Date().toISOString(),
+      aciertos: this.aciertos,
+      fallos: this.fallos,
+      enBlanco: this.enBlanco,
+      nota: this.nota,
+    });
   }
 
   // nuevo intento con otras preguntas barajadas

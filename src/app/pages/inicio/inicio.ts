@@ -1,6 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { PreguntasService } from '../../services/preguntas.service';
+import { EstadisticasService } from '../../services/estadisticas.service';
 
 export interface Tema {
   id: string;
@@ -17,6 +18,7 @@ export interface Tema {
 })
 export class Inicio {
   private preguntasService = inject(PreguntasService);
+  private estadisticasService = inject(EstadisticasService);
 
   temas: Tema[] = [
     { id: 'convenio', nombre: 'Convenio Colectivo', descripcion: 'XI Convenio de la FNMT-RCM', icono: '📜' },
@@ -27,5 +29,13 @@ export class Inicio {
 
   numPreguntas(temaId: string): number {
     return this.preguntasService.contarPorTema(temaId);
+  }
+
+  intentos(temaId: string): number {
+    return this.estadisticasService.numIntentos(temaId);
+  }
+
+  mejorNota(temaId: string): number | null {
+    return this.estadisticasService.mejorNota(temaId);
   }
 }
