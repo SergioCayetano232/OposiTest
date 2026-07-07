@@ -1,0 +1,126 @@
+.volver {
+  display: inline-block;
+  color: #64748b;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.volver:hover {
+  color: #1d3a6e;
+}
+
+.progreso p {
+  font-size: 14px;
+  color: #64748b;
+  margin-bottom: 6px;
+}
+
+.barra {
+  height: 8px;
+  background: #e2e8f0;
+  border-radius: 99px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.relleno {
+  height: 100%;
+  background: #1d3a6e;
+  border-radius: 99px;
+  transition: width 0.25s;
+}
+
+.pregunta {
+  background: #fff;
+  border: 1px solid #e5e9f0;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 1px 2px rgba(20, 40, 80, 0.04), 0 8px 24px rgba(20, 40, 80, 0.05);
+}
+
+.pregunta h2 {
+  font-size: 18px;
+  line-height: 1.45;
+  margin-bottom: 18px;
+}
+
+.opciones {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.opcion {
+  text-align: left;
+  padding: 13px 15px;
+  background: #f8fafc;
+  border: 1px solid #dbe2ea;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.12s, background-color 0.12s;
+}
+
+.opcion:hover {
+  border-color: #1d3a6e;
+}
+
+.opcion.elegida {
+  background: #e8eef9;
+  border-color: #1d3a6e;
+  font-weight: 600;
+}
+
+.letra {
+  color: #1d3a6e;
+  font-weight: 700;
+  margin-right: 6px;
+}
+
+.navegacion {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.navegacion button {
+  padding: 11px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: inherit;
+  cursor: pointer;
+  background: #1d3a6e;
+  color: #fff;
+}
+
+.navegacion button:hover {
+  background: #16305c;
+}
+
+.navegacion .secundario {
+  background: #fff;
+  color: #1d3a6e;
+  border: 1px solid #cbd5e1;
+}
+
+.navegacion .secundario:hover {
+  background: #f1f5f9;
+}
+
+.navegacion button:disabled {
+  background: #cbd5e1;
+  color: #fff;
+  border: none;
+  cursor: not-allowed;
+}
+
+.terminar {
+  background: #c98f2d !important;
+}
+
+.terminar:hover {
+  background: #b07c22 !important;
+}

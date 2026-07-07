@@ -1,1 +1,41 @@
-<p>Aquí irá el test del tema: <strong>{{ tema }}</strong></p>
+<a routerLink="/" class="volver">← Salir del test</a>
+
+<header class="progreso">
+  <p>Pregunta {{ indice + 1 }} de {{ preguntas.length }}</p>
+  <div class="barra">
+    <div
+      class="relleno"
+      [style.width.%]="((indice + 1) / preguntas.length) * 100"
+    ></div>
+  </div>
+</header>
+
+<section class="pregunta">
+  <h2>{{ preguntaActual.enunciado }}</h2>
+
+  <div class="opciones">
+    @for (opcion of preguntaActual.opciones; track $index) {
+      <button
+        class="opcion"
+        [class.elegida]="respuestas[indice] === $index"
+        (click)="seleccionar($index)"
+      >
+        <span class="letra">{{ letra($index) }})</span> {{ opcion }}
+      </button>
+    }
+  </div>
+</section>
+
+<footer class="navegacion">
+  <button class="secundario" (click)="anterior()" [disabled]="indice === 0">
+    Anterior
+  </button>
+
+  @if (!esUltima) {
+    <button (click)="siguiente()">Siguiente</button>
+  } @else {
+    <button class="terminar">
+      Corregir ({{ respondidas }}/{{ preguntas.length }})
+    </button>
+  }
+</footer>
