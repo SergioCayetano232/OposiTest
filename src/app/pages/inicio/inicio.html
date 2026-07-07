@@ -1,0 +1,18 @@
+<header class="cabecera">
+  <h1>Oposi<span>Test</span></h1>
+  <p>Prepara tu examen de Auxiliar de Producción de la FNMT</p>
+</header>
+
+<section class="temas">
+  @for (tema of temas; track tema.id) {
+    <article class="tarjeta-tema">
+      <span class="icono">{{ tema.icono }}</span>
+      <h2>{{ tema.nombre }}</h2>
+      <p>{{ tema.descripcion }}</p>
+      <p class="contador">{{ numPreguntas(tema.id) }} preguntas</p>
+      <button [routerLink]="['/test', tema.id]" [disabled]="numPreguntas(tema.id) === 0">
+        Empezar test
+      </button>
+    </article>
+  }
+</section>
