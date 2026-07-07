@@ -75,12 +75,70 @@
 
 .stats {
   font-size: 13px;
-  color: #64748b;
+  color: #1d3a6e;
+  background: #eef2f9;
+  border-radius: 8px;
+  padding: 5px 10px;
 }
 
 button:disabled {
   background: #cbd5e1;
   cursor: not-allowed;
+}
+
+.zona-simulacro {
+  margin-top: 32px;
+}
+
+.tarjeta-simulacro {
+  background: linear-gradient(135deg, #1d3a6e 0%, #2d4a7e 100%);
+  color: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 20px rgba(29, 58, 110, 0.25);
+}
+
+.tarjeta-simulacro .icono {
+  font-size: 40px;
+}
+
+.tarjeta-simulacro h2 {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.tarjeta-simulacro p {
+  opacity: 0.85;
+  font-size: 14px;
+}
+
+.tarjeta-simulacro .stats {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  margin-left: auto;
+}
+
+.tarjeta-simulacro button {
+  padding: 12px 24px;
+  background: #c98f2d;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.15s;
+}
+
+.tarjeta-simulacro button:hover {
+  background: #b07c22;
 }
 
 @media (max-width: 560px) {
@@ -89,5 +147,12 @@ button:disabled {
   }
   .cabecera h1 {
     font-size: 34px;
+  }
+  .tarjeta-simulacro {
+    flex-direction: column;
+    text-align: center;
+  }
+  .tarjeta-simulacro .stats {
+    margin-left: 0;
   }
 }

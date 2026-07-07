@@ -10,10 +10,30 @@
   color: #1d3a6e;
 }
 
+.fila-progreso {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .progreso p {
   font-size: 14px;
   color: #64748b;
   margin-bottom: 6px;
+}
+
+.reloj {
+  font-weight: 700;
+  color: #1d3a6e;
+}
+
+.reloj.apurado {
+  color: #d1495b;
+  animation: parpadeo 1s infinite;
+}
+
+@keyframes parpadeo {
+  50% { opacity: 0.4; }
 }
 
 .barra {

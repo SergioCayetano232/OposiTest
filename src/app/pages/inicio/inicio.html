@@ -22,3 +22,19 @@
     </article>
   }
 </section>
+
+<section class="zona-simulacro">
+  <article class="tarjeta-simulacro">
+    <span class="icono">📝</span>
+    <div>
+      <h2>Simulacro de examen</h2>
+      <p>50 preguntas aleatorias de todos los temas · 60 minutos</p>
+    </div>
+    @if (intentos('simulacro') > 0) {
+      <p class="stats">
+        Mejor: <strong>{{ mejorNota('simulacro') }}</strong> · {{ intentos('simulacro') }} intentos
+      </p>
+    }
+    <button routerLink="/test/simulacro">Empezar simulacro</button>
+  </article>
+</section>

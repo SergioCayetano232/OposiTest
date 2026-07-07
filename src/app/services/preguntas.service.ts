@@ -22,4 +22,11 @@ export class PreguntasService {
     copia.sort(() => Math.random() - 0.5);
     return copia.slice(0, cantidad);
   }
+
+  // baraja todo el banco y devuelve "cantidad" preguntas
+  getSimulacro(cantidad: number): Pregunta[] {
+    const copia = [...PREGUNTAS];
+    copia.sort(() => Math.random() - 0.5);
+    return copia.slice(0, cantidad);
+  }
 }

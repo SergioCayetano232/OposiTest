@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, OnDestroy, inject } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { Pregunta } from '../../models/pregunta';
 import { PreguntasService } from '../../services/preguntas.service';
@@ -10,15 +10,26 @@ import { EstadisticasService } from '../../services/estadisticas.service';
   templateUrl: './test.html',
   styleUrl: './test.css',
 })
-export class Test {
+export class Test implements OnDestroy {
   private ruta = inject(ActivatedRoute);
   private preguntasService = inject(PreguntasService);
   private estadisticasService = inject(EstadisticasService);
 
   tema = this.ruta.snapshot.paramMap.get('tema') ?? '';
 
-  // hasta 25 preguntas barajadas del tema
-  preguntas: Pregunta[] = this.preguntasService.getAleatorias(this.tema, 25);
+  esSimulacro = this.tema === 'simulacro';
+
+  preguntas: Pregunta[] = this.esSimulacro
+    ? this.preguntasService.getSimulacro(50)
+    : this.preguntasService.getAleatorias(this.tema, 25);
+
+  // reloj del simulacro: 60 minutos
+  segundos = 60 * 60;
+  private reloj: ReturnType<typeof setInterval> | null = null;
+
+  constructor() {
+    if (this.esSimulacro) this.arrancarReloj();
+  }
 
   indice = 0;
 
@@ -58,6 +69,8 @@ export class Test {
   }
 
   corregir() {
+    if (this.terminado) return;
+    this.pararReloj();
     this.terminado = true;
     this.estadisticasService.guardar({
       tema: this.tema,
@@ -71,10 +84,16 @@ export class Test {
 
   // nuevo intento con otras preguntas barajadas
   repetir() {
-    this.preguntas = this.preguntasService.getAleatorias(this.tema, 25);
+    this.preguntas = this.esSimulacro
+      ? this.preguntasService.getSimulacro(50)
+      : this.preguntasService.getAleatorias(this.tema, 25);
     this.respuestas = this.preguntas.map(() => null);
     this.indice = 0;
     this.terminado = false;
+    if (this.esSimulacro) {
+      this.segundos = 60 * 60;
+      this.arrancarReloj();
+    }
   }
 
   get aciertos(): number {
@@ -108,5 +127,30 @@ export class Test {
       .map((pregunta, i) => ({ pregunta, marcada: this.respuestas[i] }))
       .filter((f) => f.marcada !== null && f.marcada !== f.pregunta.correcta)
       .map((f) => ({ pregunta: f.pregunta, marcada: f.marcada as number }));
+  }
+
+  private arrancarReloj() {
+    this.reloj = setInterval(() => {
+      this.segundos--;
+      if (this.segundos <= 0) this.corregir();
+    }, 1000);
+  }
+
+  private pararReloj() {
+    if (this.reloj) {
+      clearInterval(this.reloj);
+      this.reloj = null;
+    }
+  }
+
+  // se ejecuta al salir de la pantalla
+  ngOnDestroy() {
+    this.pararReloj();
+  }
+
+  get tiempo(): string {
+    const m = Math.floor(this.segundos / 60);
+    const s = this.segundos % 60;
+    return `${m}:${s.toString().padStart(2, '0')}`;
   }
 }

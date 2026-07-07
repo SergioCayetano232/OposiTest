@@ -2,7 +2,12 @@
 
 @if (!terminado) {
   <header class="progreso">
-    <p>Pregunta {{ indice + 1 }} de {{ preguntas.length }}</p>
+    <div class="fila-progreso">
+      <p>Pregunta {{ indice + 1 }} de {{ preguntas.length }}</p>
+      @if (esSimulacro) {
+        <p class="reloj" [class.apurado]="segundos < 300">⏱ {{ tiempo }}</p>
+      }
+    </div>
     <div class="barra">
       <div
         class="relleno"
