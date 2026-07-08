@@ -21,7 +21,7 @@ export class Test implements OnDestroy {
 
   preguntas: Pregunta[] = this.esSimulacro
     ? this.preguntasService.getSimulacro(50)
-    : this.preguntasService.getAleatorias(this.tema, 25);
+    : this.preguntasService.getAleatorias(this.tema, 20);
 
   // reloj del simulacro: 60 minutos
   segundos = 60 * 60;
@@ -86,7 +86,7 @@ export class Test implements OnDestroy {
   repetir() {
     this.preguntas = this.esSimulacro
       ? this.preguntasService.getSimulacro(50)
-      : this.preguntasService.getAleatorias(this.tema, 25);
+      : this.preguntasService.getAleatorias(this.tema, 20);
     this.respuestas = this.preguntas.map(() => null);
     this.indice = 0;
     this.terminado = false;
