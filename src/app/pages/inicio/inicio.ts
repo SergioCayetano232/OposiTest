@@ -27,8 +27,14 @@ export class Inicio {
     { id: 'mates', nombre: 'Matemáticas', descripcion: 'Cálculo, problemas y razonamiento', icono: '🔢' },
   ];
 
-  numPreguntas(temaId: string): number {
-    return this.preguntasService.contarPorTema(temaId);
+  // Cuántas preguntas hay de un tema y origen (para el contador de cada botón)
+  numPorFuente(temaId: string, fuente: 'ia' | 'examen'): number {
+    return this.preguntasService.contarPorTemaYFuente(temaId, fuente);
+  }
+
+  // Total de preguntas de examen (contador del simulacro real)
+  numExamen(): number {
+    return this.preguntasService.getTodas().filter((p) => p.fuente === 'examen').length;
   }
 
   intentos(temaId: string): number {

@@ -1,7 +1,7 @@
 import { Component, OnDestroy, inject } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { Pregunta } from '../../models/pregunta';
-import { PreguntasService } from '../../services/preguntas.service';
+import { Fuente, PreguntasService } from '../../services/preguntas.service';
 import { EstadisticasService } from '../../services/estadisticas.service';
 
 @Component({
@@ -16,19 +16,44 @@ export class Test implements OnDestroy {
   private estadisticasService = inject(EstadisticasService);
 
   tema = this.ruta.snapshot.paramMap.get('tema') ?? '';
+  // fuente puede venir o no (los simulacros no la traen)
+  fuente = (this.ruta.snapshot.paramMap.get('fuente') as Fuente | null) ?? null;
 
-  esSimulacro = this.tema === 'simulacro';
+  // hay dos simulacros: práctica (mezcla) y examen real (solo preguntas de examen)
+  esSimulacro = this.tema === 'simulacro' || this.tema === 'examen';
 
-  preguntas: Pregunta[] = this.esSimulacro
-    ? this.preguntasService.getSimulacro(50)
-    : this.preguntasService.getAleatorias(this.tema, 20);
+  // minutos del simulacro (los tests normales no llevan reloj)
+  private minutosSimulacro = 60;
 
-  // reloj del simulacro: 60 minutos
-  segundos = 60 * 60;
+  preguntas: Pregunta[] = this.cargarPreguntas();
+
+  // reloj del simulacro
+  segundos = this.minutosSimulacro * 60;
   private reloj: ReturnType<typeof setInterval> | null = null;
 
   constructor() {
     if (this.esSimulacro) this.arrancarReloj();
+  }
+
+  // Decide qué preguntas mostrar según la ruta
+  private cargarPreguntas(): Pregunta[] {
+    if (this.tema === 'examen') {
+      const config = this.preguntasService.getSimulacroExamen();
+      this.minutosSimulacro = config.minutos;
+      return config.preguntas;
+    }
+    if (this.tema === 'simulacro') {
+      const config = this.preguntasService.getSimulacroPractica();
+      this.minutosSimulacro = config.minutos;
+      return config.preguntas;
+    }
+    // test normal: por tema, y por fuente si viene en la ruta
+    return this.preguntasService.getAleatorias(this.tema, 20, this.fuente ?? undefined);
+  }
+
+  // Clave con la que se guardan las estadísticas (distingue cada sección)
+  private get claveStats(): string {
+    return this.fuente ? `${this.tema}-${this.fuente}` : this.tema;
   }
 
   indice = 0;
@@ -73,7 +98,7 @@ export class Test implements OnDestroy {
     this.pararReloj();
     this.terminado = true;
     this.estadisticasService.guardar({
-      tema: this.tema,
+      tema: this.claveStats,
       fecha: new Date().toISOString(),
       aciertos: this.aciertos,
       fallos: this.fallos,
@@ -84,14 +109,12 @@ export class Test implements OnDestroy {
 
   // nuevo intento con otras preguntas barajadas
   repetir() {
-    this.preguntas = this.esSimulacro
-      ? this.preguntasService.getSimulacro(50)
-      : this.preguntasService.getAleatorias(this.tema, 20);
+    this.preguntas = this.cargarPreguntas();
     this.respuestas = this.preguntas.map(() => null);
     this.indice = 0;
     this.terminado = false;
     if (this.esSimulacro) {
-      this.segundos = 60 * 60;
+      this.segundos = this.minutosSimulacro * 60;
       this.arrancarReloj();
     }
   }

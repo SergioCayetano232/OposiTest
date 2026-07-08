@@ -9,32 +9,59 @@
       <span class="icono">{{ tema.icono }}</span>
       <h2>{{ tema.nombre }}</h2>
       <p>{{ tema.descripcion }}</p>
-      <p class="contador">{{ numPreguntas(tema.id) }} preguntas</p>
-      @if (intentos(tema.id) > 0) {
-        <p class="stats">
-          Mejor nota: <strong>{{ mejorNota(tema.id) }}</strong> ·
-          {{ intentos(tema.id) }} intentos
-        </p>
-      }
-      <button [routerLink]="['/test', tema.id]" [disabled]="numPreguntas(tema.id) === 0">
-        Empezar test
-      </button>
+
+      <!-- Dos accesos por tema: preguntas propias y de examen oficial -->
+      <div class="accesos">
+        <button
+          class="btn-ia"
+          [routerLink]="['/test', tema.id, 'ia']"
+          [disabled]="numPorFuente(tema.id, 'ia') === 0"
+        >
+          Propias
+          <span class="mini">{{ numPorFuente(tema.id, 'ia') }}</span>
+        </button>
+        <button
+          class="btn-examen"
+          [routerLink]="['/test', tema.id, 'examen']"
+          [disabled]="numPorFuente(tema.id, 'examen') === 0"
+        >
+          Oficiales
+          <span class="mini">{{ numPorFuente(tema.id, 'examen') }}</span>
+        </button>
+      </div>
     </article>
   }
 </section>
 
 <section class="zona-simulacro">
+  <!-- Simulacro de práctica: mezcla de todos los temas -->
   <article class="tarjeta-simulacro">
     <span class="icono">📝</span>
     <div>
-      <h2>Simulacro de examen</h2>
-      <p>50 preguntas aleatorias de todos los temas · 60 minutos</p>
+      <h2>Simulacro de práctica</h2>
+      <p>50 preguntas de todos los temas · 60 minutos</p>
     </div>
     @if (intentos('simulacro') > 0) {
       <p class="stats">
         Mejor: <strong>{{ mejorNota('simulacro') }}</strong> · {{ intentos('simulacro') }} intentos
       </p>
     }
-    <button routerLink="/test/simulacro">Empezar simulacro</button>
+    <button routerLink="/test/simulacro">Empezar</button>
+  </article>
+
+  <!-- Simulacro de examen real: solo preguntas de examen -->
+  <article class="tarjeta-simulacro examen">
+    <span class="icono">🎯</span>
+    <div>
+      <h2>Simulacro de examen real</h2>
+      <p>100 preguntas de examen · 2 horas · penaliza 1/3</p>
+      <p class="disponibles">{{ numExamen() }} preguntas de examen disponibles</p>
+    </div>
+    @if (intentos('examen') > 0) {
+      <p class="stats">
+        Mejor: <strong>{{ mejorNota('examen') }}</strong> · {{ intentos('examen') }} intentos
+      </p>
+    }
+    <button routerLink="/test/examen" [disabled]="numExamen() === 0">Empezar</button>
   </article>
 </section>
