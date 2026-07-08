@@ -7,4 +7,5 @@ export interface Pregunta {
   opciones: string[];
   correcta: number; // índice de la opción correcta (0, 1 o 2)
   explicacion: string;
+  etiqueta?: string; // etiqueta opcional para agrupar preguntas (p. ej. 'igualdad')
 }
