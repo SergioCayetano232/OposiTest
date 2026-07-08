@@ -4,6 +4,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 14,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Por hospitalización de un familiar de primer grado en distinta localidad corresponden:',
     opciones: ['3 días hábiles', '4 días hábiles', '5 días hábiles'],
     correcta: 2,
@@ -12,6 +13,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 15,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Por fallecimiento de un familiar de segundo grado en la misma localidad corresponden:',
     opciones: ['2 días hábiles', '3 días hábiles', '4 días hábiles'],
     correcta: 0,
@@ -21,6 +23,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 26,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: 'Señala la opción escrita correctamente:',
     opciones: ['Haber si apruebas el examen', 'A ver si apruebas el examen', 'Aber si apruebas el examen'],
     correcta: 1,
@@ -29,6 +32,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 27,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: 'Completa: "No creo que ___ ningún problema".',
     opciones: ['haya', 'halla', 'aya'],
     correcta: 0,
@@ -37,6 +41,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 28,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: 'Señala la forma correcta en una pregunta directa:',
     opciones: ['¿Porqué no vienes?', '¿Por qué no vienes?', '¿Porque no vienes?'],
     correcta: 1,
@@ -45,6 +50,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 29,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: '¿Cuál de estas frases está bien escrita?',
     opciones: ['Quiero un te con leche', 'Quiero un té con leche', 'Quiero un té con lechè'],
     correcta: 1,
@@ -53,6 +59,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 30,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: '¿Cuál de estas palabras agudas lleva tilde?',
     opciones: ['reloj', 'camion', 'pared'],
     correcta: 1,
@@ -61,6 +68,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 31,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: 'Las palabras esdrújulas:',
     opciones: ['Llevan tilde solo si acaban en vocal', 'Nunca llevan tilde', 'Llevan tilde siempre'],
     correcta: 2,
@@ -69,6 +77,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 32,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: 'Un sinónimo de "conciso" es:',
     opciones: ['Breve', 'Confuso', 'Extenso'],
     correcta: 0,
@@ -77,6 +86,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 33,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: 'El antónimo de "escaso" es:',
     opciones: ['Insuficiente', 'Abundante', 'Limitado'],
     correcta: 1,
@@ -85,6 +95,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 34,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: '"Rápidamente" es un:',
     opciones: ['Adjetivo', 'Adverbio', 'Sustantivo'],
     correcta: 1,
@@ -93,6 +104,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 35,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: 'Completa: "Cuando el agua ___, echa la pasta".',
     opciones: ['hierva', 'hierba', 'ierva'],
     correcta: 0,
@@ -101,6 +113,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 36,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: 'El plural de "régimen" es:',
     opciones: ['régimenes', 'regímenes', 'regimenes'],
     correcta: 1,
@@ -109,6 +122,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 37,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: 'Completa: "No ___ las llaves por ninguna parte".',
     opciones: ['haya', 'aya', 'halla'],
     correcta: 2,
@@ -117,6 +131,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 38,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: 'En "Los operarios revisaron las máquinas", el sujeto es:',
     opciones: ['Las máquinas', 'Los operarios', 'Revisaron'],
     correcta: 1,
@@ -125,6 +140,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 39,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: '¿Por qué lleva tilde la palabra "árbol"?',
     opciones: ['Es llana acabada en consonante distinta de n o s', 'Es aguda acabada en l', 'Es esdrújula'],
     correcta: 0,
@@ -133,6 +149,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 40,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: '¿Qué palabra contiene un hiato?',
     opciones: ['Aire', 'País', 'Fuego'],
     correcta: 1,
@@ -141,6 +158,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 41,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: 'Señala la frase correcta:',
     opciones: ['No es rojo, si no azul', 'No es rojo, sino azul', 'No es rojo sinó azul'],
     correcta: 1,
@@ -149,6 +167,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 42,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: 'Completa: "Ayer no ___ tiempo de llamarte".',
     opciones: ['tubo', 'tuvo', 'tubó'],
     correcta: 1,
@@ -157,6 +176,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 43,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: 'Señala la opción correcta:',
     opciones: ['He echo los deberes', 'He hecho los deberes', 'E hecho los deberes'],
     correcta: 1,
@@ -165,6 +185,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 44,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: 'En español, el signo de interrogación de apertura (¿):',
     opciones: ['Es opcional', 'Es obligatorio', 'Solo se usa en preguntas largas'],
     correcta: 1,
@@ -173,6 +194,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 45,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: 'Decimos "el agua" porque:',
     opciones: ['Agua es masculino', 'Agua es femenino pero empieza por a tónica', 'Es una excepción sin regla'],
     correcta: 1,
@@ -181,6 +203,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 46,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: 'Las siglas FNMT significan:',
     opciones: ['Fábrica Nacional de Moneda y Timbre', 'Fundación Nacional de Moneda y Timbre', 'Fábrica Nacional de Monedas y Títulos'],
     correcta: 0,
@@ -189,6 +212,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 47,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: '¿Cuál de estos es un verbo copulativo?',
     opciones: ['Correr', 'Parecer', 'Comer'],
     correcta: 1,
@@ -197,6 +221,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 48,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: 'Señala la frase correcta:',
     opciones: ['Hay mucha gente ahí', 'Ahí mucha gente hay ay', 'Ay mucha gente ahí'],
     correcta: 0,
@@ -205,6 +230,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 49,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: '"Dígamelo" es una palabra:',
     opciones: ['Llana', 'Esdrújula', 'Sobresdrújula'],
     correcta: 2,
@@ -213,6 +239,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 50,
     tema: 'lengua',
+    fuente: 'ia',
     enunciado: 'El antónimo de "aumentar" es:',
     opciones: ['Incrementar', 'Disminuir', 'Ampliar'],
     correcta: 1,
@@ -222,6 +249,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 51,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: '¿Cuánto es el 15% de 240?',
     opciones: ['32', '36', '38'],
     correcta: 1,
@@ -230,6 +258,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 52,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: '3 máquinas tardan 12 horas en un trabajo. ¿Cuántas máquinas iguales harían falta para tardar 6 horas?',
     opciones: ['4', '6', '9'],
     correcta: 1,
@@ -238,6 +267,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 53,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: '¿Cuánto es 3/4 + 1/6?',
     opciones: ['11/12', '4/10', '5/6'],
     correcta: 0,
@@ -246,6 +276,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 54,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: '¿Cuánto son los 2/5 de 350?',
     opciones: ['120', '140', '160'],
     correcta: 1,
@@ -254,6 +285,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 55,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: 'El área de un rectángulo de 12 m de largo y 8 m de ancho es:',
     opciones: ['96 m²', '40 m²', '20 m²'],
     correcta: 0,
@@ -262,6 +294,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 56,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: 'El perímetro de un cuadrado de 7 cm de lado es:',
     opciones: ['14 cm', '28 cm', '49 cm'],
     correcta: 1,
@@ -270,6 +303,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 57,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: '2,5 km equivalen a:',
     opciones: ['250 m', '2.500 m', '25.000 m'],
     correcta: 1,
@@ -278,6 +312,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 58,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: '3 horas y 45 minutos son:',
     opciones: ['205 minutos', '225 minutos', '245 minutos'],
     correcta: 1,
@@ -286,6 +321,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 59,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: 'Un tren recorre 150 km en 2,5 horas. Su velocidad media es:',
     opciones: ['50 km/h', '60 km/h', '75 km/h'],
     correcta: 1,
@@ -294,6 +330,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 60,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: 'Un artículo de 80 € tiene un 25% de descuento. ¿Cuánto se paga?',
     opciones: ['55 €', '60 €', '65 €'],
     correcta: 1,
@@ -302,6 +339,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 61,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: 'Si un precio de 200 € sube un 15%, el nuevo precio es:',
     opciones: ['215 €', '230 €', '245 €'],
     correcta: 1,
@@ -310,6 +348,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 62,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: 'Si 3x + 5 = 20, entonces x vale:',
     opciones: ['5', '6', '7'],
     correcta: 0,
@@ -318,6 +357,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 63,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: 'La media de 4, 7, 9 y 12 es:',
     opciones: ['7', '8', '9'],
     correcta: 1,
@@ -326,6 +366,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 64,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: '¿Cuánto es 4 + 3 × 2?',
     opciones: ['14', '10', '9'],
     correcta: 1,
@@ -334,6 +375,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 65,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: 'La raíz cuadrada de 144 es:',
     opciones: ['11', '12', '14'],
     correcta: 1,
@@ -342,6 +384,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 66,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: '¿Cuánto es 3² + 4²?',
     opciones: ['25', '49', '14'],
     correcta: 0,
@@ -350,6 +393,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 67,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: '3/4 de litro equivalen a:',
     opciones: ['500 ml', '750 ml', '850 ml'],
     correcta: 1,
@@ -358,6 +402,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 68,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: 'Si 5 kg de un producto cuestan 12 €, ¿cuánto cuestan 8 kg?',
     opciones: ['18,20 €', '19,20 €', '20,40 €'],
     correcta: 1,
@@ -366,6 +411,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 69,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: '¿Cuál de estos números es divisible por 3?',
     opciones: ['124', '234', '250'],
     correcta: 1,
@@ -374,6 +420,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 70,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: '45 es el 30% de:',
     opciones: ['135', '150', '180'],
     correcta: 1,
@@ -382,6 +429,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 71,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: 'El área de un triángulo de base 10 cm y altura 6 cm es:',
     opciones: ['30 cm²', '60 cm²', '16 cm²'],
     correcta: 0,
@@ -390,6 +438,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 72,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: '0,25 expresado como fracción es:',
     opciones: ['1/3', '1/4', '2/5'],
     correcta: 1,
@@ -398,6 +447,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 73,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: 'Repartimos 120 € en proporción 3:2:1. La parte mayor es:',
     opciones: ['50 €', '60 €', '70 €'],
     correcta: 1,
@@ -406,6 +456,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 74,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: 'Un tren sale a las 9:35 y el viaje dura 2 h 50 min. Llega a las:',
     opciones: ['12:15', '12:25', '12:35'],
     correcta: 1,
@@ -414,6 +465,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 75,
     tema: 'mates',
+    fuente: 'ia',
     enunciado: '3,2 toneladas equivalen a:',
     opciones: ['320 kg', '3.200 kg', '32.000 kg'],
     correcta: 1,
@@ -423,6 +475,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 76,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La Ley de Prevención de Riesgos Laborales es la:',
     opciones: ['Ley 31/1995, de 8 de noviembre', 'Ley 39/1997, de 17 de enero', 'Ley 23/1992, de 30 de julio'],
     correcta: 0,
@@ -431,6 +484,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 77,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Según la LPRL, se entiende por "prevención":',
     opciones: ['Las actividades o medidas adoptadas o previstas para evitar o disminuir los riesgos derivados del trabajo', 'Solo los reconocimientos médicos anuales', 'La reparación de los daños ya producidos'],
     correcta: 0,
@@ -439,6 +493,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 78,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: '"Riesgo laboral" es:',
     opciones: ['Todo accidente ocurrido en el trabajo', 'La posibilidad de que un trabajador sufra un daño derivado del trabajo', 'Cualquier enfermedad del trabajador'],
     correcta: 1,
@@ -447,6 +502,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 79,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El primer principio de la acción preventiva es:',
     opciones: ['Evaluar todos los riesgos', 'Evitar los riesgos', 'Dar equipos de protección individual'],
     correcta: 1,
@@ -455,6 +511,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 80,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Según los principios de la acción preventiva, los riesgos deben combatirse:',
     opciones: ['En su origen', 'Cuando se manifiesten', 'Solo si son graves'],
     correcta: 0,
@@ -463,6 +520,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 81,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre protección colectiva e individual, la LPRL da prioridad a:',
     opciones: ['La individual, por ser más directa', 'La colectiva', 'Ninguna, son equivalentes'],
     correcta: 1,
@@ -471,6 +529,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 82,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Un equipo de protección individual (EPI) es:',
     opciones: ['Cualquier herramienta de trabajo', 'Un equipo destinado a ser llevado o sujetado por el trabajador para protegerle de riesgos', 'Un sistema de ventilación del taller'],
     correcta: 1,
@@ -479,6 +538,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 83,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Respecto a los EPIs, el trabajador está obligado a:',
     opciones: ['Comprarlos por su cuenta', 'Utilizarlos y cuidarlos correctamente', 'Usarlos solo si le parecen cómodos'],
     correcta: 1,
@@ -487,6 +547,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 84,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Ante un riesgo grave e inminente, el trabajador tiene derecho a:',
     opciones: ['Interrumpir su actividad y abandonar el lugar de trabajo', 'Seguir trabajando hasta recibir órdenes', 'Exigir un plus de peligrosidad para continuar'],
     correcta: 0,
@@ -495,6 +556,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 85,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los Delegados de Prevención son designados:',
     opciones: ['Por el empresario', 'Por y entre los representantes del personal', 'Por la Inspección de Trabajo'],
     correcta: 1,
@@ -503,6 +565,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 86,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En una empresa de 50 a 100 trabajadores, el número de Delegados de Prevención es:',
     opciones: ['1', '2', '3'],
     correcta: 1,
@@ -511,6 +574,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 87,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El Comité de Seguridad y Salud se constituye en empresas o centros con:',
     opciones: ['25 o más trabajadores', '50 o más trabajadores', '100 o más trabajadores'],
     correcta: 1,
@@ -519,6 +583,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 88,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El Comité de Seguridad y Salud es un órgano:',
     opciones: ['Paritario y colegiado', 'Formado solo por la dirección', 'Formado solo por los trabajadores'],
     correcta: 0,
@@ -527,6 +592,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 89,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Una señal triangular con borde y pictograma sobre fondo amarillo indica:',
     opciones: ['Prohibición', 'Advertencia de peligro', 'Obligación'],
     correcta: 1,
@@ -535,6 +601,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 90,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Una señal redonda con banda roja transversal indica:',
     opciones: ['Prohibición', 'Salvamento', 'Lucha contra incendios'],
     correcta: 0,
@@ -543,6 +610,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 91,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las señales de obligación (por ejemplo, uso obligatorio de casco) son:',
     opciones: ['Azules y redondas', 'Verdes y cuadradas', 'Rojas y triangulares'],
     correcta: 0,
@@ -551,6 +619,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 92,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las señales de salvamento o socorro (salidas de emergencia) son de color:',
     opciones: ['Rojo', 'Verde', 'Amarillo'],
     correcta: 1,
@@ -559,6 +628,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 93,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los fuegos de clase B son los de:',
     opciones: ['Sólidos como madera o papel', 'Líquidos inflamables como gasolina o aceites', 'Metales especiales'],
     correcta: 1,
@@ -567,6 +637,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 94,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En un fuego con presencia de tensión eléctrica NO debe utilizarse:',
     opciones: ['Extintor de CO2', 'Agua', 'Extintor de polvo adecuado'],
     correcta: 1,
@@ -575,6 +646,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 95,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La conducta PAS en primeros auxilios significa:',
     opciones: ['Proteger, Avisar, Socorrer', 'Parar, Actuar, Salir', 'Prevenir, Auxiliar, Sanar'],
     correcta: 0,
@@ -583,6 +655,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 96,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El teléfono único de emergencias europeo es el:',
     opciones: ['061', '112', '091'],
     correcta: 1,
@@ -591,6 +664,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 97,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Con carácter general, la vigilancia de la salud (reconocimientos médicos):',
     opciones: ['Es obligatoria para todos los trabajadores', 'Solo puede realizarse con consentimiento del trabajador, salvo excepciones', 'Solo se realiza tras un accidente'],
     correcta: 1,
@@ -599,6 +673,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 98,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El Reglamento de los Servicios de Prevención es el:',
     opciones: ['RD 39/1997', 'RD 485/1997', 'RD 773/1997'],
     correcta: 0,
@@ -607,6 +682,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 99,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En manipulación manual de cargas, el peso máximo recomendado en condiciones generales es:',
     opciones: ['25 kg', '40 kg', '50 kg'],
     correcta: 0,
@@ -615,6 +691,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 100,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Ante una persona inconsciente que respira con normalidad, debe colocarse en:',
     opciones: ['Boca arriba con las piernas elevadas', 'Posición lateral de seguridad', 'Sentada con la cabeza entre las rodillas'],
     correcta: 1,
@@ -623,6 +700,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 101,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Un resguardo es un medio de protección que:',
     opciones: ['Impide el acceso del operario a la zona de peligro de la máquina', 'Avisa con una alarma cuando hay peligro', 'Detiene la máquina automáticamente'],
     correcta: 0,
@@ -631,6 +709,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 102,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las disposiciones mínimas para la utilización de los equipos de trabajo se establecen en:',
     opciones: ['El RD 1215/1997', 'El RD 485/1997', 'La Ley 54/2003'],
     correcta: 0,
@@ -639,6 +718,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 103,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los atrapamientos en máquinas son riesgos provocados principalmente por:',
     opciones: ['Transmisiones, ejes, correas, poleas y engranajes en movimiento', 'La falta de iluminación', 'El ruido excesivo'],
     correcta: 0,
@@ -647,6 +727,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 104,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El factor de riesgo se define como:',
     opciones: ['Toda condición potencialmente productora de un daño para la salud', 'Cualquier accidente ya ocurrido', 'El coste económico de un accidente'],
     correcta: 0,
@@ -655,6 +736,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 105,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los factores higiénicos son:',
     opciones: ['Los relativos a tiempos y métodos de trabajo', 'Los elementos presentes en el ambiente del trabajador, como radiaciones, calor o humedad', 'Los relacionados con máquinas e instalaciones'],
     correcta: 1,
@@ -663,6 +745,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 106,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Se hace prevención ACTIVA cuando:',
     opciones: ['Se estudian los accidentes ya ocurridos', 'Se toman medidas antes de que se haya producido algún daño', 'Se indemniza al trabajador accidentado'],
     correcta: 1,
@@ -671,6 +754,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 107,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La técnica preventiva que se encarga sobre todo de prevenir los accidentes de trabajo es:',
     opciones: ['La Higiene', 'La Seguridad', 'La Ergonomía'],
     correcta: 1,
@@ -679,6 +763,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 108,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La técnica que estudia la adaptación del trabajo a las condiciones fisiológicas de las personas es:',
     opciones: ['La Ergonomía', 'La Psicosociología', 'La Higiene'],
     correcta: 0,
@@ -687,6 +772,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 109,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las condiciones mínimas de los lugares de trabajo se regulan en:',
     opciones: ['El RD 486/1997', 'El RD 1299/2006', 'El RD 171/2004'],
     correcta: 0,
@@ -695,6 +781,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 110,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La altura mínima de un lugar de trabajo desde el piso hasta el techo es de:',
     opciones: ['2,5 metros', '3 metros', '4 metros'],
     correcta: 1,
@@ -703,6 +790,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 111,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La superficie libre mínima por trabajador en un lugar de trabajo es de:',
     opciones: ['2 metros cuadrados', '5 metros cuadrados', '10 metros cuadrados'],
     correcta: 0,
@@ -711,6 +799,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 112,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las barandillas de protección frente a caídas tendrán una altura mínima de:',
     opciones: ['80 cm', '90 cm', '110 cm'],
     correcta: 1,
@@ -719,6 +808,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 113,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La anchura mínima de las puertas exteriores y de los pasillos será, respectivamente, de:',
     opciones: ['80 cm y 1 metro', '1 metro y 80 cm', '60 cm y 1,20 metros'],
     correcta: 0,
@@ -727,6 +817,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 114,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Salvo las de servicio, las escaleras tendrán una anchura mínima de:',
     opciones: ['80 centímetros', '1 metro', '1,20 metros'],
     correcta: 1,
@@ -735,6 +826,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 115,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las puertas de emergencia deberán:',
     opciones: ['Abrirse hacia el exterior y no estar cerradas', 'Abrirse hacia el interior', 'Ser correderas para ahorrar espacio'],
     correcta: 0,
@@ -743,6 +835,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 116,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las plataformas de trabajo deberán equiparse con barandillas cuando se encuentren a más de:',
     opciones: ['1 metro de altura', '2 metros de altura', '3 metros de altura'],
     correcta: 1,
@@ -751,6 +844,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 117,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Según el art. 4 de la LPRL, el daño profesional es:',
     opciones: ['La enfermedad, patología o lesión sufrida con motivo u ocasión del trabajo', 'Solo las lesiones con baja laboral', 'Cualquier enfermedad del trabajador'],
     correcta: 0,
@@ -759,6 +853,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 118,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El accidente ocurrido durante el trayecto de ida o vuelta del trabajo se denomina:',
     opciones: ['Accidente in itinere', 'Incidente', 'Accidente común'],
     correcta: 0,
@@ -767,6 +862,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 119,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Un incidente es:',
     opciones: ['Todo suceso que tuvo la capacidad de provocar un accidente', 'Un accidente leve sin baja', 'Una enfermedad común'],
     correcta: 0,
@@ -775,6 +871,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 120,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Según criterio médico, los accidentes se clasifican en:',
     opciones: ['Leves, graves y muy graves', 'Con baja y sin baja', 'Técnicos y humanos'],
     correcta: 0,
@@ -783,6 +880,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 121,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El cuadro de enfermedades profesionales está aprobado por:',
     opciones: ['El RD 1299/2006, de 10 de noviembre', 'El RD 39/1997', 'La Ley 54/2003'],
     correcta: 0,
@@ -791,6 +889,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 122,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La fatiga profesional es:',
     opciones: ['El desgaste producido por un exceso de trabajo sin compensar con el descanso', 'Una enfermedad profesional del cuadro oficial', 'Un tipo de accidente laboral'],
     correcta: 0,
@@ -799,6 +898,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 123,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El envejecimiento prematuro del trabajador es un proceso regresivo que se inicia por:',
     opciones: ['Una fatiga crónica', 'Una enfermedad común', 'El trabajo a turnos'],
     correcta: 0,
@@ -807,6 +907,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 124,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La Ley 31/1995 fue reformada en materia de marco normativo de la prevención por:',
     opciones: ['La Ley 54/2003, de 12 de diciembre', 'La Ley 23/2015', 'El RD 485/1997'],
     correcta: 0,
@@ -815,6 +916,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 125,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre los principios de la acción preventiva del empresario está:',
     opciones: ['Sustituir lo peligroso por lo que entrañe poco o ningún peligro', 'Anteponer la protección individual a la colectiva', 'Trasladar los riesgos a otro puesto'],
     correcta: 0,
@@ -823,6 +925,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 126,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre las obligaciones del trabajador está:',
     opciones: ['Informar de inmediato a su superior jerárquico de cualquier situación que entrañe riesgo', 'Elaborar el plan de prevención', 'Realizar la evaluación de riesgos'],
     correcta: 0,
@@ -831,6 +934,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 127,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La participación de los trabajadores en prevención se canaliza a través de representantes en empresas o centros con:',
     opciones: ['Seis o más trabajadores', 'Veinticinco o más trabajadores', 'Cincuenta o más trabajadores'],
     correcta: 0,
@@ -839,6 +943,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 128,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En el centro de Madrid, la FNMT cuenta con:',
     opciones: ['6 Delegados de Prevención elegidos por el Comité de Empresa, de los que cuatro son miembros de dicho Comité', '3 Delegados de Prevención', '2 Delegados designados por la dirección'],
     correcta: 0,
@@ -847,6 +952,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 129,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los Comités de Seguridad y Salud de los centros de Madrid y Burgos de la FNMT se reúnen:',
     opciones: ['Mensualmente', 'Trimestralmente', 'Anualmente'],
     correcta: 1,
@@ -855,6 +961,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 130,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Para cuestiones que afectan conjuntamente a los centros de Madrid y Burgos, la FNMT cuenta con:',
     opciones: ['Un Comité Intercentros que se reúne anualmente', 'Una Comisión Paritaria mensual', 'La Inspección de Trabajo'],
     correcta: 0,
@@ -863,6 +970,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 131,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En materia de organización preventiva, la FNMT-RCM ha optado por:',
     opciones: ['Un Servicio de Prevención Propio con las cuatro especialidades', 'Contratar un servicio de prevención externo', 'Designar a un único trabajador'],
     correcta: 0,
@@ -871,6 +979,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 132,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El Plan de Prevención de riesgos laborales debe ser aprobado por:',
     opciones: ['La dirección de la empresa', 'La Inspección de Trabajo', 'El Comité de Empresa'],
     correcta: 0,
@@ -879,6 +988,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 133,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La coordinación de actividades empresariales se desarrolla en:',
     opciones: ['El RD 171/2004, que desarrolla el art. 24 de la LPRL', 'El RD 486/1997', 'El RD 1215/1997'],
     correcta: 0,
@@ -887,6 +997,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 134,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El empresario que contrata con otros la realización de obras de su propia actividad en su centro de trabajo se denomina:',
     opciones: ['Empresario principal', 'Empresario titular únicamente', 'Coordinador de actividades'],
     correcta: 0,
@@ -895,6 +1006,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 135,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La Evaluación de Riesgos de la FNMT-RCM distingue dos tipos:',
     opciones: ['Por zonas y por puesto de trabajo', 'Por edades y por antigüedad', 'Interna y externa'],
     correcta: 0,
@@ -903,6 +1015,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 136,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La gravedad potencial de un riesgo es el resultado de:',
     opciones: ['La probabilidad de ocurrencia del daño por la severidad del daño', 'El número de trabajadores expuestos', 'El coste de las medidas preventivas'],
     correcta: 0,
@@ -911,6 +1024,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 137,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En trabajos sedentarios en ambientes no calurosos ni contaminados por humo de tabaco, la renovación mínima de aire limpio será de:',
     opciones: ['30 metros cúbicos por hora y trabajador', '50 metros cúbicos por hora y trabajador', '10 metros cúbicos por hora y trabajador'],
     correcta: 0,
@@ -919,6 +1033,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 138,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las escaleras de mano:',
     opciones: ['Se revisarán periódicamente', 'No requieren revisión si son nuevas', 'Solo se revisan tras un accidente'],
     correcta: 0,
@@ -927,6 +1042,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 139,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Según el art. 23 de la LPRL, debe registrarse la relación de accidentes y enfermedades profesionales que causen incapacidad superior a:',
     opciones: ['Un día de trabajo', 'Tres días de trabajo', 'Una semana de trabajo'],
     correcta: 0,
@@ -935,6 +1051,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 140,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El botiquín del lugar de trabajo:',
     opciones: ['Se revisará periódicamente y se repondrá cuando se precise', 'Se revisa solo una vez al año', 'No necesita reposición'],
     correcta: 0,
@@ -943,6 +1060,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 141,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En señalización de seguridad, el color amarillo o amarillo anaranjado significa:',
     opciones: ['Obligación', 'Advertencia: atención, precaución', 'Salvamento'],
     correcta: 1,
@@ -951,6 +1069,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 142,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El color rojo en señalización, además de prohibición, se asocia a:',
     opciones: ['Material y equipos de lucha contra incendios y peligro-alarma', 'Zonas de descanso', 'Primeros auxilios'],
     correcta: 0,
@@ -959,6 +1078,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 143,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las señales en forma de panel contra incendios (extintor, manguera) tienen forma:',
     opciones: ['Rectangular o cuadrada con pictograma blanco sobre fondo rojo', 'Triangular con fondo amarillo', 'Redonda con fondo azul'],
     correcta: 0,
@@ -967,6 +1087,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 144,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los lados abiertos de las escaleras y rampas dispondrán de barandillas cuando superen una altura de:',
     opciones: ['60 centímetros', '2 metros', '30 centímetros'],
     correcta: 0,
@@ -975,6 +1096,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 145,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Para que se produzca un fuego se necesitan combustible, comburente y:',
     opciones: ['Energía de activación', 'Humo', 'Reacción química cualquiera'],
     correcta: 0,
@@ -983,6 +1105,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 146,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El tetraedro del fuego añade al triángulo un cuarto elemento:',
     opciones: ['La reacción en cadena', 'El calor residual', 'El dióxido de carbono'],
     correcta: 0,
@@ -991,6 +1114,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 147,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los fuegos de clase A son los de:',
     opciones: ['Gases', 'Sólidos con brasa, como madera, papel o tejidos', 'Metales especiales'],
     correcta: 1,
@@ -999,6 +1123,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 148,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los fuegos de clase C son los de:',
     opciones: ['Líquidos inflamables', 'Gases como butano, propano o gas natural', 'Aceites de cocina'],
     correcta: 1,
@@ -1007,6 +1132,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 149,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El extintor recomendado para fuegos en presencia de equipos eléctricos es el de:',
     opciones: ['Agua pulverizada', 'CO2 (nieve carbónica)', 'Espuma'],
     correcta: 1,
@@ -1015,6 +1141,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 150,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Al usar un extintor, el chorro debe dirigirse:',
     opciones: ['A la base de las llamas', 'A la parte alta de las llamas', 'Al humo'],
     correcta: 0,
@@ -1023,6 +1150,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 151,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El retimbrado de un extintor debe realizarse cada:',
     opciones: ['Año', '5 años', '10 años'],
     correcta: 1,
@@ -1031,6 +1159,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 152,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En caso de evacuación por incendio:',
     opciones: ['Se usarán las escaleras, nunca los ascensores', 'Se usará el ascensor si está libre', 'Se recogerá antes todo lo de valor'],
     correcta: 0,
@@ -1039,6 +1168,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 153,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Un contacto eléctrico directo es el que se produce:',
     opciones: ['Con las partes activas de la instalación, normalmente en tensión', 'Con masas puestas accidentalmente en tensión', 'Solo con líneas de alta tensión'],
     correcta: 0,
@@ -1047,6 +1177,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 154,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El interruptor diferencial es una protección principalmente frente a:',
     opciones: ['Los contactos indirectos', 'Las sobrecargas del motor', 'Los cortocircuitos'],
     correcta: 0,
@@ -1055,6 +1186,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 155,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre las llamadas "cinco reglas de oro" para trabajos eléctricos está:',
     opciones: ['Abrir todas las fuentes de tensión y verificar la ausencia de tensión', 'Trabajar siempre con guantes de cuero', 'Cortar solo el neutro'],
     correcta: 0,
@@ -1063,6 +1195,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 156,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Ante una persona electrizada que sigue en contacto con la corriente, lo primero es:',
     opciones: ['Tirar de ella con las manos', 'Cortar la corriente antes de tocarla', 'Echarle agua'],
     correcta: 1,
@@ -1071,6 +1204,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 157,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Según el RD 286/2006, el valor límite de exposición diaria al ruido es de:',
     opciones: ['80 dB(A)', '85 dB(A)', '87 dB(A)'],
     correcta: 2,
@@ -1079,6 +1213,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 158,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'A partir de los valores superiores de exposición al ruido (85 dB(A)):',
     opciones: ['El uso de protectores auditivos es obligatorio', 'Basta con tenerlos a disposición', 'No se exige ninguna medida'],
     correcta: 0,
@@ -1087,6 +1222,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 159,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los EPIs de categoría III son los destinados a proteger frente a:',
     opciones: ['Riesgos mínimos', 'Riesgos de consecuencias mortales o irreversibles', 'Riesgos solo de tipo mecánico'],
     correcta: 1,
@@ -1095,6 +1231,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 160,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Al levantar una carga manualmente, la técnica correcta es:',
     opciones: ['Doblar la espalda y estirar las piernas', 'Mantener la espalda recta, flexionar las piernas y llevar la carga pegada al cuerpo', 'Girar el tronco mientras se levanta'],
     correcta: 1,
@@ -1103,6 +1240,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 161,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La manipulación manual de cargas se regula en:',
     opciones: ['El RD 487/1997', 'El RD 286/2006', 'El RD 488/1997'],
     correcta: 0,
@@ -1111,6 +1249,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 162,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El trabajo con pantallas de visualización de datos se regula en:',
     opciones: ['El RD 488/1997', 'El RD 1215/1997', 'El RD 664/1997'],
     correcta: 0,
@@ -1119,6 +1258,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 163,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Para prevenir la fatiga visual ante pantallas se recomienda:',
     opciones: ['Realizar pausas periódicas o cambios de actividad', 'Aumentar el brillo al máximo', 'Trabajar sin luz ambiental'],
     correcta: 0,
@@ -1127,6 +1267,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 164,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El borde superior de la pantalla del ordenador debe quedar:',
     opciones: ['A la altura de los ojos o ligeramente por debajo', 'Muy por encima de los ojos', 'A la altura del pecho'],
     correcta: 0,
@@ -1135,6 +1276,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 165,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En locales de trabajo sedentario (oficinas), la temperatura debe estar entre:',
     opciones: ['14 y 25 °C', '17 y 27 °C', '20 y 30 °C'],
     correcta: 1,
@@ -1143,6 +1285,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 166,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La humedad relativa en los lugares de trabajo estará comprendida, con carácter general, entre:',
     opciones: ['El 30 y el 70 %', 'El 10 y el 50 %', 'El 60 y el 90 %'],
     correcta: 0,
@@ -1151,6 +1294,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 167,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El estrés laboral se define como:',
     opciones: ['Un desequilibrio entre las demandas del trabajo y los recursos de la persona para afrontarlas', 'Cualquier discusión con un compañero', 'El cansancio físico al final de la jornada'],
     correcta: 0,
@@ -1159,6 +1303,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 168,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El síndrome de estar quemado por el trabajo se conoce como:',
     opciones: ['Mobbing', 'Burnout', 'Karoshi'],
     correcta: 1,
@@ -1167,6 +1312,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 169,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El acoso psicológico continuado en el trabajo se denomina:',
     opciones: ['Burnout', 'Mobbing', 'Estrés térmico'],
     correcta: 1,
@@ -1175,6 +1321,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 170,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los factores psicosociales de origen interno a la empresa incluyen:',
     opciones: ['El estilo de mando, la comunicación y el sistema de incentivos', 'La situación política del país', 'Los acontecimientos deportivos'],
     correcta: 0,
@@ -1183,6 +1330,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 171,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las medidas de emergencia de la empresa (primeros auxilios, incendios, evacuación) se recogen en:',
     opciones: ['El artículo 20 de la LPRL', 'El artículo 40 de la Constitución', 'El RD 1299/2006'],
     correcta: 0,
@@ -1191,6 +1339,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 172,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Para comprobar la eficacia del plan de emergencia es recomendable:',
     opciones: ['Realizar simulacros periódicamente', 'Esperar a una emergencia real', 'Revisarlo solo cuando cambie la plantilla'],
     correcta: 0,
@@ -1199,6 +1348,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 173,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La primera y más básica medida de seguridad frente a golpes, caídas e incendios en el taller es:',
     opciones: ['El orden y la limpieza', 'Aumentar la ventilación', 'Duplicar la iluminación'],
     correcta: 0,
@@ -1207,6 +1357,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 174,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En la reanimación cardiopulmonar (RCP) de un adulto, la relación compresiones-ventilaciones es:',
     opciones: ['15:2', '30:2', '50:5'],
     correcta: 1,
@@ -1215,6 +1366,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 175,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Ante una hemorragia externa, la primera actuación es:',
     opciones: ['Aplicar un torniquete de inmediato', 'Comprimir directamente sobre la herida', 'Dar agua al herido'],
     correcta: 1,
@@ -1223,6 +1375,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 176,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Ante una quemadura, se debe:',
     opciones: ['Aplicar agua fría sobre la zona durante varios minutos', 'Romper las ampollas', 'Aplicar pomadas caseras de inmediato'],
     correcta: 0,
@@ -1231,6 +1384,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 177,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Si se sospecha lesión de columna en un accidentado:',
     opciones: ['Se le moverá lo imprescindible y evitando doblar el eje cabeza-cuello-tronco', 'Se le sentará para que respire mejor', 'Se le pondrá de pie poco a poco'],
     correcta: 0,
@@ -1239,6 +1393,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 178,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Una herida nunca debe limpiarse con:',
     opciones: ['Suero fisiológico', 'Algodón', 'Agua y jabón'],
     correcta: 1,
@@ -1247,6 +1402,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 179,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Ante un cuerpo extraño clavado en el ojo:',
     opciones: ['Se extrae con unas pinzas', 'No se extrae: se cubre el ojo y se acude a un centro sanitario', 'Se frota el ojo hasta expulsarlo'],
     correcta: 1,
@@ -1255,6 +1411,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 180,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En una amputación accidental, la parte amputada debe:',
     opciones: ['Sumergirse directamente en hielo', 'Envolverse en gasas y meterse en una bolsa, que se introduce en otra con hielo', 'Lavarse con alcohol'],
     correcta: 1,
@@ -1263,6 +1420,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 181,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los mecanismos de seguridad en las máquinas se centran en tres ejes:',
     opciones: ['El diseño, los resguardos y dispositivos, y la información y formación', 'El precio, el tamaño y la potencia', 'La velocidad, el ruido y la vibración'],
     correcta: 0,
@@ -1271,6 +1429,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 182,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las operaciones de reparación, engrasado y limpieza de una máquina se realizarán:',
     opciones: ['Con la máquina parada', 'Con la máquina a baja velocidad', 'Durante el funcionamiento normal para ver el fallo'],
     correcta: 0,
@@ -1279,6 +1438,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 183,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los factores de riesgo "de proceso" son:',
     opciones: ['Los relativos a las operaciones, tiempos y métodos de trabajo', 'Los presentes en el ambiente, como el calor', 'Los relacionados con las máquinas'],
     correcta: 0,
@@ -1287,6 +1447,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 184,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los factores de riesgo "sociales" son aquellos en los que:',
     opciones: ['La acción humana puede originar claramente un riesgo', 'Interviene la temperatura ambiental', 'Fallan las máquinas'],
     correcta: 0,
@@ -1295,6 +1456,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 185,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La prevención PASIVA consiste en:',
     opciones: ['Estudiar los accidentes ya ocurridos, averiguar sus causas y eliminarlas', 'Tomar medidas antes de que se produzca el daño', 'No hacer nada hasta que lo exija la Inspección'],
     correcta: 0,
@@ -1303,6 +1465,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 186,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Un accidente se define como un suceso:',
     opciones: ['Anormal, no querido ni deseado, brusco e inesperado, que causa lesiones a las personas', 'Previsto y planificado', 'Lento y progresivo, como una enfermedad'],
     correcta: 0,
@@ -1311,6 +1474,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 187,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La seguridad en el trabajo es el conjunto de técnicas y procedimientos cuyo objeto es:',
     opciones: ['Eliminar o reducir el riesgo de que se produzcan accidentes de trabajo', 'Aumentar la producción', 'Sustituir la vigilancia de la salud'],
     correcta: 0,
@@ -1319,6 +1483,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 188,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre las técnicas para eliminar o reducir el riesgo de accidente están:',
     opciones: ['Prevención, protección, normalización, señalización y formación', 'Solo la señalización', 'Producción, venta y distribución'],
     correcta: 0,
@@ -1327,6 +1492,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 189,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los suelos de los locales de trabajo deberán ser:',
     opciones: ['Fijos, estables y no resbaladizos, sin irregularidades ni pendientes peligrosas', 'Pulidos y brillantes', 'De madera en todos los casos'],
     correcta: 0,
@@ -1335,6 +1501,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 190,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las puertas transparentes deberán tener:',
     opciones: ['Una señalización a la altura de la vista', 'Un color rojo', 'Apertura automática obligatoria'],
     correcta: 0,
@@ -1343,6 +1510,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 191,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las puertas correderas deberán ir provistas de:',
     opciones: ['Un sistema de seguridad que impida su caída', 'Una banda sonora', 'Cristales tintados'],
     correcta: 0,
@@ -1351,6 +1519,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 192,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Es obligatorio instalar duchas de agua corriente, caliente y fría cuando:',
     opciones: ['Se realizan trabajos sucios, contaminantes o que originen elevada sudoración', 'La plantilla supera los 10 trabajadores', 'Lo pida cualquier trabajador'],
     correcta: 0,
@@ -1359,6 +1528,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 193,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los vestuarios estarán provistos de:',
     opciones: ['Asientos y taquillas', 'Duchas de vapor', 'Máquinas expendedoras'],
     correcta: 0,
@@ -1367,6 +1537,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 194,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El local de primeros auxilios se instalará en aquellos centros con más de:',
     opciones: ['25 trabajadores que determine la autoridad laboral', '50 trabajadores en todo caso', '100 trabajadores'],
     correcta: 0,
@@ -1375,6 +1546,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 195,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En caso de accidente en un ascensor, el propietario está obligado a:',
     opciones: ['Ponerlo en conocimiento del órgano territorial competente de la Administración', 'Repararlo por su cuenta sin avisar', 'Precintarlo un año'],
     correcta: 0,
@@ -1383,6 +1555,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 196,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las enfermedades padecidas con anterioridad que se agraven como consecuencia de la lesión del accidente:',
     opciones: ['Se consideran accidente de trabajo', 'Son siempre enfermedad común', 'No tienen cobertura'],
     correcta: 0,
@@ -1391,6 +1564,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 197,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los accidentes sufridos durante actos de salvamento:',
     opciones: ['Se consideran accidente de trabajo si tienen conexión con el trabajo', 'Nunca son accidente de trabajo', 'Solo si hay testigos'],
     correcta: 0,
@@ -1399,6 +1573,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 198,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Atendiendo al lugar, los accidentes se clasifican en:',
     opciones: ['Ocurridos en el centro de trabajo y ocurridos fuera de él (in itinere)', 'Diurnos y nocturnos', 'De verano y de invierno'],
     correcta: 0,
@@ -1407,6 +1582,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 199,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Una enfermedad que no cumple los requisitos del cuadro de enfermedades profesionales se considera:',
     opciones: ['Enfermedad común', 'Enfermedad profesional igualmente', 'Accidente de trabajo'],
     correcta: 0,
@@ -1415,6 +1591,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 200,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre los grupos del cuadro de enfermedades profesionales están las causadas por:',
     opciones: ['Agentes químicos, biológicos, físicos, carcinógenos, de la piel y por inhalación', 'Únicamente agentes químicos', 'Solo agentes psicosociales'],
     correcta: 0,
@@ -1423,6 +1600,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 201,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Sobre la insatisfacción laboral, el manual señala que:',
     opciones: ['No es estrictamente una enfermedad, pero se relaciona con la salud psíquica y el rendimiento', 'Es una enfermedad profesional del cuadro', 'No tiene ninguna relación con el trabajo'],
     correcta: 0,
@@ -1431,6 +1609,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 202,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La formación preventiva del trabajador debe darse:',
     opciones: ['En el momento de la contratación y cuando cambien las tareas o se introduzcan nuevas tecnologías', 'Solo una vez en toda la vida laboral', 'Únicamente si el trabajador la solicita'],
     correcta: 0,
@@ -1439,6 +1618,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 203,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La formación en prevención debe:',
     opciones: ['Adaptarse a la evolución de los riesgos y repetirse periódicamente si fuera necesario', 'Ser idéntica para todos los puestos', 'Ser exclusivamente teórica'],
     correcta: 0,
@@ -1447,6 +1627,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 204,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El deber del empresario de informar a los trabajadores sobre riesgos y medidas se recoge en:',
     opciones: ['El artículo 18 de la LPRL', 'El artículo 45 del Estatuto', 'El RD 1299/2006'],
     correcta: 0,
@@ -1455,6 +1636,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 205,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Respecto a los menores de 18 años, el empresario debe:',
     opciones: ['Evaluar los puestos a desempeñar por ellos que puedan poner en peligro su salud', 'Prohibirles trabajar en cualquier industria', 'Aplicarles las mismas condiciones sin más'],
     correcta: 0,
@@ -1463,6 +1645,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 206,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los trabajadores temporales, en materia de seguridad y salud:',
     opciones: ['Disfrutan del mismo nivel de protección que los demás trabajadores', 'Tienen un nivel de protección reducido', 'Quedan fuera de la LPRL'],
     correcta: 0,
@@ -1471,6 +1654,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 207,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Para organizar la prevención, el empresario puede optar entre:',
     opciones: ['Asumirla personalmente, designar trabajadores, crear un servicio de prevención propio o contratar uno externo', 'Únicamente crear un servicio propio', 'Delegarla en la Inspección de Trabajo'],
     correcta: 0,
@@ -1479,6 +1663,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 208,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El incumplimiento por el trabajador de sus obligaciones preventivas (art. 29 LPRL) tiene la consideración de:',
     opciones: ['Incumplimiento laboral', 'Delito penal en todo caso', 'Simple recomendación sin efectos'],
     correcta: 0,
@@ -1487,6 +1672,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 209,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las infracciones y sanciones en el orden social se regulan en:',
     opciones: ['El RD Legislativo 5/2000 (LISOS)', 'El RD 486/1997', 'La Ley 54/2003'],
     correcta: 0,
@@ -1495,6 +1681,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 210,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre el contenido del Plan de prevención está:',
     opciones: ['La política, los objetivos y metas preventivas y los recursos para alcanzarlos', 'La lista de clientes de la empresa', 'El plan de marketing anual'],
     correcta: 0,
@@ -1503,6 +1690,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 211,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El Sistema de Gestión de Prevención de la FNMT se define fundamentalmente en:',
     opciones: ['El Manual de Gestión, los Procedimientos del Sistema y las Instrucciones Técnicas', 'El convenio colectivo únicamente', 'Las actas de la Comisión Paritaria'],
     correcta: 0,
@@ -1511,6 +1699,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 212,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre las Comisiones Delegadas permanentes del Comité de Seguridad y Salud de la FNMT están las de:',
     opciones: ['Accidentes con baja y ropa, calzado y EPIs', 'Marketing y ventas', 'Formación universitaria'],
     correcta: 0,
@@ -1519,6 +1708,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 213,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En la coordinación de actividades, la información entre empresas concurrentes se facilitará por escrito cuando:',
     opciones: ['Alguna genere riesgos calificados como graves o muy graves', 'Lo pida un trabajador', 'Las empresas sean de distinta provincia'],
     correcta: 0,
@@ -1527,6 +1717,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 214,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La persona encargada de coordinar las actividades preventivas debe contar con formación preventiva mínima de:',
     opciones: ['Nivel intermedio', 'Nivel básico', 'Un máster universitario'],
     correcta: 0,
@@ -1535,6 +1726,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 215,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El empresario titular del centro de trabajo es:',
     opciones: ['La persona con capacidad de poner a disposición y gestionar el centro de trabajo', 'Cualquier subcontrata presente', 'El trabajador más antiguo'],
     correcta: 0,
@@ -1543,6 +1735,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 216,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los trabajos a más de 3,5 metros de altura desde el punto de operación al suelo, que requieran movimientos o esfuerzos peligrosos, solo se efectuarán:',
     opciones: ['Con cinturón de seguridad u otras medidas de protección alternativas', 'Sin ninguna medida especial', 'Con la única condición de avisar a un compañero'],
     correcta: 0,
@@ -1551,6 +1744,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 217,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En una hemorragia, si la sangre es roja y sale de forma intermitente, procede de:',
     opciones: ['Una arteria', 'Una vena', 'Un capilar superficial'],
     correcta: 0,
@@ -1559,6 +1753,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 218,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El torniquete debe colocarse:',
     opciones: ['Solo en la raíz de las extremidades, jamás en antebrazo, codo, muñeca, dedos o pierna', 'Lo más cerca posible de la herida, en cualquier zona', 'Siempre en el cuello del miembro afectado'],
     correcta: 0,
@@ -1567,6 +1762,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 219,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Si persiste una hemorragia arterial, la compresión manual debe efectuarse:',
     opciones: ['En puntos concretos entre la herida y la raíz del miembro', 'Por debajo de la herida', 'Directamente sobre el hueso más cercano'],
     correcta: 0,
@@ -1575,6 +1771,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 220,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En la notificación de accidentes deben comunicarse:',
     opciones: ['Todos los accidentes, con baja o sin baja, así como los incidentes', 'Solo los accidentes con baja', 'Solo los mortales'],
     correcta: 0,
@@ -1583,6 +1780,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 221,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El concepto de salud en el trabajo incluye tres aspectos:',
     opciones: ['La salud física, la psíquica y la social', 'La salud física, la económica y la jurídica', 'Solo la salud física'],
     correcta: 0,
@@ -1591,6 +1789,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 222,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los daños profesionales se clasifican en:',
     opciones: ['Accidentes, enfermedades profesionales, fatiga, estrés, envejecimiento prematuro e insatisfacción', 'Solo accidentes y enfermedades profesionales', 'Leves, graves y mortales'],
     correcta: 0,
@@ -1599,6 +1798,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 223,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los accidentes se producen por tres tipos de causas:',
     opciones: ['Técnicas, humanas, y técnicas y humanas combinadas', 'Físicas, químicas y biológicas', 'Internas, externas y mixtas'],
     correcta: 0,
@@ -1607,6 +1807,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 224,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las causas HUMANAS de los accidentes son los actos de los trabajadores debidos a:',
     opciones: ['Falta de información, formación, atención e interés', 'Fallos en las máquinas', 'Deficiencias del ambiente de trabajo'],
     correcta: 0,
@@ -1615,6 +1816,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 225,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los accidentes ocurridos durante el desempeño de funciones sindicales:',
     opciones: ['Se consideran accidente de trabajo', 'No tienen cobertura', 'Son enfermedad común'],
     correcta: 0,
@@ -1623,6 +1825,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 226,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El accidente sufrido realizando tareas distintas a las de su categoría profesional, por orden del empresario:',
     opciones: ['Es accidente de trabajo', 'No es accidente de trabajo', 'Solo lo es si hay contrato escrito para esa tarea'],
     correcta: 0,
@@ -1631,6 +1834,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 227,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Una enfermedad no incluida en el cuadro oficial, cuya causa exclusiva probada es la ejecución del trabajo:',
     opciones: ['Se considera accidente de trabajo', 'Se considera enfermedad profesional', 'No tiene ninguna consideración'],
     correcta: 0,
@@ -1639,6 +1843,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 228,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las enfermedades profesionales de origen musculoesquelético tienen su principal origen en:',
     opciones: ['La manipulación de cargas y los movimientos repetidos', 'El ruido ambiental', 'Los agentes biológicos'],
     correcta: 0,
@@ -1647,6 +1852,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 229,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El estrés se manifiesta cuando el esfuerzo de adaptación del trabajador a las exigencias del entorno:',
     opciones: ['Es excesivo y supera sus límites adaptativos', 'Es el habitual de cualquier jornada', 'No existe'],
     correcta: 0,
@@ -1655,6 +1861,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 230,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre las obligaciones del trabajador está:',
     opciones: ['No poner fuera de funcionamiento los dispositivos de seguridad y utilizarlos correctamente', 'Desactivar los dispositivos si molestan para trabajar', 'Diseñar los dispositivos de seguridad'],
     correcta: 0,
@@ -1663,6 +1870,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 231,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los trabajadores especialmente sensibles a determinados riesgos son aquellos que:',
     opciones: ['Por sus características personales o estado biológico conocido, incluida la discapacidad, son más vulnerables', 'Llevan menos de un año en la empresa', 'Trabajan a turnos'],
     correcta: 0,
@@ -1671,6 +1879,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 232,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En protección de la maternidad, la evaluación de riesgos debe comprender:',
     opciones: ['La exposición de las trabajadoras embarazadas o de parto reciente a agentes o condiciones que puedan afectarles', 'Solo el estado del mobiliario', 'Únicamente la jornada laboral'],
     correcta: 0,
@@ -1679,6 +1888,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 233,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En el centro de Burgos, los Delegados de Prevención de la FNMT son:',
     opciones: ['3, elegidos por y entre el Comité de Empresa', '6, elegidos por la dirección', '2, designados por sorteo'],
     correcta: 0,
@@ -1687,6 +1897,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 234,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El proceso de identificación de un riesgo incluye:',
     opciones: ['Determinar los puestos, dividirlos en partes, utilizar marcadores de riesgo y describir los factores', 'Solo preguntar a los trabajadores', 'Esperar a que ocurra un accidente'],
     correcta: 0,
@@ -1695,6 +1906,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 235,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las guías de identificación y evaluación de riesgos pueden encontrarse publicadas por:',
     opciones: ['El Instituto Nacional de Seguridad e Higiene en el Trabajo', 'La Dirección General de Tráfico', 'El Ministerio de Hacienda'],
     correcta: 0,
@@ -1703,6 +1915,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 236,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El primer paso al investigar un accidente es:',
     opciones: ['Constatar las lesiones con el informe médico', 'Sancionar al trabajador', 'Cambiar la máquina implicada'],
     correcta: 0,
@@ -1711,6 +1924,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 237,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Analizar las causas de un accidente consiste en:',
     opciones: ['Seleccionar los factores de riesgo que, eliminados, habrían evitado el accidente', 'Buscar un culpable', 'Calcular el coste económico'],
     correcta: 0,
@@ -1719,6 +1933,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 238,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Respecto a los accidentes leves, el manual indica que:',
     opciones: ['También deben estudiarse, porque pueden desvelar un riesgo potencial de accidente grave', 'No merecen investigación', 'Solo se estudian si hay baja'],
     correcta: 0,
@@ -1727,6 +1942,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 239,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Respecto a la Evaluación de Riesgos, la FNMT-RCM deberá:',
     opciones: ['Divulgarla a sus trabajadores por los medios más adecuados', 'Mantenerla en secreto', 'Enviarla solo a la Inspección'],
     correcta: 0,
@@ -1735,6 +1951,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 240,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La Evaluación de Riesgos por Puesto de Trabajo de la FNMT hace referencia, además, a:',
     opciones: ['La definición, funciones del puesto, equipos de trabajo y productos químicos', 'El salario del puesto', 'Las vacaciones del trabajador'],
     correcta: 0,
@@ -1743,6 +1960,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 241,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En materia de formación, TODO el personal debe conocer:',
     opciones: ['Los riesgos de su puesto, las medidas preventivas, el sistema y personal de emergencia y sus EPIs asignados', 'Solo el convenio colectivo', 'Únicamente el horario de trabajo'],
     correcta: 0,
@@ -1751,6 +1969,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 242,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre las funciones del Comité de Seguridad y Salud está:',
     opciones: ['Participar en la elaboración, puesta en práctica y evaluación de los planes de prevención', 'Contratar y despedir personal', 'Fijar los salarios'],
     correcta: 0,
@@ -1759,6 +1978,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 243,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Antes de ponerse en marcha, una acción preventiva deberá ser:',
     opciones: ['Revisada por el Comité de Seguridad y Salud y aprobada por la dirección', 'Aprobada por votación de toda la plantilla', 'Autorizada por el ayuntamiento'],
     correcta: 0,
@@ -1767,6 +1987,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 244,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La documentación del artículo 23 de la LPRL incluye:',
     opciones: ['El plan de prevención, la evaluación de riesgos, la planificación preventiva, los reconocimientos médicos y la relación de accidentes', 'Solo las nóminas', 'El inventario de maquinaria'],
     correcta: 0,
@@ -1775,6 +1996,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 245,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las funciones del I.N.S.H.T. son:',
     opciones: ['El asesoramiento técnico y la promoción de actividades de formación, información, estudio y divulgación', 'Sancionar a las empresas', 'Pagar las prestaciones por accidente'],
     correcta: 0,
@@ -1783,6 +2005,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 246,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Vigilar el cumplimiento de la normativa sobre prevención de riesgos corresponde a:',
     opciones: ['La Inspección de Trabajo y Seguridad Social', 'El INSHT', 'Las mutuas'],
     correcta: 0,
@@ -1791,6 +2014,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 247,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los primeros auxilios:',
     opciones: ['No son un tratamiento médico, sino cuidados inmediatos hasta la atención en un centro asistencial', 'Sustituyen a la atención médica', 'Solo puede darlos un médico'],
     correcta: 0,
@@ -1799,6 +2023,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 248,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En primeros auxilios se dará siempre prioridad a:',
     opciones: ['Hemorragias, ausencia de pulso o respiración, envenenamiento y shock', 'Las heridas superficiales', 'Los golpes leves'],
     correcta: 0,
@@ -1807,6 +2032,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 249,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Si el socorrista tiene dudas sobre lo que debe hacer:',
     opciones: ['Es preferible no hacer nada, porque un auxilio inadecuado puede agravar al lesionado', 'Debe improvisar', 'Debe intentar de todo hasta que algo funcione'],
     correcta: 0,
@@ -1815,6 +2041,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 250,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Al accidentado NO se le debe dar:',
     opciones: ['Café ni alcohol, ni permitirle fumar', 'Abrigo', 'Una posición cómoda'],
     correcta: 0,
@@ -1823,6 +2050,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 251,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los botiquines de los centros de trabajo corren a cargo de:',
     opciones: ['Un socorrista diplomado o, en su defecto, la persona designada por la empresa', 'Cualquier trabajador espontáneamente', 'La empresa de limpieza'],
     correcta: 0,
@@ -1831,6 +2059,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 252,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre el contenido mínimo del botiquín según el RD 486/1997 están:',
     opciones: ['Desinfectante, antiséptico, gasas estériles, vendas, tijeras, pinzas y guantes desechables', 'Antibióticos y jeringuillas', 'Medicamentos para la tensión'],
     correcta: 0,
@@ -1839,6 +2068,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 253,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En una electrocución, si no es posible desconectar la corriente:',
     opciones: ['Se apartará al herido con palos, cuerdas u otro medio, sin tocarle', 'Se le agarrará del brazo rápidamente', 'Se le echará agua para despertarle'],
     correcta: 0,
@@ -1847,6 +2077,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 254,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Si la sangre atraviesa la cura compresiva de una hemorragia:',
     opciones: ['Sin quitar ese apósito, se colocan otros encima y se sujetan con fuerza', 'Se retira el apósito empapado y se pone uno nuevo', 'Se deja la herida al aire para que seque'],
     correcta: 0,
@@ -1855,6 +2086,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 255,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El local de primeros auxilios dispondrá, como mínimo, de:',
     opciones: ['Un botiquín, una camilla y una fuente de agua potable', 'Una máquina de café', 'Un desfibrilador y quirófano'],
     correcta: 0,
@@ -1863,6 +2095,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 256,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Ante una hemorragia exteriorizada por la boca (aparato digestivo):',
     opciones: ['Se aplica frío en la zona abdominal y se coloca al herido en posición lateral', 'Se le da de beber agua caliente', 'Se le mantiene de pie'],
     correcta: 0,
@@ -1871,6 +2104,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 257,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En una hemorragia de oído, el vendaje de la zona se hará:',
     opciones: ['Sin taponar en ningún momento el oído afectado', 'Taponando bien el oído', 'Introduciendo la gasa en el conducto'],
     correcta: 0,
@@ -1879,6 +2113,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 258,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Si a una persona se le prende la ropa:',
     opciones: ['Se evitará que corra, se le cubrirá con una manta (preferiblemente húmeda) y se le hará rodar por el suelo', 'Se le animará a correr hacia la salida', 'Se le quitará la ropa de inmediato tirando de ella'],
     correcta: 0,
@@ -1887,6 +2122,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 259,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Una herida con los bordes muy separados requiere:',
     opciones: ['Traslado a un centro con la herida tapada para aplicar puntos de sutura, comprobando la vacuna del tétanos', 'Dejarla al aire sin más', 'Coserla uno mismo con hilo corriente'],
     correcta: 0,
@@ -1895,6 +2131,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 260,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En una intoxicación por ácidos:',
     opciones: ['Se dan dos cucharadas de bicarbonato en agua y NO se provoca el vómito', 'Se provoca el vómito de inmediato', 'Se da a beber vinagre puro'],
     correcta: 0,
@@ -1903,6 +2140,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 261,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El RD 486/1997 sobre lugares de trabajo NO es de aplicación a:',
     opciones: ['Las obras de construcción temporales o móviles, industrias de extracción y buques de pesca', 'Las oficinas', 'Los talleres industriales'],
     correcta: 0,
@@ -1911,6 +2149,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 262,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En la definición de "lugares de trabajo" se consideran incluidos:',
     opciones: ['Los servicios higiénicos, locales de descanso, locales de primeros auxilios y comedores', 'Solo las naves de producción', 'Únicamente los despachos'],
     correcta: 0,
@@ -1919,6 +2158,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 263,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Respecto a la seguridad estructural de los edificios:',
     opciones: ['Se prohíbe sobrecargar los elementos estructurales o de servicio', 'Pueden sobrecargarse temporalmente', 'Solo importa en edificios antiguos'],
     correcta: 0,
@@ -1927,6 +2167,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 264,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las aberturas en paredes o tabiques y las plataformas o muelles deben protegerse cuando el riesgo de caída sea:',
     opciones: ['Igual o superior a 2 metros', 'Superior a 5 metros', 'Cualquiera, sin importar la altura'],
     correcta: 0,
@@ -1935,6 +2176,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 265,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los lados cerrados de las escaleras tendrán un pasamanos a ambos lados cuando la anchura de la escalera sea:',
     opciones: ['Mayor de 1,2 metros', 'Menor de 1 metro', 'Cualquiera'],
     correcta: 0,
@@ -1943,6 +2185,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 266,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los tabiques transparentes o acristalados próximos a puestos de trabajo deberán:',
     opciones: ['Estar claramente señalizados y fabricados con material seguro', 'Pintarse de color oscuro', 'Retirarse siempre'],
     correcta: 0,
@@ -1951,6 +2194,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 267,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las ventanas y vanos de iluminación cenital deberán:',
     opciones: ['Poder limpiarse sin riesgo para quien realice la tarea y para quienes estén alrededor', 'Permanecer siempre cerrados', 'Limpiarse solo desde el exterior'],
     correcta: 0,
@@ -1959,6 +2203,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 268,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los muelles de carga deberán tener:',
     opciones: ['Al menos una salida, o una en cada extremo cuando tengan gran longitud', 'Ninguna salida específica', 'Siempre tres salidas'],
     correcta: 0,
@@ -1967,6 +2212,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 269,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las puertas de acceso a las escaleras:',
     opciones: ['No se abrirán directamente sobre los escalones, sino sobre descansos de anchura al menos igual a la de aquéllos', 'Se abrirán directamente sobre el primer escalón', 'Deben ser siempre giratorias'],
     correcta: 0,
@@ -1975,6 +2221,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 270,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las puertas y portones que se abran hacia arriba deberán estar dotados de:',
     opciones: ['Un sistema de seguridad que impida su caída', 'Un contrapeso visible', 'Apertura exclusivamente eléctrica'],
     correcta: 0,
@@ -1983,6 +2230,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 271,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las puertas y portones mecánicos deberán:',
     opciones: ['Tener dispositivos de parada de emergencia y poder abrirse de forma manual', 'Funcionar solo con corriente', 'Carecer de apertura manual por seguridad'],
     correcta: 0,
@@ -1991,6 +2239,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 272,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En escaleras o plataformas con pavimentos perforados, la abertura máxima de los intersticios será de:',
     opciones: ['8 milímetros', '15 milímetros', '25 milímetros'],
     correcta: 0,
@@ -1999,6 +2248,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 273,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las rampas de longitud menor de 3 metros tendrán una pendiente máxima del:',
     opciones: ['12 %', '10 %', '8 %'],
     correcta: 0,
@@ -2007,6 +2257,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 274,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La anchura mínima de las escaleras de servicio es de:',
     opciones: ['55 centímetros', '1 metro', '80 centímetros'],
     correcta: 0,
@@ -2015,6 +2266,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 275,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las escaleras de caracol:',
     opciones: ['Están prohibidas excepto si son de servicio', 'Están permitidas en todos los casos', 'Son obligatorias en naves industriales'],
     correcta: 0,
@@ -2023,6 +2275,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 276,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los escalones de una escalera (no de servicio) tendrán una huella comprendida entre:',
     opciones: ['23 y 36 centímetros', '10 y 15 centímetros', '40 y 50 centímetros'],
     correcta: 0,
@@ -2031,6 +2284,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 277,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La altura máxima entre los descansos de las escaleras será de:',
     opciones: ['3,7 metros', '2,2 metros', '5 metros'],
     correcta: 0,
@@ -2039,6 +2293,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 278,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El espacio libre vertical desde los peldaños de una escalera no será inferior a:',
     opciones: ['2,2 metros', '1,8 metros', '3 metros'],
     correcta: 0,
@@ -2047,6 +2302,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 279,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La anchura mínima de las escalas fijas será de:',
     opciones: ['40 centímetros, con distancia máxima entre peldaños de 30 centímetros', '60 centímetros, con peldaños cada 50 centímetros', '1 metro'],
     correcta: 0,
@@ -2055,6 +2311,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 280,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Cuando el paso desde el tramo final de una escala fija suponga riesgo de caída, la barandilla o lateral se prolongará por encima del último peldaño al menos:',
     opciones: ['1 metro', '50 centímetros', '2 metros'],
     correcta: 0,
@@ -2063,6 +2320,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 281,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las escalas fijas dispondrán de protección circundante cuando su altura supere:',
     opciones: ['4 metros', '2 metros', '9 metros'],
     correcta: 0,
@@ -2071,6 +2329,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 282,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En escalas fijas de más de 9 metros se instalarán:',
     opciones: ['Plataformas de descanso cada 9 metros o fracción', 'Ascensores auxiliares', 'Redes cada 3 metros'],
     correcta: 0,
@@ -2079,6 +2338,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 283,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las vías y salidas de evacuación deberán:',
     opciones: ['Permanecer expeditas y desembocar lo más directamente posible en el exterior o en una zona de seguridad', 'Poder usarse como zona de almacenamiento provisional', 'Estar cerradas con llave fuera del horario'],
     correcta: 0,
@@ -2087,6 +2347,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 284,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El número, distribución y dimensiones de las vías de evacuación dependerán de:',
     opciones: ['El uso, los equipos, las dimensiones del lugar y el número máximo de personas presentes', 'Únicamente de la antigüedad del edificio', 'Del color de las paredes'],
     correcta: 0,
@@ -2095,6 +2356,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 285,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Según el RD 1644/2008, una máquina es un conjunto de partes o componentes vinculados entre sí:',
     opciones: ['De los cuales al menos uno es móvil, con un sistema de accionamiento distinto de la fuerza humana o animal aplicada directamente', 'Todos fijos y sin movimiento', 'Que funciona exclusivamente con electricidad'],
     correcta: 0,
@@ -2103,6 +2365,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 286,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Según el RD 1215/1997, un equipo de trabajo es:',
     opciones: ['Cualquier máquina, aparato, instrumento o instalación utilizado en el trabajo', 'Solo las máquinas con motor', 'La ropa de trabajo'],
     correcta: 0,
@@ -2111,6 +2374,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 287,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El RD 1644/2008 establece las normas para:',
     opciones: ['La comercialización y puesta en servicio de las máquinas', 'La señalización de los centros de trabajo', 'El etiquetado de productos químicos'],
     correcta: 0,
@@ -2119,6 +2383,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 288,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Antes de comercializar una máquina, el fabricante o su representante deberá, entre otros aspectos:',
     opciones: ['Colocar el marcado CE', 'Pintar la máquina de amarillo', 'Registrar la máquina en el ayuntamiento'],
     correcta: 0,
@@ -2127,6 +2392,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 289,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El examen UE de tipo de las máquinas se enmarca en:',
     opciones: ['El Reglamento (UE) 2023/1230', 'La Ley 54/2003', 'El RD 485/1997'],
     correcta: 0,
@@ -2135,6 +2401,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 290,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Toda máquina comercializada o puesta en servicio en España deberá ir acompañada de:',
     opciones: ['Un manual de instrucciones, al menos en castellano', 'Una garantía de 10 años', 'Un operario del fabricante'],
     correcta: 0,
@@ -2143,6 +2410,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 291,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las operaciones de mantenimiento de las máquinas han de llevarse a cabo por:',
     opciones: ['Personal especializado y formado que haya acreditado esta condición', 'Cualquier trabajador disponible', 'El fabricante exclusivamente'],
     correcta: 0,
@@ -2151,6 +2419,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 292,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Antes de una reparación o limpieza de carácter general en una máquina, debe:',
     opciones: ['Separarla de cualquier fuente de energía, bloquear el seccionamiento y verificar que no hay energía residual', 'Aumentarse la velocidad para ver el fallo', 'Retirarse los resguardos y trabajar en marcha'],
     correcta: 0,
@@ -2159,6 +2428,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 293,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Si no es posible realizar el mantenimiento con el equipo parado:',
     opciones: ['Deberán adoptarse medidas de protección adecuadas', 'Se realizará igualmente sin medidas', 'Se prohíbe siempre el mantenimiento'],
     correcta: 0,
@@ -2167,6 +2437,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 294,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los equipos de trabajo solo deben ser utilizados por:',
     opciones: ['Personal autorizado y responsable, previamente instruido en su manejo', 'Cualquier persona del centro', 'Personal externo únicamente'],
     correcta: 0,
@@ -2175,6 +2446,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 295,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Respecto al uso de los equipos de trabajo:',
     opciones: ['Nunca deben usarse para cometidos para los que no han sido diseñados', 'Pueden adaptarse a cualquier tarea improvisando', 'Solo importa seguir las especificaciones en equipos nuevos'],
     correcta: 0,
@@ -2183,6 +2455,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 296,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre los peligros que presentan las máquinas están:',
     opciones: ['El mecánico, el eléctrico, el térmico, el ruido, las vibraciones y los defectos ergonómicos', 'Únicamente el peligro mecánico', 'Solo los peligros químicos'],
     correcta: 0,
@@ -2191,6 +2464,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 297,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los resguardos de las máquinas deberán:',
     opciones: ['Ser de fabricación sólida y resistente, no ocasionar riesgos suplementarios y no ser fáciles de anular', 'Poder retirarse fácilmente durante el trabajo', 'Ser siempre transparentes'],
     correcta: 0,
@@ -2199,6 +2473,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 298,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La instalación de las máquinas debe hacerse en lugares:',
     opciones: ['Con suelos firmes y no resbaladizos, amplitud de espacio, iluminación y ventilación suficientes', 'Lo más ajustados posible para ahorrar espacio', 'Sin ventilación para evitar polvo'],
     correcta: 0,
@@ -2207,6 +2482,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 299,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El fabricante de una máquina deberá garantizar, antes de su diseño y fabricación:',
     opciones: ['La realización de una evaluación de riesgos para determinar los requisitos de seguridad y salud aplicables', 'Un estudio de mercado', 'La contratación de un seguro de vida para los usuarios'],
     correcta: 0,
@@ -2215,6 +2491,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 300,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las máquinas deben diseñarse teniendo en cuenta:',
     opciones: ['Su función prevista y también cualquier mal uso razonablemente previsible', 'Solo el uso ideal en laboratorio', 'Exclusivamente su aspecto estético'],
     correcta: 0,
@@ -2223,6 +2500,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 301,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre los equipos de elevación y transporte de cargas más comunes en la FNMT están:',
     opciones: ['El puente-grúa, la carretilla elevadora y la transpaleta', 'La excavadora y el bulldozer', 'La hormigonera y la grúa torre'],
     correcta: 0,
@@ -2231,6 +2509,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 302,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La grúa cuyo elemento portador se apoya sobre un camino de rodadura por medio de patas de apoyo se denomina:',
     opciones: ['Grúa pórtico', 'Grúa puente', 'Grúa ménsula'],
     correcta: 0,
@@ -2239,6 +2518,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 303,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La grúa fijada a un muro o que se desplaza por un camino de rodadura aéreo fijado a un muro es la:',
     opciones: ['Grúa ménsula', 'Grúa pórtico', 'Grúa de brazo giratorio'],
     correcta: 0,
@@ -2247,6 +2527,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 304,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La grúa capaz de girar sobre una columna fijada por su base también se conoce como:',
     opciones: ['Grúa de palomilla', 'Grúa semipórtico', 'Grúa puente'],
     correcta: 0,
@@ -2255,6 +2536,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 305,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El dispositivo de paro de emergencia del puente-grúa corta el circuito eléctrico de todos los elementos:',
     opciones: ['Excepto los dispositivos de sujeción de la carga', 'Incluida la sujeción de la carga', 'Solo de la señal acústica'],
     correcta: 0,
@@ -2263,6 +2545,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 306,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las botoneras de control móviles del puente-grúa serán de mando sensitivo, lo que significa que:',
     opciones: ['La maniobra se detiene automáticamente si se dejan de pulsar', 'Funcionan por voz', 'Solo requieren pulsarse una vez'],
     correcta: 0,
@@ -2271,6 +2554,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 307,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Para evitar la utilización del puente-grúa por personal no autorizado existe:',
     opciones: ['Un dispositivo de bloqueo de seguridad con llave', 'Una contraseña verbal', 'Un vigilante permanente'],
     correcta: 0,
@@ -2279,6 +2563,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 308,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los ganchos de elevación deben ir provistos de:',
     opciones: ['Pestillo de seguridad', 'Pintura reflectante únicamente', 'Un contrapeso'],
     correcta: 0,
@@ -2287,6 +2572,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 309,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las operaciones con cargas usando gancho de elevación se realizan en cuatro tiempos; el segundo es:',
     opciones: ['Tensado de las eslingas sin llegar a levantar la carga, para comprobar su fijación', 'Elevación definitiva de la carga', 'Eslingado de la carga'],
     correcta: 0,
@@ -2295,6 +2581,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 310,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Respecto al transporte de personas con el puente-grúa:',
     opciones: ['Está completamente prohibido', 'Se permite con arnés', 'Se permite en trayectos cortos'],
     correcta: 0,
@@ -2303,6 +2590,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 311,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Con el puente-grúa está prohibido:',
     opciones: ['Elevar o intentar elevar elementos anclados y arrastrar cargas tirando lateralmente', 'Mover cargas paletizadas', 'Usar eslingas certificadas'],
     correcta: 0,
@@ -2311,6 +2599,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 312,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Cuando el operador del puente-grúa deba abandonar su puesto:',
     opciones: ['Se asegurará de no dejar cargas suspendidas y retirará la llave de bloqueo de los mandos', 'Puede dejar la carga suspendida si es una parada corta', 'Dejará la llave puesta para el siguiente turno'],
     correcta: 0,
@@ -2319,6 +2608,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 313,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los accesorios de elevación (eslingas, cadenas, cables) deben:',
     opciones: ['Poseer la misma seguridad y fiabilidad que el resto de componentes de la grúa, con marcado CE y placas de identificación', 'Ser artesanales para adaptarse a cada carga', 'Carecer de identificación para no confundir'],
     correcta: 0,
@@ -2327,6 +2617,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 314,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre los riesgos mecánicos del puente-grúa están:',
     opciones: ['Arrastre o atrapamiento por la carga, impactos y pérdida de estabilidad', 'Únicamente el ruido', 'Solo los defectos ergonómicos'],
     correcta: 0,
@@ -2335,6 +2626,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 315,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Antes de iniciar una soldadura eléctrica debe comprobarse:',
     opciones: ['Que el grupo está correctamente conectado a tierra', 'Que hay corriente suficiente para dos equipos', 'Que la pieza está caliente'],
     correcta: 0,
@@ -2343,6 +2635,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 316,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La carcasa del equipo de soldadura debe conectarse a:',
     opciones: ['Una toma de tierra asociada a un interruptor diferencial', 'La estructura metálica del edificio directamente', 'Nada, debe quedar aislada'],
     correcta: 0,
@@ -2351,6 +2644,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 317,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Respecto a la soldadura en locales húmedos o mojados:',
     opciones: ['No debe realizarse; en caso necesario se utilizarán tensiones de seguridad', 'Puede realizarse con guantes de goma', 'Solo se prohíbe si llueve'],
     correcta: 0,
@@ -2359,6 +2653,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 318,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Para proteger al resto de operarios de las radiaciones de la soldadura se utilizan:',
     opciones: ['Mamparas de separación de los puestos de trabajo', 'Gafas de sol convencionales', 'Cortinas de tela'],
     correcta: 0,
@@ -2367,6 +2662,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 319,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Frente a los humos de soldadura, el manual indica:',
     opciones: ['Soldar en lugares ventilados y usar extracción localizada y mascarilla si es necesario', 'Contener la respiración', 'Soldar en locales cerrados para concentrar el humo'],
     correcta: 0,
@@ -2375,6 +2671,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 320,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En la zona de trabajos de soldadura:',
     opciones: ['El área debe estar libre de materias combustibles y debe disponerse de un extintor apropiado en las proximidades', 'Puede haber combustibles si están a más de 1 metro', 'No hace falta extintor si el trabajo es corto'],
     correcta: 0,
@@ -2383,6 +2680,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 321,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Cuando los trabajos de soldadura se interrumpan durante un cierto periodo:',
     opciones: ['Se sacarán los electrodos de los portaelectrodos y se desconectará el puesto de la fuente de alimentación', 'Basta con apoyar la pinza en la mesa', 'Se dejará el equipo encendido para no perder tiempo'],
     correcta: 0,
@@ -2391,6 +2689,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 322,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La escoria depositada en las piezas soldadas debe picarse:',
     opciones: ['Con un martillo especial, de forma que los trozos salgan en dirección contraria al cuerpo', 'Con la mano protegida por un trapo', 'Con el propio electrodo'],
     correcta: 0,
@@ -2399,6 +2698,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 323,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'No deben efectuarse trabajos de soldadura cerca de operaciones de desengrasado porque:',
     opciones: ['Pueden formarse gases peligrosos', 'Se ensucia la soldadura', 'Baja la temperatura del arco'],
     correcta: 0,
@@ -2407,6 +2707,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 324,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Soldar en el interior de contenedores, depósitos o barriles:',
     opciones: ['Solo se permite tras limpiarlos completamente y desgasificarlos con vapor', 'Se permite si están vacíos', 'Se permite si se hace rápido'],
     correcta: 0,
@@ -2415,6 +2716,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 325,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre los EPIs del soldador están:',
     opciones: ['Pantalla facial, guantes de soldador, mandil, manguitos, polainas y calzado de seguridad', 'Únicamente gafas de sol', 'Bata de laboratorio y sandalias'],
     correcta: 0,
@@ -2423,6 +2725,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 326,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre los riesgos de la soldadura oxiacetilénica está, además de los térmicos y por humos:',
     opciones: ['El atrapamiento o golpes en la manipulación de botellones', 'El riesgo biológico', 'La exposición a amianto'],
     correcta: 0,
@@ -2431,6 +2734,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 327,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los trabajos de soldadura y corte están prohibidos:',
     opciones: ['En locales donde se almacenen materiales inflamables o combustibles y donde exista riesgo de explosión', 'En cualquier taller mecánico', 'Al aire libre'],
     correcta: 0,
@@ -2439,6 +2743,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 328,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Para trabajar en recipientes que hayan contenido sustancias inflamables, la ausencia total de gases se comprueba con:',
     opciones: ['Un explosímetro (medidor de atmósferas peligrosas)', 'Una cerilla encendida', 'El olfato'],
     correcta: 0,
@@ -2447,6 +2752,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 329,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El oxígeno de las botellas:',
     opciones: ['Nunca debe usarse para limpiar o soplar piezas ni para ventilar una estancia', 'Puede usarse para limpiar tuberías', 'Sirve para refrescar el ambiente en verano'],
     correcta: 0,
@@ -2455,6 +2761,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 330,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los grifos y manorreductores de las botellas de oxígeno deben estar siempre limpios de grasas y aceites porque:',
     opciones: ['Las grasas pueden inflamarse espontáneamente por acción del oxígeno', 'Manchan las piezas a soldar', 'Estropean la rosca'],
     correcta: 0,
@@ -2463,6 +2770,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 331,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Si una botella de acetileno se calienta por cualquier motivo:',
     opciones: ['Se debe cerrar el grifo y enfriarla con agua, si es preciso durante horas', 'Se debe agitar para repartir el calor', 'Se traslada corriendo al exterior sin más'],
     correcta: 0,
@@ -2471,6 +2779,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 332,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Si se incendia el grifo de una botella de acetileno y no se consigue cerrar:',
     opciones: ['Se apagará con un extintor de nieve carbónica o de polvo', 'Se apagará con agua a chorro', 'Se dejará arder hasta consumirse'],
     correcta: 0,
@@ -2479,6 +2788,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 333,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las fugas en las conexiones de las mangueras de soldadura se comprueban:',
     opciones: ['Con agua jabonosa, nunca con una llama', 'Acercando un mechero', 'Escuchando el silbido'],
     correcta: 0,
@@ -2487,6 +2797,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 334,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Durante la soldadura oxiacetilénica, las mangueras:',
     opciones: ['No deben situarse sobre los hombros ni entre las piernas del soldador', 'Deben pasarse por encima del hombro para ganar movilidad', 'Deben enrollarse sobre las ojivas de las botellas'],
     correcta: 0,
@@ -2495,6 +2806,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 335,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las botellas de acetileno llenas deben mantenerse en posición vertical al menos:',
     opciones: ['12 horas antes de ser utilizadas', '1 hora antes de usarlas', '30 minutos'],
     correcta: 0,
@@ -2503,6 +2815,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 336,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los grifos de las botellas de oxígeno y acetileno deben situarse:',
     opciones: ['Con sus bocas de salida apuntando en direcciones opuestas', 'Apuntando al mismo punto', 'Mirando hacia el soldador'],
     correcta: 0,
@@ -2511,6 +2824,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 337,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Durante el trabajo, las botellas de gases deben estar a una distancia de la zona de soldadura de:',
     opciones: ['Entre 5 y 10 metros', 'Menos de 1 metro para vigilar el manómetro', 'Al menos 50 metros'],
     correcta: 0,
@@ -2519,6 +2833,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 338,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las botellas de gases no deben consumirse completamente porque:',
     opciones: ['Podría entrar aire; debe conservarse una ligera sobrepresión en su interior', 'Se estropea el manómetro', 'El gas del fondo es de mejor calidad'],
     correcta: 0,
@@ -2527,6 +2842,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 339,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Si el manorreductor de una botella se hiela por las bajas temperaturas:',
     opciones: ['Se deshelará con paños de agua caliente', 'Se calentará con un soplete', 'Se golpeará suavemente hasta soltarlo'],
     correcta: 0,
@@ -2535,6 +2851,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 340,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Tras cerrar el grifo de la botella al acabar la sesión de soldadura:',
     opciones: ['Debe descargarse siempre el manorreductor, las mangueras y el soplete', 'Basta con recoger las mangueras', 'Se deja presión en el circuito para el día siguiente'],
     correcta: 0,
@@ -2543,6 +2860,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 341,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El Reglamento electrotécnico para baja tensión se aprueba en:',
     opciones: ['El RD 842/2002', 'El RD 614/2001', 'El RD 337/2014'],
     correcta: 0,
@@ -2551,6 +2869,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 342,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las disposiciones mínimas para la protección de los trabajadores frente al riesgo eléctrico se establecen en:',
     opciones: ['El RD 614/2001', 'El RD 842/2002', 'El RD 1215/1997'],
     correcta: 0,
@@ -2559,6 +2878,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 343,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La tensión eléctrica es la diferencia de nivel eléctrico entre dos puntos y su unidad es:',
     opciones: ['El Voltio', 'El Amperio', 'El Ohmio'],
     correcta: 0,
@@ -2567,6 +2887,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 344,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La cantidad de electricidad que recorre un circuito en la unidad de tiempo se llama:',
     opciones: ['Intensidad de corriente, y se mide en Amperios', 'Resistencia, y se mide en Ohmios', 'Potencia, y se mide en Voltios'],
     correcta: 0,
@@ -2575,6 +2896,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 345,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La dificultad que ofrece un conductor a ser recorrido por la corriente se denomina:',
     opciones: ['Resistencia eléctrica, medida en Ohmios', 'Tensión, medida en Voltios', 'Frecuencia, medida en Hercios'],
     correcta: 0,
@@ -2583,6 +2905,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 346,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Según la Ley de Ohm, la intensidad que recorre un circuito es:',
     opciones: ['Directamente proporcional a la tensión e inversamente proporcional a la resistencia', 'Inversamente proporcional a la tensión', 'Independiente de la resistencia'],
     correcta: 0,
@@ -2591,6 +2914,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 347,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El riesgo eléctrico incluye, además del choque eléctrico:',
     opciones: ['Quemaduras por arco, caídas o golpes como consecuencia del choque, e incendios o explosiones originados por la electricidad', 'Solo el choque por contacto directo', 'Únicamente los incendios'],
     correcta: 0,
@@ -2599,6 +2923,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 348,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En la definición de instalación eléctrica se incluyen:',
     opciones: ['Las baterías, los condensadores y cualquier equipo que almacene energía eléctrica', 'Solo los cables y enchufes', 'Únicamente los transformadores'],
     correcta: 0,
@@ -2607,6 +2932,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 349,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los trabajos sin tensión son los realizados:',
     opciones: ['Después de tomar todas las medidas necesarias para mantener la instalación sin tensión', 'Con la instalación en tensión pero con guantes', 'Solo en instalaciones nuevas'],
     correcta: 0,
@@ -2615,6 +2941,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 350,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Respecto a las maniobras, mediciones, ensayos y verificaciones en instalaciones eléctricas:',
     opciones: ['No se consideran trabajos en tensión', 'Son trabajos en tensión en todo caso', 'Están prohibidas'],
     correcta: 0,
@@ -2623,6 +2950,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 351,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Una maniobra es una intervención concebida para:',
     opciones: ['Cambiar el estado eléctrico de una instalación sin montaje ni desmontaje de elemento alguno', 'Sustituir cualquier componente averiado', 'Pintar los cuadros eléctricos'],
     correcta: 0,
@@ -2631,6 +2959,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 352,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La zona de peligro (o de trabajos en tensión) es el espacio alrededor de los elementos en tensión donde:',
     opciones: ['La presencia de un trabajador desprotegido supone riesgo grave e inminente de arco o contacto directo', 'Se puede trabajar sin protección', 'Solo pueden entrar visitas'],
     correcta: 0,
@@ -2639,6 +2968,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 353,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La zona de proximidad es:',
     opciones: ['El espacio delimitado alrededor de la zona de peligro, desde el que se puede invadir accidentalmente esta última', 'La zona más alejada de la instalación', 'El cuarto de contadores'],
     correcta: 0,
@@ -2647,6 +2977,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 354,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Un trabajador autorizado en materia eléctrica es el que:',
     opciones: ['Ha sido autorizado por el empresario para determinados trabajos con riesgo eléctrico, en base a su capacidad', 'Tiene carnet de conducir', 'Se autoriza a sí mismo por experiencia'],
     correcta: 0,
@@ -2655,6 +2986,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 355,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El trabajador cualificado es un trabajador autorizado que posee conocimientos especializados por su formación acreditada o por experiencia certificada de:',
     opciones: ['Dos o más años', 'Seis meses', 'Diez o más años'],
     correcta: 0,
@@ -2663,6 +2995,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 356,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El jefe de trabajo es:',
     opciones: ['La persona designada por el empresario para asumir la responsabilidad efectiva de los trabajos', 'El trabajador más veterano del equipo', 'Un inspector de la Administración'],
     correcta: 0,
@@ -2671,6 +3004,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 357,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El factor más importante en una electrocución es:',
     opciones: ['La intensidad de la corriente', 'El color del cable', 'La marca del equipo'],
     correcta: 0,
@@ -2679,6 +3013,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 358,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las trayectorias más peligrosas de la corriente por el cuerpo son las que atraviesan:',
     opciones: ['El corazón y el cerebro', 'Las manos únicamente', 'Los pies'],
     correcta: 0,
@@ -2687,6 +3022,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 359,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Para el cuerpo humano se establece una resistencia eléctrica media de:',
     opciones: ['2.000 Ohmios', '200 Ohmios', '20.000 Ohmios'],
     correcta: 0,
@@ -2695,6 +3031,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 360,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'A igual intensidad, en general resulta más peligrosa:',
     opciones: ['La corriente alterna que la continua', 'La corriente continua que la alterna', 'Ambas exactamente igual'],
     correcta: 0,
@@ -2703,6 +3040,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 361,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Cuanto mayor es el tiempo de circulación de la corriente por el cuerpo:',
     opciones: ['Más destructivos son sus efectos', 'Menos peligrosa resulta', 'No influye en las lesiones'],
     correcta: 0,
@@ -2711,6 +3049,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 362,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre las protecciones frente a contactos eléctricos DIRECTOS está:',
     opciones: ['El alejamiento de las partes activas y la interposición de obstáculos', 'El uso exclusivo de calzado deportivo', 'El aumento de la tensión'],
     correcta: 0,
@@ -2719,6 +3058,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 363,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El recubrimiento de las partes activas de la instalación debe limitar la corriente de fuga a:',
     opciones: ['1 miliamperio', '10 amperios', '100 miliamperios'],
     correcta: 0,
@@ -2727,6 +3067,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 364,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los interruptores diferenciales, frente a los contactos directos, constituyen:',
     opciones: ['Una medida complementaria que facilita una rápida desconexión de la instalación', 'La única protección necesaria', 'Un elemento decorativo del cuadro'],
     correcta: 0,
@@ -2735,6 +3076,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 365,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El doble aislamiento, típico de taladros y herramientas eléctricas manuales, es un sistema de protección frente a contactos indirectos de:',
     opciones: ['Clase A', 'Clase B', 'Clase C'],
     correcta: 0,
@@ -2743,6 +3085,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 366,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En la separación de circuitos, si el espacio de trabajo es mojado o húmedo, el transformador:',
     opciones: ['Debe permanecer fuera de esos recintos', 'Se instala dentro para acortar cables', 'Se sumerge en aceite'],
     correcta: 0,
@@ -2751,6 +3094,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 367,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las pequeñas tensiones de seguridad son de:',
     opciones: ['24 V en espacios húmedos o mojados y 50 V en espacios secos', '50 V en húmedos y 24 V en secos', '125 V en todos los casos'],
     correcta: 0,
@@ -2759,6 +3103,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 368,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los sistemas de protección de clase B frente a contactos indirectos se basan en:',
     opciones: ['La puesta a tierra o a neutro de las masas junto a un dispositivo de corte automático', 'El uso de guantes de goma', 'La señalización de los enchufes'],
     correcta: 0,
@@ -2767,6 +3112,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 369,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La ITC-BT-24 del REBT engloba los sistemas de clase B bajo la denominación:',
     opciones: ['"Protección por corte automático de la alimentación"', '"Protección pasiva estructural"', '"Aislamiento reforzado universal"'],
     correcta: 0,
@@ -2775,6 +3121,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 370,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El Reglamento sobre condiciones técnicas y garantías de seguridad en líneas eléctricas de ALTA tensión se aprueba en:',
     opciones: ['El RD 223/2008', 'El RD 842/2002', 'El RD 488/1997'],
     correcta: 0,
@@ -2783,6 +3130,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 371,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La grúa semipórtico se caracteriza porque:',
     opciones: ['Un raíl de desplazamiento está aproximadamente al nivel del carro y el otro en un plano muy inferior', 'Ambos raíles están en el suelo', 'No tiene raíles'],
     correcta: 0,
@@ -2791,6 +3139,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 372,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre los riesgos eléctricos del puente-grúa está el riesgo térmico producido por:',
     opciones: ['Las resistencias de puesta en marcha, que pueden causar quemaduras por contacto', 'El rozamiento de las ruedas', 'La fricción de las eslingas'],
     correcta: 0,
@@ -2799,6 +3148,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 373,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El mecanismo de elevación del puente-grúa dispone de:',
     opciones: ['Finales de carrera superior e inferior', 'Un solo final de carrera lateral', 'Ningún final de carrera'],
     correcta: 0,
@@ -2807,6 +3157,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 374,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre los dispositivos de seguridad del puente-grúa están:',
     opciones: ['El dispositivo anti-choque y los limitadores de carga y de par', 'Un paracaídas para la carga', 'Espejos retrovisores'],
     correcta: 0,
@@ -2815,6 +3166,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 375,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La botonera de control del puente-grúa debe tener:',
     opciones: ['Clara señalización diferenciada de los mandos', 'Todos los botones del mismo color', 'Los mandos sin rotular para evitar distracciones'],
     correcta: 0,
@@ -2823,6 +3175,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 376,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las botellas de gases que no estén perfectamente identificadas:',
     opciones: ['Deben inutilizarse y devolverse al proveedor', 'Pueden usarse oliendo el gas para identificarlo', 'Se etiquetan a mano y se usan'],
     correcta: 0,
@@ -2831,6 +3184,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 377,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Antes de colocar el manorreductor en una botella de oxígeno:',
     opciones: ['Debe purgarse el grifo, abriendo un cuarto de vuelta y cerrando a la mayor brevedad', 'Debe golpearse el grifo para limpiarlo', 'Debe engrasarse la rosca'],
     correcta: 0,
@@ -2839,6 +3193,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 378,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El grifo de la botella debe abrirse lentamente porque:',
     opciones: ['En caso contrario el reductor de presión podría quemarse', 'El gas sale más puro', 'Así dura más la botella'],
     correcta: 0,
@@ -2847,6 +3202,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 379,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las juntas de fibra de las botellas:',
     opciones: ['No deben sustituirse por otras de goma o cuero', 'Pueden cambiarse por goma sin problema', 'Se sustituyen por cinta aislante'],
     correcta: 0,
@@ -2855,6 +3211,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 380,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La llave de cierre de cada botella en servicio:',
     opciones: ['Debe estar sujeta a la botella para poder cerrarla en caso de incendio', 'Se guarda en la oficina', 'Solo la custodia el proveedor'],
     correcta: 0,
@@ -2863,6 +3220,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 381,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La protección de los trabajadores frente a los riesgos por agentes químicos se regula en:',
     opciones: ['El RD 374/2001', 'El RD 286/2006', 'El RD 486/1997'],
     correcta: 0,
@@ -2871,6 +3229,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 382,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La exposición a un agente químico se produce normalmente por:',
     opciones: ['Inhalación o por vía dérmica', 'Solo por ingestión', 'Únicamente por vía parenteral'],
     correcta: 0,
@@ -2879,6 +3238,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 383,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La capacidad intrínseca de un agente químico para causar daño se denomina:',
     opciones: ['Peligro', 'Riesgo', 'Exposición'],
     correcta: 0,
@@ -2887,6 +3247,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 384,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Un aerosol es una dispersión de partículas sólidas o líquidas en un medio gaseoso de tamaño inferior a:',
     opciones: ['100 micras', '1 milímetro', '500 micras'],
     correcta: 0,
@@ -2895,6 +3256,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 385,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La vía de entrada MÁS importante para la mayoría de los contaminantes químicos es:',
     opciones: ['La respiratoria', 'La dérmica', 'La digestiva'],
     correcta: 0,
@@ -2903,6 +3265,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 386,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La penetración directa de un contaminante a través de una herida o punción es la vía:',
     opciones: ['Parenteral', 'Dérmica', 'Digestiva'],
     correcta: 0,
@@ -2911,6 +3274,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 387,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La clasificación, etiquetado y envasado de sustancias y mezclas químicas se rige por:',
     opciones: ['El Reglamento CLP (CE nº 1272/2008)', 'El Reglamento REACH exclusivamente', 'El RD 374/2001'],
     correcta: 0,
@@ -2919,6 +3283,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 388,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los Valores Límite Ambientales son:',
     opciones: ['Valores de referencia para las concentraciones de agentes químicos en la zona de respiración del trabajador', 'El límite legal de temperatura del local', 'El máximo de ruido permitido'],
     correcta: 0,
@@ -2927,6 +3292,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 389,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La primera medida específica de prevención frente a un agente químico peligroso es:',
     opciones: ['Evitar su uso, sustituyéndolo por otro no peligroso o menos peligroso', 'Repartir mascarillas', 'Aumentar la ventilación'],
     correcta: 0,
@@ -2935,6 +3301,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 390,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las medidas de protección individual frente a agentes químicos se aplican:',
     opciones: ['Cuando las medidas colectivas son insuficientes y el contacto no puede evitarse por otros medios', 'Siempre como primera opción', 'Solo los viernes'],
     correcta: 0,
@@ -2943,6 +3310,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 391,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El documento que transmite información sobre la seguridad de una sustancia o mezcla química es:',
     opciones: ['La Ficha de Datos de Seguridad', 'El albarán de entrega', 'La factura del proveedor'],
     correcta: 0,
@@ -2951,6 +3319,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 392,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La Ficha de Datos de Seguridad debe entregarse:',
     opciones: ['De forma gratuita y antes de que se suministre el producto por primera vez', 'Solo si el trabajador la paga', 'Un mes después del primer suministro'],
     correcta: 0,
@@ -2959,6 +3328,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 393,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los envases de sustancias o mezclas químicas peligrosas, según el Reglamento CLP, deben:',
     opciones: ['Evitar la pérdida de contenido y ser resistentes al mismo sin formar combinaciones peligrosas', 'Ser siempre de cristal', 'Poder abrirse fácilmente por cualquiera'],
     correcta: 0,
@@ -2967,6 +3337,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 394,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Un microorganismo es:',
     opciones: ['Toda entidad microbiológica, celular o no, capaz de reproducirse o de transferir material genético', 'Cualquier producto químico tóxico', 'Una partícula de polvo'],
     correcta: 0,
@@ -2975,6 +3346,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 395,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los agentes biológicos se clasifican, según el riesgo de infección, en:',
     opciones: ['Cuatro grupos', 'Tres grupos', 'Cinco grupos'],
     correcta: 0,
@@ -2983,6 +3355,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 396,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Un agente biológico del Grupo 1 es aquel que:',
     opciones: ['Resulta poco probable que cause una enfermedad en el hombre', 'Causa una enfermedad grave sin tratamiento eficaz', 'Se propaga con facilidad a la colectividad'],
     correcta: 0,
@@ -2991,6 +3364,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 397,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El agente biológico del Grupo 4 se caracteriza porque:',
     opciones: ['Causa enfermedad grave, se propaga con muchas probabilidades y no existe generalmente profilaxis o tratamiento eficaz', 'No causa enfermedad', 'Tiene siempre vacuna disponible'],
     correcta: 0,
@@ -2999,6 +3373,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 398,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En trabajos con agentes biológicos, los accidentes más frecuentes son:',
     opciones: ['Los causados por objetos punzantes y cortantes contaminados por sangre o fluidos biológicos', 'Las caídas al mismo nivel', 'Los golpes con máquinas'],
     correcta: 0,
@@ -3007,6 +3382,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 399,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En zonas con riesgo biológico, respecto a comer, beber o fumar:',
     opciones: ['Está prohibido', 'Se permite en las pausas', 'Se permite si se hace rápido'],
     correcta: 0,
@@ -3015,6 +3391,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 400,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En trabajos con agentes biológicos, los trabajadores dispondrán dentro de la jornada, para su aseo personal, de:',
     opciones: ['Diez minutos antes de la comida y otros diez antes de abandonar el trabajo', 'Media hora al final del día', 'Cinco minutos por la mañana'],
     correcta: 0,
@@ -3023,6 +3400,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 401,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La ropa de trabajo contaminada por agentes biológicos:',
     opciones: ['La lava y descontamina el empresario, prohibiéndose que el trabajador se la lleve a su domicilio', 'La lava el trabajador en su casa', 'Se tira siempre a la basura común'],
     correcta: 0,
@@ -3031,6 +3409,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 402,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Al salir de una zona con riesgo biológico, el trabajador:',
     opciones: ['Se quitará la ropa de trabajo y los EPIs contaminados y los guardará separados de otras prendas', 'Puede salir con la ropa de trabajo puesta', 'Mezclará la ropa con la de calle en la taquilla'],
     correcta: 0,
@@ -3039,6 +3418,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 403,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La carga física se define como:',
     opciones: ['El conjunto de requerimientos físicos a los que se ve sometida la persona con ocasión de su trabajo', 'El peso de las herramientas', 'El número de horas trabajadas'],
     correcta: 0,
@@ -3047,6 +3427,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 404,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La carga mental es:',
     opciones: ['El nivel de actividad o esfuerzo mental necesario para desarrollar el trabajo', 'La preocupación por el salario', 'El número de compañeros de un equipo'],
     correcta: 0,
@@ -3055,6 +3436,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 405,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La fatiga es:',
     opciones: ['La consecuencia lógica del esfuerzo realizado, equilibrada si el trabajador se recupera tras el descanso', 'Siempre una enfermedad profesional', 'Un tipo de accidente'],
     correcta: 0,
@@ -3063,6 +3445,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 406,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Frente a un agente biológico peligroso, la primera medida preventiva es:',
     opciones: ['Evitar su utilización sustituyéndolo por otro no peligroso o menos peligroso, cuando la actividad lo permita', 'Vacunar a toda la plantilla', 'Aumentar los EPIs'],
     correcta: 0,
@@ -3071,6 +3454,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 407,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre las medidas técnicas frente a agentes biológicos está:',
     opciones: ['El trabajo en sistemas cerrados y el uso de cabinas de seguridad biológica', 'Trabajar con las ventanas abiertas de par en par', 'Aumentar el número de trabajadores expuestos'],
     correcta: 0,
@@ -3079,6 +3463,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 408,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Para evitar la dispersión del agente biológico fuera del lugar de trabajo se usan salas:',
     opciones: ['Con un sistema de ventilación que mantenga el local en depresión, esclusas y limpieza del aire de salida', 'Con las puertas siempre abiertas', 'Sin ningún control de aire'],
     correcta: 0,
@@ -3087,6 +3472,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 409,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El gas se define, a efectos del manual, como un estado físico de una sustancia a:',
     opciones: ['25 ºC y 760 mm de Hg de presión', '0 ºC y 1 atmósfera', '100 ºC y presión variable'],
     correcta: 0,
@@ -3095,6 +3481,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 410,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El vapor es:',
     opciones: ['La fase gaseosa de una sustancia que puede pasar a sólido o líquido actuando sobre su presión o temperatura', 'Un gas que nunca cambia de estado', 'Una partícula sólida en suspensión'],
     correcta: 0,
@@ -3103,6 +3490,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 411,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El Valor Límite Biológico es el límite de concentración, en el medio biológico adecuado, de:',
     opciones: ['El agente químico, uno de sus metabolitos u otro indicador relacionado con la exposición', 'El ruido acumulado', 'La temperatura corporal'],
     correcta: 0,
@@ -3111,6 +3499,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 412,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre los principios generales de prevención frente a agentes químicos está:',
     opciones: ['Reducir al mínimo el número de trabajadores expuestos y la duración e intensidad de las exposiciones', 'Aumentar la producción a cualquier coste', 'Concentrar a todos los trabajadores en la zona de riesgo'],
     correcta: 0,
@@ -3119,6 +3508,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 413,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La ventilación como medida frente a agentes químicos debe aplicarse preferentemente:',
     opciones: ['En el origen del riesgo', 'En la salida del edificio', 'Solo en las oficinas'],
     correcta: 0,
@@ -3127,6 +3517,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 414,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La clasificación del CLP se basa en 4 tipos de peligros y, según su naturaleza, en:',
     opciones: ['28 clases de peligros', '10 clases de peligros', '50 clases de peligros'],
     correcta: 0,
@@ -3135,6 +3526,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 415,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Frente a agentes biológicos, el acceso a las zonas de manipulación debe:',
     opciones: ['Restringirse únicamente al personal designado y autorizado', 'Ser libre para toda la plantilla', 'Permitirse a las visitas con casco'],
     correcta: 0,
@@ -3143,6 +3535,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 416,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los cuartos de aseo para trabajos con agentes biológicos incluirán:',
     opciones: ['Productos para la limpieza ocular y antisépticos para la piel', 'Solo jabón común', 'Máquinas de bebidas'],
     correcta: 0,
@@ -3151,6 +3544,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 417,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La formación e información a los trabajadores expuestos a agentes biológicos incluye:',
     opciones: ['Los riesgos potenciales, las precauciones, la higiene, el uso de EPIs y la actuación ante incidentes', 'Solo el horario de trabajo', 'Únicamente el organigrama de la empresa'],
     correcta: 0,
@@ -3159,6 +3553,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 418,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La señal de peligro biológico:',
     opciones: ['Debe utilizarse en las zonas donde se manipulan agentes biológicos', 'No es obligatoria', 'Solo se usa en hospitales'],
     correcta: 0,
@@ -3167,6 +3562,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 419,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Frente a agentes biológicos, cuando es posible, la vigilancia de la salud incluye:',
     opciones: ['La vacunación', 'La jubilación anticipada', 'Un cambio de convenio'],
     correcta: 0,
@@ -3175,6 +3571,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 420,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La ingestión de contaminantes disueltos en las mucosidades del sistema respiratorio corresponde a la vía:',
     opciones: ['Digestiva', 'Parenteral', 'Dérmica'],
     correcta: 0,
@@ -3183,6 +3580,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 421,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre los agentes físicos que pueden generar contaminantes están:',
     opciones: ['El ruido y las vibraciones, las radiaciones, el calor o frío y la iluminación', 'Los gases y vapores', 'Las bacterias y virus'],
     correcta: 0,
@@ -3191,6 +3589,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 422,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Desde el punto de vista físico, el ruido es:',
     opciones: ['Un movimiento ondulatorio producido en un medio elástico por una vibración', 'Cualquier sonido agradable', 'Una radiación electromagnética'],
     correcta: 0,
@@ -3199,6 +3598,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 423,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El nivel de presión sonora se mide habitualmente en una escala logarítmica cuya unidad es:',
     opciones: ['El decibelio', 'El Pascal', 'El Hercio'],
     correcta: 0,
@@ -3207,6 +3607,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 424,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El campo de audición humano se sitúa, en frecuencia, entre:',
     opciones: ['20 y 20.000 Hz', '1 y 100 Hz', '100 y 1.000 Hz'],
     correcta: 0,
@@ -3215,6 +3616,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 425,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El efecto más característico de la exposición a altos niveles de ruido es:',
     opciones: ['La pérdida de audición, que es irrecuperable', 'El dolor de cabeza pasajero', 'La mejora de la concentración'],
     correcta: 0,
@@ -3223,6 +3625,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 426,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Además de la pérdida auditiva, el ruido puede provocar:',
     opciones: ['Trastornos del sueño, irritabilidad, cansancio y aumento del tiempo de reacción', 'Mejora del rendimiento', 'Reducción del número de errores'],
     correcta: 0,
@@ -3231,6 +3634,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 427,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Un ruido se considera ESTABLE cuando la diferencia entre los valores máximo y mínimo de LpA (medida en "SLOW") es:',
     opciones: ['Inferior a 5 dB', 'Superior a 20 dB', 'Igual a 0 dB exactamente'],
     correcta: 0,
@@ -3239,6 +3643,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 428,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Un ruido de impulso o de impacto es aquel en el que:',
     opciones: ['El nivel de presión decrece exponencialmente con el tiempo y los impactos se separan más de un segundo', 'El nivel permanece constante', 'La cadencia es cíclica'],
     correcta: 0,
@@ -3247,6 +3652,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 429,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La exposición al ruido de los trabajadores se regula en:',
     opciones: ['El RD 286/2006, de 10 de marzo', 'El RD 374/2001', 'El RD 486/1997'],
     correcta: 0,
@@ -3255,6 +3661,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 430,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las medidas preventivas frente al ruido se centran, por orden de prioridad, en:',
     opciones: ['El foco de emisión, los medios de transmisión y el receptor', 'El receptor, la transmisión y el foco', 'Únicamente en el receptor'],
     correcta: 0,
@@ -3263,6 +3670,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 431,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Actuar sobre el foco de emisión del ruido incluye:',
     opciones: ['Elegir equipos menos ruidosos y aislar acústicamente el foco mediante envolventes o cabinas', 'Repartir tapones a los trabajadores', 'Alejar al receptor'],
     correcta: 0,
@@ -3271,6 +3679,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 432,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Montar las máquinas sobre aisladores de vibraciones sirve para:',
     opciones: ['Evitar la transmisión de la energía sonora a través de la estructura del local', 'Aumentar la potencia de la máquina', 'Reducir el consumo eléctrico'],
     correcta: 0,
@@ -3279,6 +3688,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 433,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Actuar sobre el receptor del ruido incluye:',
     opciones: ['Limitar el tiempo de exposición y alternar tareas ruidosas con otras que no lo son', 'Aumentar la jornada en zonas ruidosas', 'Eliminar las pausas'],
     correcta: 0,
@@ -3287,6 +3697,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 434,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Una vibración puede describirse como:',
     opciones: ['Un movimiento oscilatorio de las partículas de un sólido', 'Una radiación luminosa', 'Un cambio de temperatura'],
     correcta: 0,
@@ -3295,6 +3706,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 435,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El ruido periódico se caracteriza porque la diferencia entre los valores máximo y mínimo de LpA:',
     opciones: ['Es superior o igual a 5 dB y su cadencia es cíclica', 'Es siempre inferior a 5 dB', 'No puede medirse'],
     correcta: 0,
@@ -3303,6 +3715,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 436,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre los cuatro factores de primer orden que determinan el riesgo de pérdida auditiva está:',
     opciones: ['El nivel de presión sonora, el tipo de ruido, el tiempo de exposición y las características del receptor', 'El color de la máquina', 'La marca del protector auditivo'],
     correcta: 0,
@@ -3311,6 +3724,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 437,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La utilización de equipos de protección individual se regula en:',
     opciones: ['El RD 773/1997', 'El RD 486/1997', 'El RD 286/2006'],
     correcta: 0,
@@ -3319,6 +3733,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 438,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Un EPI se define como:',
     opciones: ['Cualquier equipo destinado a ser llevado o sujetado por el trabajador para protegerle de riesgos que amenacen su seguridad o salud', 'Cualquier herramienta de trabajo', 'La ropa de calle del trabajador'],
     correcta: 0,
@@ -3327,6 +3742,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 439,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los EPIs deben utilizarse cuando los riesgos:',
     opciones: ['No se puedan evitar o limitar suficientemente por medios técnicos de protección colectiva o de organización', 'Existan, siempre y en primer lugar', 'Sean únicamente económicos'],
     correcta: 0,
@@ -3335,6 +3751,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 440,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Como norma general, un EPI está destinado a:',
     opciones: ['Un uso personal', 'Ser compartido por todo el turno', 'Usarse una sola vez y tirarse siempre'],
     correcta: 0,
@@ -3343,6 +3760,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 441,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El mantenimiento, la reposición y el correcto funcionamiento de los EPIs corresponde a:',
     opciones: ['El empresario, que los proporciona gratuitamente', 'El trabajador, que los compra', 'El comité de empresa'],
     correcta: 0,
@@ -3351,6 +3769,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 442,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Todos los EPIs deben llevar el marcado:',
     opciones: ['CE', 'ISO 9001', 'AENOR obligatoriamente'],
     correcta: 0,
@@ -3359,6 +3778,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 443,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El trabajo con pantallas de visualización de datos se regula en:',
     opciones: ['El RD 488/1997', 'El RD 773/1997', 'El RD 1215/1997'],
     correcta: 0,
@@ -3367,6 +3787,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 444,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre los riesgos del trabajo con pantallas de visualización están:',
     opciones: ['La fatiga visual, los trastornos musculoesqueléticos y la fatiga mental', 'Las quemaduras químicas', 'La exposición a ruido intenso'],
     correcta: 0,
@@ -3375,6 +3796,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 445,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Para prevenir los trastornos musculoesqueléticos con pantallas, la silla de trabajo debe:',
     opciones: ['Ser regulable en altura y con respaldo reclinable y ajustable', 'Ser fija y sin respaldo', 'Ser un taburete alto'],
     correcta: 0,
@@ -3383,6 +3805,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 446,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Frente a la fatiga visual con pantallas, la pantalla debe colocarse:',
     opciones: ['De forma que se eviten los reflejos y deslumbramientos', 'Frente a una ventana sin cortinas', 'Lo más brillante posible'],
     correcta: 0,
@@ -3391,6 +3814,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 447,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las radiaciones son una manifestación de la energía en forma de:',
     opciones: ['Energía electromagnética (luz visible, infrarrojo, ultravioleta, rayos X...)', 'Energía mecánica', 'Energía química'],
     correcta: 0,
@@ -3399,6 +3823,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 448,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En los agentes físicos, además de su naturaleza e intensidad, es importante:',
     opciones: ['El tiempo de exposición del trabajador', 'El color del uniforme', 'La marca del equipo de medición'],
     correcta: 0,
@@ -3407,6 +3832,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 449,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Concentrar las tareas más ruidosas en recintos aislados es una medida que actúa sobre:',
     opciones: ['Los medios de transmisión del ruido', 'El foco de emisión', 'La edad del trabajador'],
     correcta: 0,
@@ -3415,6 +3841,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 450,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los EPIs de protección auditiva son obligatorios a partir de un nivel de exposición de:',
     opciones: ['85 dB(A)', '80 dB(A)', '87 dB(A)'],
     correcta: 0,
@@ -3423,6 +3850,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 451,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Antes de elegir un EPI, el empresario debe:',
     opciones: ['Analizar y evaluar los riesgos que no puedan evitarse de otra forma', 'Comprar el más barato del mercado', 'Preguntar al proveedor cuál vende más'],
     correcta: 0,
@@ -3431,6 +3859,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 452,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Cuando la presencia de varios riesgos exige llevar varios EPIs a la vez, estos deben:',
     opciones: ['Ser compatibles entre sí y mantener su eficacia frente a cada riesgo', 'Usarse de uno en uno alternándolos', 'Descartarse por incompatibles'],
     correcta: 0,
@@ -3439,6 +3868,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 453,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La energía calorífica como agente físico se manifiesta en forma de:',
     opciones: ['Calor o frío', 'Ruido', 'Radiación ionizante únicamente'],
     correcta: 0,
@@ -3447,6 +3877,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 454,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La iluminación, dentro de los agentes físicos, es importante porque una iluminación deficiente:',
     opciones: ['Favorece la fatiga visual y aumenta el riesgo de accidentes', 'No influye en la seguridad', 'Solo afecta a la estética del local'],
     correcta: 0,
@@ -3455,6 +3886,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 455,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El ruido aleatorio se caracteriza porque:',
     opciones: ['La diferencia entre LpA máximo y mínimo es ≥ 5 dB y LpA varía aleatoriamente en el tiempo', 'Es constante', 'Tiene una cadencia cíclica fija'],
     correcta: 0,
@@ -3463,6 +3895,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 456,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La pérdida de audición por ruido el individuo la percibe cuando:',
     opciones: ['No oye correctamente a los demás en sus conversaciones, aunque no haya ruido ambiente', 'Le duele el oído durante el trabajo', 'Nota mejoría al descansar'],
     correcta: 0,
@@ -3471,6 +3904,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 457,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El empresario, respecto a la formación en el uso de los EPIs, debe:',
     opciones: ['Organizar sesiones de entrenamiento en su utilización si fuera necesario', 'Suponer que el trabajador ya sabe usarlos', 'Delegar la formación en el fabricante siempre'],
     correcta: 0,
@@ -3479,6 +3913,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 458,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En el trabajo con pantallas, para reducir la fatiga se recomienda:',
     opciones: ['Establecer pausas o cambios de actividad que reduzcan la carga de trabajo ante la pantalla', 'No levantarse en toda la jornada', 'Trabajar con la máxima luminosidad y sin descansos'],
     correcta: 0,
@@ -3487,6 +3922,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 459,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El nivel de presión sonora que percibe el oído se denomina:',
     opciones: ['Presión sonora', 'Frecuencia', 'Longitud de onda'],
     correcta: 0,
@@ -3495,6 +3931,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 460,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La formación e información al trabajador sobre su EPI debe incluir:',
     opciones: ['Los riesgos frente a los que le protege y las condiciones de uso y mantenimiento', 'Solo el precio del equipo', 'El nombre del fabricante únicamente'],
     correcta: 0,
@@ -3503,6 +3940,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 461,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Un recinto confinado es un espacio con aberturas limitadas de entrada y salida y:',
     opciones: ['Ventilación natural desfavorable, no concebido para ocupación continuada del trabajador', 'Buena ventilación y ocupación permanente', 'Uso exclusivo de oficinas'],
     correcta: 0,
@@ -3511,6 +3949,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 462,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Son ejemplos de espacios confinados:',
     opciones: ['Pozos, cubas, tanques, alcantarillas, gasómetros y bodegas de barcos', 'Los pasillos y las escaleras', 'Las salas de reuniones'],
     correcta: 0,
@@ -3519,6 +3958,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 463,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre los riesgos específicos de los espacios confinados están:',
     opciones: ['La asfixia, el incendio y explosión y la intoxicación', 'Solo las caídas al mismo nivel', 'Únicamente el ruido'],
     correcta: 0,
@@ -3527,6 +3967,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 464,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La base de todo plan de entrada en un recinto confinado es:',
     opciones: ['La autorización de entrada al recinto', 'La firma de un contrato temporal', 'La presencia de un médico'],
     correcta: 0,
@@ -3535,6 +3976,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 465,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Antes de entrar en un espacio confinado debe medirse y evaluarse la atmósfera interior comprobando:',
     opciones: ['El oxígeno y la presencia de atmósferas inflamables, explosivas o tóxicas', 'Solo la temperatura', 'Únicamente la humedad'],
     correcta: 0,
@@ -3543,6 +3985,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 466,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Una de las medidas preventivas fundamentales para asegurar la inocuidad de la atmósfera de un espacio confinado es:',
     opciones: ['La ventilación', 'Apagar toda la iluminación', 'Sellar completamente el recinto'],
     correcta: 0,
@@ -3551,6 +3994,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 467,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Durante los trabajos en un espacio confinado, la vigilancia externa continuada implica que:',
     opciones: ['Una persona en el exterior mantenga contacto continuo con el trabajador del interior y actúe en emergencias', 'Nadie tenga que estar fuera', 'El vigilante también entre al recinto'],
     correcta: 0,
@@ -3559,6 +4003,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 468,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El trabajador que ocupa el interior de un espacio confinado estará:',
     opciones: ['Sujeto con cuerda de seguridad y arnés desde el exterior', 'Sin ninguna sujeción para moverse mejor', 'Atado a otro compañero del interior'],
     correcta: 0,
@@ -3567,6 +4012,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 469,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El fuego es una reacción química de combustión basada en:',
     opciones: ['Fenómenos de oxidación-reducción, fuertemente exotérmicos', 'Una reacción endotérmica', 'La condensación del vapor'],
     correcta: 0,
@@ -3575,6 +4021,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 470,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los tres elementos del triángulo del fuego son:',
     opciones: ['Combustible, comburente y energía de activación (calor)', 'Combustible, humo y agua', 'Oxígeno, nitrógeno y calor'],
     correcta: 0,
@@ -3583,6 +4030,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 471,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El comburente habitual en los incendios es el oxígeno, presente en el aire en un:',
     opciones: ['21 % sobre el volumen total de aire', '50 % del aire', '78 % del aire'],
     correcta: 0,
@@ -3591,6 +4039,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 472,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La energía de activación o calor es la energía necesaria para que:',
     opciones: ['Un combustible, con el comburente necesario, empiece a emitir vapores inflamables', 'El comburente desaparezca', 'El humo se disipe'],
     correcta: 0,
@@ -3599,6 +4048,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 473,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los fuegos de clase A involucran a:',
     opciones: ['Combustibles ordinarios o fibrosos como madera, papel, tela y ciertos plásticos, que producen brasa', 'Gases', 'Metales reactivos'],
     correcta: 0,
@@ -3607,6 +4057,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 474,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los fuegos de clase D son los de:',
     opciones: ['Metales y compuestos químicos reactivos', 'Líquidos inflamables', 'Papel y cartón'],
     correcta: 0,
@@ -3615,6 +4066,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 475,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La prevención de incendios trata de impedir la materialización del riesgo actuando sobre:',
     opciones: ['Los factores que componen el tetraedro del fuego', 'La plantilla de la empresa', 'El horario de trabajo'],
     correcta: 0,
@@ -3623,6 +4075,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 476,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre los consejos básicos de prevención de incendios está:',
     opciones: ['Colocar los trapos grasientos en contenedores adecuados y mantener las áreas libres de basura', 'Acumular trapos grasientos en un rincón', 'Repostar equipos aún calientes'],
     correcta: 0,
@@ -3631,6 +4084,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 477,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los líquidos inflamables deben utilizarse únicamente:',
     opciones: ['En áreas bien ventiladas', 'En espacios cerrados sin ventilación', 'Cerca de una llama abierta'],
     correcta: 0,
@@ -3639,6 +4093,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 478,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los líquidos inflamables deben almacenarse:',
     opciones: ['En envases herméticos y a prueba de goteos', 'En recipientes abiertos', 'Junto a fuentes de calor'],
     correcta: 0,
@@ -3647,6 +4102,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 479,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El almacenamiento de botellas y botellones de gases a presión se rige por:',
     opciones: ['La ITC-MIE-APQ-005 del Reglamento de almacenamiento de productos químicos', 'El RD 486/1997', 'El Reglamento de baja tensión'],
     correcta: 0,
@@ -3655,6 +4111,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 480,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las botellas de gases deben almacenarse siempre:',
     opciones: ['En posición vertical', 'Tumbadas para ganar estabilidad', 'Apiladas horizontalmente'],
     correcta: 0,
@@ -3663,6 +4120,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 481,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las botellas de gases llenas y vacías:',
     opciones: ['Se almacenarán en grupos separados', 'Se mezclarán para ahorrar espacio', 'Deben apilarse unas sobre otras'],
     correcta: 0,
@@ -3671,6 +4129,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 482,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las botellas de oxígeno y de acetileno deben almacenarse por separado, dejando una distancia mínima de:',
     opciones: ['6 metros, salvo que exista un muro de separación', '1 metro', '20 metros'],
     correcta: 0,
@@ -3679,6 +4138,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 483,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Para detectar fugas en las botellas de gas:',
     opciones: ['No se utilizarán llamas, sino productos adecuados para cada gas', 'Se usará un mechero', 'Se olerá directamente la válvula'],
     correcta: 0,
@@ -3687,6 +4147,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 484,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Almacenar las botellas de gas al sol de forma prolongada:',
     opciones: ['No es recomendable, porque puede aumentar peligrosamente la presión en su interior', 'Es indiferente', 'Es recomendable para secarlas'],
     correcta: 0,
@@ -3695,6 +4156,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 485,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las botellas de gases no deben ubicarse en su almacenamiento en:',
     opciones: ['Locales subterráneos o con comunicación directa con sótanos y huecos de escaleras', 'Zonas ventiladas a nivel del suelo', 'Naves diáfanas'],
     correcta: 0,
@@ -3703,6 +4165,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 486,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Para identificar y diferenciar el contenido de las botellas de gas se emplean:',
     opciones: ['Códigos de colores normalizados', 'Rotuladores de colores libres', 'El olor característico del gas'],
     correcta: 0,
@@ -3711,6 +4174,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 487,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Al mover botellas de gas cuando no se dispone de carretilla, el traslado debe hacerse:',
     opciones: ['Rodándolas en posición vertical sobre su base o peana', 'Arrastrándolas tumbadas', 'Cargándolas al hombro'],
     correcta: 0,
@@ -3719,6 +4183,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 488,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Respecto al manejo de botellas de gas con las manos o guantes grasientos:',
     opciones: ['No debe hacerse', 'Es la forma recomendada', 'Solo se permite con botellas vacías'],
     correcta: 0,
@@ -3727,6 +4192,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 489,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'En las áreas de almacenamiento cerradas de botellas de gas, la ventilación será:',
     opciones: ['Suficiente y permanente', 'Innecesaria', 'Solo durante la carga y descarga'],
     correcta: 0,
@@ -3735,6 +4201,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 490,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Para la carga y descarga de botellas de gas está prohibido:',
     opciones: ['Utilizar elementos de elevación magnéticos o cadenas y eslingas no diseñadas para ello', 'Usar carretillas específicas', 'Emplear cestas homologadas'],
     correcta: 0,
@@ -3743,6 +4210,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 491,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los cuatro métodos de extinción de un incendio son:',
     opciones: ['Enfriamiento, sofocación, eliminación e inhibición', 'Ventilación, presión, humedad y calor', 'Solo enfriamiento y sofocación'],
     correcta: 0,
@@ -3751,6 +4219,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 492,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El método de extinción por enfriamiento consiste en:',
     opciones: ['Rebajar la temperatura hasta que el calor generado no baste para inflamar más combustible', 'Retirar el oxígeno', 'Apartar el combustible'],
     correcta: 0,
@@ -3759,6 +4228,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 493,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La sofocación como método de extinción actúa sobre:',
     opciones: ['El comburente (el oxígeno)', 'La energía de activación', 'El combustible'],
     correcta: 0,
@@ -3767,6 +4237,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 494,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La eliminación como método de extinción consiste en:',
     opciones: ['Actuar sobre el combustible, cortando su flujo o retirándolo de la zona de fuego', 'Reducir el oxígeno', 'Rebajar la temperatura'],
     correcta: 0,
@@ -3775,6 +4246,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 495,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La inhibición como método de extinción consiste en:',
     opciones: ['Neutralizar los radicales libres que provocan la reacción en cadena', 'Enfriar el combustible', 'Tapar el fuego con arena'],
     correcta: 0,
@@ -3783,6 +4255,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 496,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El agente extintor con mayor poder refrigerante es:',
     opciones: ['El agua', 'El polvo químico', 'El anhídrido carbónico'],
     correcta: 0,
@@ -3791,6 +4264,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 497,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre los inconvenientes del agua como agente extintor está que:',
     opciones: ['Conduce la corriente eléctrica y no es utilizable frente a fuegos de metales', 'No absorbe calor', 'Es incompatible con el papel'],
     correcta: 0,
@@ -3799,6 +4273,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 498,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las espumas extintoras son:',
     opciones: ['Burbujas de aire formadas a partir de soluciones acuosas de agentes espumantes', 'Sales inorgánicas pulverizadas', 'Un gas inerte licuado'],
     correcta: 0,
@@ -3807,6 +4282,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 499,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Un inconveniente de las espumas como agente extintor es que:',
     opciones: ['Son conductoras de la corriente eléctrica y no deben aplicarse sobre metales', 'No apagan líquidos', 'Congelan el combustible'],
     correcta: 0,
@@ -3815,6 +4291,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 500,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los polvos químicos extintores son:',
     opciones: ['Sales inorgánicas finamente pulverizadas (bicarbonato sódico, fosfato monoamónico...)', 'Agua con aditivos', 'Gas comprimido'],
     correcta: 0,
@@ -3823,6 +4300,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 501,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El polvo químico actúa principalmente por:',
     opciones: ['Sofocación e inhibición de la reacción en cadena', 'Solo enfriamiento', 'Solo eliminación del combustible'],
     correcta: 0,
@@ -3831,6 +4309,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 502,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Un inconveniente del polvo químico es que:',
     opciones: ['Es abrasivo y no se recomienda en presencia de equipos delicados eléctricos o mecánicos', 'Conduce muy bien la electricidad', 'Es tóxico como el halón'],
     correcta: 0,
@@ -3839,6 +4318,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 503,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El anhídrido carbónico (CO2) como agente extintor tiene su mayor aplicación en fuegos:',
     opciones: ['Con presencia de electricidad, por no ser conductor y no dejar residuos', 'De metales', 'De grandes brasas en exterior'],
     correcta: 0,
@@ -3847,6 +4327,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 504,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Un inconveniente del CO2 como agente extintor es que:',
     opciones: ['Es asfixiante en concentraciones superiores al 9 % y poco eficaz frente a brasas', 'Deja muchos residuos', 'Conduce la electricidad'],
     correcta: 0,
@@ -3855,6 +4336,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 505,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El CO2 extingue, entre otros mecanismos, por enfriamiento porque:',
     opciones: ['Al descargarse, el anhídrido líquido se expande rápidamente y produce un gran descenso de temperatura', 'Aporta oxígeno frío', 'Genera espuma'],
     correcta: 0,
@@ -3863,6 +4345,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 506,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los compuestos halogenados (halones) actúan en la extinción como:',
     opciones: ['Paralizadores de la reacción en cadena (inhibición)', 'Refrigerantes exclusivamente', 'Sofocantes por espuma'],
     correcta: 0,
@@ -3871,6 +4354,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 507,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Un grave inconveniente de los compuestos halogenados es que:',
     opciones: ['Son altamente tóxicos a temperaturas elevadas y perjudican la capa de ozono', 'No apagan ningún fuego', 'Son excelentes conductores del calor'],
     correcta: 0,
@@ -3879,6 +4363,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 508,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Un extintor se define como:',
     opciones: ['Un recipiente que permite el almacenamiento, la impulsión y la dirección de un agente extintor sobre el fuego', 'Una manguera conectada a la red', 'Un detector de humos'],
     correcta: 0,
@@ -3887,6 +4372,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 509,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El agua, además de por enfriamiento, puede extinguir por:',
     opciones: ['Sofocación, al desplazar el oxígeno cuando se vaporiza', 'Inhibición de radicales libres', 'Corte del combustible'],
     correcta: 0,
@@ -3895,6 +4381,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 510,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La detección de un incendio debe ser:',
     opciones: ['Lo más rápida posible para detectar un conato', 'Indiferente en el tiempo', 'Posterior a la evacuación'],
     correcta: 0,
@@ -3903,6 +4390,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 511,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El agua resulta inefectiva ante la mayoría de los combustibles líquidos porque:',
     opciones: ['Tiene más densidad que ellos y tiende a dispersarlos', 'Se evapora demasiado despacio', 'No absorbe calor'],
     correcta: 0,
@@ -3911,6 +4399,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 512,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La sofocación mediante una manta ignífuga sobre el combustible actúa:',
     opciones: ['Evitando la aportación de oxígeno al combustible', 'Enfriando la llama', 'Rompiendo la reacción en cadena'],
     correcta: 0,
@@ -3919,6 +4408,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 513,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'La sofocación por gas inerte se logra proyectando:',
     opciones: ['Nitrógeno o dióxido de carbono para bajar el oxígeno por debajo del mínimo', 'Oxígeno puro', 'Vapor de agua caliente'],
     correcta: 0,
@@ -3927,6 +4417,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 514,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los halones se vuelven especialmente peligrosos en concentraciones superiores al:',
     opciones: ['7 % sobre el volumen total del aire', '21 %', '50 %'],
     correcta: 0,
@@ -3935,6 +4426,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 515,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Entre los inconvenientes del agua está el riesgo de:',
     opciones: ['Congelación a bajas temperaturas y de causar importantes daños materiales', 'Provocar explosiones en cualquier fuego', 'Aumentar la reacción en cadena'],
     correcta: 0,
@@ -3943,6 +4435,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 516,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El polvo químico, al descargarse, sofoca porque:',
     opciones: ['Se descompone produciendo un residuo que aísla el combustible', 'Genera abundante agua', 'Enfría por debajo de cero'],
     correcta: 0,
@@ -3951,6 +4444,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 517,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Los agentes extintores se definen como sustancias que:',
     opciones: ['Proyectadas sobre los combustibles en ignición o sus proximidades provocan la eliminación del incendio', 'Solo sirven para prevenir', 'Aumentan la temperatura del fuego'],
     correcta: 0,
@@ -3959,6 +4453,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 518,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'Las espumas extinguen también por eliminación porque:',
     opciones: ['Desplazan las llamas, separándolas del combustible', 'Aportan oxígeno', 'Calientan el combustible'],
     correcta: 0,
@@ -3967,6 +4462,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 519,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El extintor elegido para una zona debe:',
     opciones: ['Ser el adecuado al tipo de fuego previsible en esa zona', 'Ser siempre de agua', 'Ser el más grande disponible'],
     correcta: 0,
@@ -3975,6 +4471,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 520,
     tema: 'prl',
+    fuente: 'ia',
     enunciado: 'El polvo químico es, respecto a la conducción eléctrica:',
     opciones: ['Mal conductor, aunque no se recomienda cerca de equipos eléctricos delicados por ser abrasivo', 'Excelente conductor', 'Idéntico al agua'],
     correcta: 0,
@@ -3983,6 +4480,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 521,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: '¿Qué regula el presente Convenio Colectivo de la FNMT-RCM?',
     opciones: ['Las relaciones de trabajo entre la FNMT-RCM y su personal laboral', 'Solo las retribuciones de los directivos', 'La actividad comercial de la empresa'],
     correcta: 0,
@@ -3991,6 +4489,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 522,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El ámbito territorial del Convenio abarca:',
     opciones: ['Todos los centros de trabajo de la FNMT-RCM dentro del territorio del Estado español', 'Solo el centro de Madrid', 'Únicamente los centros de la Unión Europea'],
     correcta: 0,
@@ -3999,6 +4498,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 523,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El personal temporal de la FNMT-RCM:',
     opciones: ['Disfruta de los mismos derechos y obligaciones que el personal fijo, salvo los casos especiales del artículo 13', 'Tiene menos derechos que el fijo en todo caso', 'No se rige por este convenio'],
     correcta: 0,
@@ -4007,6 +4507,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 524,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: '¿Cuándo entra en vigor el Convenio Colectivo?',
     opciones: ['Al día siguiente de su publicación en el Boletín Oficial del Estado', 'El 1 de enero del año siguiente', 'En el momento de su firma'],
     correcta: 0,
@@ -4015,6 +4516,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 525,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En razón de la permanencia, el personal de la FNMT-RCM se clasifica en:',
     opciones: ['Personal fijo y personal temporal', 'Personal titular y suplente', 'Personal de plantilla y de contrata'],
     correcta: 0,
@@ -4023,6 +4525,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 526,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La Comisión Paritaria del Convenio está integrada por:',
     opciones: ['Seis representantes de la dirección y seis de los trabajadores, más dos asesores por cada parte', 'Tres de cada parte', 'Solo representantes de la dirección'],
     correcta: 0,
@@ -4031,6 +4534,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 527,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Entre las funciones de la Comisión Paritaria está:',
     opciones: ['Interpretar, conciliar, arbitrar y vigilar los problemas derivados del Convenio', 'Fijar los precios de los productos', 'Nombrar a la Dirección General'],
     correcta: 0,
@@ -4039,6 +4543,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 528,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El catálogo de la FNMT-RCM es:',
     opciones: ['La relación numérica de los puestos de trabajo ordenados por grupos profesionales y categorías', 'La lista de proveedores', 'El inventario de maquinaria'],
     correcta: 0,
@@ -4047,6 +4552,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 529,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La relación numérica del catálogo se comunica a la representación de los trabajadores para que emitan su informe en el plazo de:',
     opciones: ['Cinco días laborales', 'Quince días naturales', 'Un mes'],
     correcta: 0,
@@ -4055,6 +4561,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 530,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La relación del personal clasificado por grupos, categoría y antigüedad se presenta:',
     opciones: ['Cada año, dentro del primer trimestre', 'Cada dos años', 'Solo cuando lo pida la plantilla'],
     correcta: 0,
@@ -4063,6 +4570,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 531,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La relación del personal permanecerá expuesta durante:',
     opciones: ['Treinta días', 'Diez días', 'Un trimestre'],
     correcta: 0,
@@ -4071,6 +4579,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 532,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los 22 días laborables continuados de vacaciones se disfrutan, como norma general, en:',
     opciones: ['El mes de agosto, excepto los servicios imprescindibles', 'El mes de julio', 'El período navideño'],
     correcta: 0,
@@ -4079,6 +4588,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 533,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El personal de nuevo ingreso o cese definitivo durante el año tiene derecho a las vacaciones:',
     opciones: ['En la parte proporcional según los meses trabajados', 'Completas en todo caso', 'Solo si trabaja más de seis meses'],
     correcta: 0,
@@ -4087,6 +4597,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 534,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El permiso por nacimiento se incrementa proporcionalmente en caso de:',
     opciones: ['Parto múltiple', 'Primer hijo', 'Familia numerosa ya reconocida'],
     correcta: 0,
@@ -4095,6 +4606,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 535,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Por nacimiento de hijos prematuros u hospitalizados tras el parto, el trabajador tiene derecho a:',
     opciones: ['Ausentarse del trabajo durante el tiempo que establece el convenio para esa situación', 'No hay ningún permiso específico', 'Un único día de permiso'],
     correcta: 0,
@@ -4103,6 +4615,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 536,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El acceso a la FNMT-RCM se realiza mediante pruebas según los principios de:',
     opciones: ['Publicidad, igualdad, mérito y capacidad', 'Antigüedad y afinidad', 'Libre designación de la Dirección'],
     correcta: 0,
@@ -4111,6 +4624,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 537,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Según la naturaleza del trabajo, el personal se clasifica en grupos que incluyen:',
     opciones: ['Personal con mando, técnico, administrativo, operario y subalterno', 'Solo operarios y administrativos', 'Únicamente personal directivo'],
     correcta: 0,
@@ -4119,6 +4633,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 538,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La FNMT-RCM no podrá contratar a jóvenes en jornada completa con retribuciones de referencia inferiores a:',
     opciones: ['Las del nivel salarial 1 del Convenio', 'El salario mínimo interprofesional menos un 20 %', 'La mitad del nivel salarial 2'],
     correcta: 0,
@@ -4127,6 +4642,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 539,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los justificantes de un permiso deben presentarse en Recursos Humanos en un plazo de:',
     opciones: ['48 horas tras la reincorporación', '24 horas tras la reincorporación', 'Una semana'],
     correcta: 0,
@@ -4135,6 +4651,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 540,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las relaciones de categorías profesionales del convenio son:',
     opciones: ['Meramente indicativas, sin obligar a la FNMT a cubrirlas todas', 'De obligado cumplimiento en su totalidad', 'Fijadas por el Ministerio de Hacienda'],
     correcta: 0,
@@ -4143,6 +4660,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 541,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La modificación temporal de la jornada adopta, para los centros de Madrid, la forma denominada:',
     opciones: ['Semana industrial', 'Turno partido', 'Jornada intensiva permanente'],
     correcta: 0,
@@ -4151,6 +4669,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 542,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La modificación temporal de la distribución de la jornada máxima anual:',
     opciones: ['No puede superar la jornada máxima anual pactada en el convenio', 'Puede aumentar libremente las horas anuales', 'Solo se aplica al personal directivo'],
     correcta: 0,
@@ -4159,6 +4678,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 543,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las subclases de cada grupo profesional y su nivel salarial quedan reflejadas en:',
     opciones: ['El anexo I del convenio', 'El anexo VI', 'El Estatuto de los Trabajadores'],
     correcta: 0,
@@ -4167,6 +4687,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 544,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El seguimiento de los procesos selectivos de las bolsas de trabajo lo realiza:',
     opciones: ['La Comisión de Bolsas recogida en el anexo VI', 'El Consejo Rector', 'La Inspección de Trabajo'],
     correcta: 0,
@@ -4175,6 +4696,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 545,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En ausencia de bolsa o cuando esté agotada, y por razones de urgencia, se podrá solicitar candidatos, con carácter excepcional, a:',
     opciones: ['El Servicio Público de Empleo Estatal', 'Una empresa de trabajo temporal privada', 'La universidad más cercana'],
     correcta: 0,
@@ -4183,6 +4705,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 546,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El personal con categoría igual o superior a Jefe de Servicio se rige:',
     opciones: ['Por su contrato y, subsidiariamente, por este convenio', 'Únicamente por el convenio', 'Por el Estatuto Básico del Empleado Público en exclusiva'],
     correcta: 0,
@@ -4191,6 +4714,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 547,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El Convenio se prorrogará anualmente si no se denuncia con una antelación de:',
     opciones: ['Dos meses al término de su vigencia', 'Seis meses', 'Quince días'],
     correcta: 0,
@@ -4199,6 +4723,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 548,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La Comisión Mixta de Valoración tiene como misión:',
     opciones: ['Revisar semestralmente las valoraciones de puestos de nueva creación o con variación definitiva de funciones', 'Fijar el calendario de vacaciones', 'Sancionar a los trabajadores'],
     correcta: 0,
@@ -4207,6 +4732,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 549,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En caso de desacuerdo en la Comisión Mixta de Valoración:',
     opciones: ['Se nombrará una tercera persona o institución como árbitro', 'Decide la Dirección unilateralmente', 'Se paraliza toda valoración indefinidamente'],
     correcta: 0,
@@ -4215,6 +4741,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 550,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Un trabajador con un nivel salarial asignado superior al del puesto que desempeña:',
     opciones: ['Mantiene ese nivel salarial', 'Pierde el nivel superior al cambiar de puesto', 'Debe renunciar a la diferencia'],
     correcta: 0,
@@ -4223,6 +4750,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 551,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La jornada máxima anual en la FNMT-RCM es de:',
     opciones: ['1.547 horas', '1.642 horas', '1.780 horas'],
     correcta: 0,
@@ -4231,6 +4759,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 552,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Como regla general, la jornada diaria será de:',
     opciones: ['Siete horas, en régimen de continuada de lunes a viernes', 'Ocho horas partidas', 'Seis horas de lunes a sábado'],
     correcta: 0,
@@ -4239,6 +4768,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 553,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En los fichajes de entrada se conceden:',
     opciones: ['7 minutos de cortesía', '15 minutos de cortesía', 'Ningún minuto de cortesía'],
     correcta: 0,
@@ -4247,6 +4777,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 554,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En el centro de Madrid, el turno de mañana con carácter general es:',
     opciones: ['De 07:00 a 14:00 horas', 'De 06:00 a 14:00 horas', 'De 08:00 a 15:00 horas'],
     correcta: 0,
@@ -4255,6 +4786,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 555,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En el centro de Burgos, el sistema a tres, cuatro o cinco turnos tiene el turno de noche:',
     opciones: ['De 22:00 a 06:00 horas', 'De 00:00 a 07:00 horas', 'De 23:00 a 07:00 horas'],
     correcta: 0,
@@ -4263,6 +4795,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 556,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Entre una jornada y la siguiente mediará, en todo caso, un descanso de:',
     opciones: ['Doce horas', 'Ocho horas', 'Veinticuatro horas'],
     correcta: 0,
@@ -4271,6 +4804,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 557,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La pausa diaria que se considera como trabajo efectivo es de:',
     opciones: ['Treinta minutos', 'Quince minutos', 'Una hora'],
     correcta: 0,
@@ -4279,6 +4813,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 558,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En el trabajo a turnos, salvo adscripción voluntaria, no se sobrepasará la estancia en el turno de noche de:',
     opciones: ['Quince días', 'Un mes', 'Una semana'],
     correcta: 0,
@@ -4287,6 +4822,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 559,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las trabajadoras en estado gestante, respecto al trabajo nocturno:',
     opciones: ['Podrán no realizarlo a petición propia cuando existan diversos turnos', 'Están obligadas a realizarlo igual', 'Solo pueden trabajar de noche'],
     correcta: 0,
@@ -4295,6 +4831,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 560,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El período de vacaciones retributivas es de:',
     opciones: ['Veinticinco días laborables', 'Treinta días naturales', 'Veintidós días laborables'],
     correcta: 0,
@@ -4303,6 +4840,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 561,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las vacaciones deben disfrutarse:',
     opciones: ['Dentro del año natural correspondiente, sin compensarse en metálico salvo fin de la relación laboral', 'Cuando el trabajador quiera, incluso años después', 'Siempre en metálico'],
     correcta: 0,
@@ -4311,6 +4849,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 562,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El permiso por matrimonio es de:',
     opciones: ['Quince días naturales', 'Veinte días naturales', 'Diez días hábiles'],
     correcta: 0,
@@ -4319,6 +4858,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 563,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Por fallecimiento o enfermedad grave de un familiar de primer grado en la misma localidad, el permiso es de:',
     opciones: ['Tres días hábiles', 'Dos días hábiles', 'Cinco días hábiles'],
     correcta: 0,
@@ -4327,6 +4867,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 564,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Por traslado del domicilio habitual, el permiso es de:',
     opciones: ['Un día si es dentro de la localidad y dos si es fuera', 'Siempre tres días', 'Una semana'],
     correcta: 0,
@@ -4335,6 +4876,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 565,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los días por asuntos particulares (no incluidos en otros apartados) son:',
     opciones: ['Seis días cada año natural', 'Cuatro días', 'Diez días'],
     correcta: 0,
@@ -4343,6 +4885,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 566,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los días 24 y 31 de diciembre, según el convenio:',
     opciones: ['Son permiso retribuido, y si caen en sábado o domingo se sustituyen por días laborables próximos', 'Son días de trabajo normal', 'Se descuentan de vacaciones'],
     correcta: 0,
@@ -4351,6 +4894,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 567,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La excedencia voluntaria por interés particular puede solicitarse con una antigüedad mínima como fijo de:',
     opciones: ['Un año', 'Dos años', 'Seis meses'],
     correcta: 0,
@@ -4359,6 +4903,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 568,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La duración de la excedencia voluntaria por interés particular:',
     opciones: ['No podrá ser inferior a cuatro meses ni superior a cinco años', 'Es siempre de un año exacto', 'No tiene límite de tiempo'],
     correcta: 0,
@@ -4367,6 +4912,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 569,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La excedencia por cuidado de familiares tiene una duración no superior a:',
     opciones: ['Tres años', 'Un año', 'Cinco años'],
     correcta: 0,
@@ -4375,6 +4921,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 570,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El período de prueba del personal operario y subalterno es de:',
     opciones: ['15 días', 'Dos meses', 'Seis meses'],
     correcta: 0,
@@ -4383,6 +4930,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 571,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El personal se clasifica en cinco grupos profesionales; entre ellos están:',
     opciones: ['Personal con mando, técnico, administrativo, operario y subalterno', 'Fijos, temporales y becarios', 'Directivos, mandos y externos'],
     correcta: 0,
@@ -4391,6 +4939,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 572,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La retribución del personal de la FNMT-RCM incluye, entre sus conceptos:',
     opciones: ['Salario base, salario lineal y complementos salariales', 'Solo el salario base', 'Únicamente comisiones por ventas'],
     correcta: 0,
@@ -4399,6 +4948,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 573,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las pagas extraordinarias se abonan en los meses de:',
     opciones: ['Marzo, junio, septiembre y diciembre', 'Junio y diciembre', 'Enero y julio'],
     correcta: 0,
@@ -4407,6 +4957,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 574,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Cada paga extraordinaria consiste en el pago de:',
     opciones: ['Veintiocho días de salario base y antigüedad', 'Treinta días de salario completo', 'Quince días de salario real'],
     correcta: 0,
@@ -4415,6 +4966,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 575,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El plus de nocturnidad se percibe por el trabajo realizado entre:',
     opciones: ['Las diez de la noche y las seis de la mañana', 'Las nueve de la noche y las siete de la mañana', 'Las doce de la noche y las ocho de la mañana'],
     correcta: 0,
@@ -4423,6 +4975,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 576,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La cuantía del plus de nocturnidad es del:',
     opciones: ['25 por 100 del salario base sobre el tiempo efectivamente trabajado', '10 por 100 del salario base', '50 por 100 del salario base'],
     correcta: 0,
@@ -4431,6 +4984,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 577,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El plus de trabajos tóxicos, penosos o peligrosos tiene una cuantía del:',
     opciones: ['20 por 100 del salario base sobre el tiempo efectivamente trabajado', '25 por 100 del salario base', '15 por 100 del salario base'],
     correcta: 0,
@@ -4439,6 +4993,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 578,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El número máximo de horas extraordinarias en días laborables es de:',
     opciones: ['4,5 horas', '8 horas', '2 horas'],
     correcta: 0,
@@ -4447,6 +5002,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 579,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las trabajadoras gestantes o en permiso de lactancia, respecto a las horas extraordinarias:',
     opciones: ['No podrán realizarlas', 'Deben realizarlas si se lo piden', 'Solo pueden hacerlas de noche'],
     correcta: 0,
@@ -4455,6 +5011,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 580,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La Medalla de Plata se otorga a los trabajadores que cumplan:',
     opciones: ['Veinticinco años de servicios, con premio de quince días de salario real', 'Treinta y cinco años, con una mensualidad', 'Cuarenta años, con dos mensualidades'],
     correcta: 0,
@@ -4463,6 +5020,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 581,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El Premio de Constancia se concede al cumplir:',
     opciones: ['Cuarenta años de servicios, con dos mensualidades de salario real', 'Veinticinco años, con quince días', 'Treinta años, con una mensualidad'],
     correcta: 0,
@@ -4471,6 +5029,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 582,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los representantes de los trabajadores disponen de un crédito de horas mensuales de:',
     opciones: ['Hasta sesenta horas laborables al mes cada uno', 'Quince horas al mes', 'Cuarenta horas al mes'],
     correcta: 0,
@@ -4479,6 +5038,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 583,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El Comité Intercentros de la FNMT-RCM está formado por:',
     opciones: ['13 miembros, respetando la proporcionalidad de los resultados electorales', '6 miembros', '20 miembros'],
     correcta: 0,
@@ -4487,6 +5047,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 584,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En movilidad geográfica forzosa, el traslado se comunica al trabajador con una antelación mínima de:',
     opciones: ['Treinta días a su incorporación', 'Quince días', 'Una semana'],
     correcta: 0,
@@ -4495,6 +5056,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 585,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El preaviso de cese voluntario para el personal con mando, técnicos y administrativos es de:',
     opciones: ['Un mes', 'Quince días', 'Tres meses'],
     correcta: 0,
@@ -4503,6 +5065,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 586,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La actividad normal de un operario corresponde, en los sistemas de medición, a los índices:',
     opciones: ['100 ó 60', '140 u 80', '50 ó 30'],
     correcta: 0,
@@ -4511,6 +5074,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 587,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La actividad óptima es superior a la normal en un:',
     opciones: ['40 por 100', '25 por 100', '10 por 100'],
     correcta: 0,
@@ -4519,6 +5083,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 588,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los trabajadores podrán obtener anticipos de salario de hasta:',
     opciones: ['El 100 por 100 de la cantidad líquida devengada, con un máximo de tres al mes', 'El 50 por 100, una vez al mes', 'El 25 por 100, sin límite'],
     correcta: 0,
@@ -4527,6 +5092,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 589,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Para el personal de nuevo ingreso, la dotación inicial de ropa de trabajo será de:',
     opciones: ['Tres equipos', 'Un equipo', 'Cinco equipos'],
     correcta: 0,
@@ -4535,6 +5101,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 590,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La FNMT-RCM abona la nómina:',
     opciones: ['El penúltimo día hábil de cada mes', 'El primer día del mes siguiente', 'El día 15 de cada mes'],
     correcta: 0,
@@ -4543,6 +5110,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 591,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En baja por enfermedad común o accidente no laboral, la FNMT-RCM abona la diferencia con la Seguridad Social:',
     opciones: ['Desde el primer día', 'A partir del cuarto día', 'Solo si la baja supera un mes'],
     correcta: 0,
@@ -4551,6 +5119,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 592,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las bajas por IT que excedan de dos en un mes o seis en el año, en los tres primeros días:',
     opciones: ['No perciben salario alguno, salvo excepciones como larga enfermedad o patologías crónicas', 'Se pagan al 100 % igualmente', 'Suponen el despido del trabajador'],
     correcta: 0,
@@ -4559,6 +5128,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 593,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En baja por accidente de trabajo o enfermedad profesional, el trabajador percibe desde el primer día:',
     opciones: ['El 100 % del salario base, antigüedad, salario lineal, productividad y complementos de puesto', 'Solo el 60 % del salario base', 'La prestación de la Seguridad Social sin complemento'],
     correcta: 0,
@@ -4567,6 +5137,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 594,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El trabajador que no pueda asistir por enfermedad debe comunicarlo al Departamento de Personal:',
     opciones: ['Telefónicamente, antes de las diez de la mañana, seis de la tarde o dos de la madrugada según el turno', 'Solo por escrito y en 48 horas', 'Al día siguiente sin más'],
     correcta: 0,
@@ -4575,6 +5146,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 595,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La FNMT-RCM puede practicar reconocimiento médico al trabajador que se reincorpora tras una ausencia superior a:',
     opciones: ['Un mes, cualquiera que haya sido la causa', 'Una semana', 'Tres meses'],
     correcta: 0,
@@ -4583,6 +5155,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 596,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El Comité de Empresa de la FNMT-RCM es:',
     opciones: ['El máximo órgano representativo de los trabajadores, elegido democráticamente', 'Un órgano designado por la Dirección', 'Una comisión del Ministerio de Hacienda'],
     correcta: 0,
@@ -4591,6 +5164,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 597,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El Comité de Empresa conocerá las estadísticas de absentismo, accidentes y siniestralidad:',
     opciones: ['Al menos trimestralmente', 'Una vez al año', 'Solo si lo pide la Dirección'],
     correcta: 0,
@@ -4599,6 +5173,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 598,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El Comité de Empresa recibe información escrita sobre la situación económica, producción y ventas:',
     opciones: ['Trimestralmente', 'Mensualmente', 'Anualmente'],
     correcta: 0,
@@ -4607,6 +5182,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 599,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El miembro de la representación elegido Secretario:',
     opciones: ['Goza de dedicación plena a tiempo total mientras dure el mandato sindical', 'No tiene ninguna liberación horaria', 'Solo dispone de 20 horas al mes'],
     correcta: 0,
@@ -4615,6 +5191,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 600,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El crédito de horas sindicales:',
     opciones: ['Puede acumularse dentro del mismo mes, pero no de un mes para otro', 'Se acumula libremente de un mes a otro', 'No permite ninguna acumulación'],
     correcta: 0,
@@ -4623,6 +5200,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 601,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El Comité Intercentros se reunirá al menos:',
     opciones: ['Dos veces al año, sin sobrepasar ocho reuniones en ese período', 'Una vez al mes', 'Cada trimestre'],
     correcta: 0,
@@ -4631,6 +5209,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 602,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Según la escala del convenio, una empresa de 751 a 2.000 trabajadores tiene un número de delegados sindicales de:',
     opciones: ['Tres', 'Dos', 'Cuatro'],
     correcta: 0,
@@ -4639,6 +5218,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 603,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La Medalla de Oro se otorga a los trabajadores que cumplan:',
     opciones: ['Treinta y cinco años de servicios, con una mensualidad de salario real', 'Veinticinco años, con quince días', 'Cuarenta años, con dos mensualidades'],
     correcta: 0,
@@ -4647,6 +5227,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 604,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El Premio de iniciativas y sugerencias:',
     opciones: ['Puede quedar desierto', 'Se reparte obligatoriamente cada año', 'Es siempre individual'],
     correcta: 0,
@@ -4655,6 +5236,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 605,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El fondo de donativos para gastos de urgente necesidad tiene una cuantía de:',
     opciones: ['6.010 euros', '15.000 euros', '300.000 euros'],
     correcta: 0,
@@ -4663,6 +5245,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 606,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La Comisión de Relaciones Humanas y Sanidad está formada por:',
     opciones: ['Seis miembros, tres de la representación de los trabajadores y tres de la Dirección', 'Diez miembros', 'Solo representantes de la Dirección'],
     correcta: 0,
@@ -4671,6 +5254,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 607,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La Comisión de Relaciones Humanas puede conceder anticipos de:',
     opciones: ['Hasta seis mensualidades de salario, a amortizar en doce meses sin intereses', 'Hasta doce mensualidades sin devolución', 'Solo una mensualidad'],
     correcta: 0,
@@ -4679,6 +5263,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 608,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La FNMT-RCM tiene contratada, para el personal y beneficiarios:',
     opciones: ['Una póliza sanitaria que incluye una póliza odontológica', 'Solo un seguro de vida', 'Ninguna cobertura sanitaria privada'],
     correcta: 0,
@@ -4687,6 +5272,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 609,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los trienios y quinquenios por antigüedad se calculan como:',
     opciones: ['La suma del 2,11 % del salario base más el 5 % del salario lineal', 'Un porcentaje fijo igual para todos', 'Solo sobre el salario base'],
     correcta: 0,
@@ -4695,6 +5281,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 610,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Si un trabajador cesa por sanción o por voluntad sin pedir excedencia y luego reingresa, su antigüedad:',
     opciones: ['Se computa desde la fecha del último ingreso, perdiendo la anterior', 'Se conserva íntegra', 'Se duplica'],
     correcta: 0,
@@ -4703,6 +5290,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 611,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'No tienen la consideración de salario:',
     opciones: ['Las dietas, gastos de viaje, prestaciones de la Seguridad Social e indemnizaciones por traslado o despido', 'El salario base y el lineal', 'El complemento de productividad'],
     correcta: 0,
@@ -4711,6 +5299,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 612,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El plus de turnicidad lo perciben los trabajadores que:',
     opciones: ['Experimenten al menos un cambio efectivo de turno en un mes natural por la organización a turnos', 'Trabajen solo de mañana', 'Hagan horas extraordinarias'],
     correcta: 0,
@@ -4719,6 +5308,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 613,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las horas extraordinarias pueden compensarse con descanso retribuido, incrementado en un:',
     opciones: ['75 por 100, dentro de los 120 días siguientes y con preaviso de una semana', '25 por 100', '100 por 100 al mes siguiente'],
     correcta: 0,
@@ -4727,6 +5317,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 614,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La FNMT-RCM es Entidad Promotora del:',
     opciones: ['Plan de Pensiones de la Administración General del Estado', 'Un fondo de inversión privado', 'Un plan de pensiones individual de cada trabajador'],
     correcta: 0,
@@ -4735,6 +5326,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 615,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El pago del salario se efectúa mediante:',
     opciones: ['Transferencia o cheque bancario, dentro de la jornada normal de trabajo', 'Solo en efectivo', 'Cualquier medio que elija el trabajador'],
     correcta: 0,
@@ -4743,6 +5335,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 616,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La Comisión Paritaria celebra, con carácter ordinario:',
     opciones: ['Una reunión mensual', 'Una reunión trimestral', 'Una reunión semanal'],
     correcta: 0,
@@ -4751,6 +5344,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 617,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las decisiones de la Comisión Paritaria se toman en el plazo de:',
     opciones: ['Un mes desde que se le somete el asunto', 'Una semana', 'Cuarenta y ocho horas'],
     correcta: 0,
@@ -4759,6 +5353,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 618,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La experimentación de nuevas normas de organización y producción se limita a un máximo de:',
     opciones: ['Diez semanas', 'Cuatro semanas', 'Seis meses'],
     correcta: 0,
@@ -4767,6 +5362,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 619,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La adquisición de nueva maquinaria: la Declaración de Conformidad y el Manual se remiten a los Delegados de Prevención, antes de su puesta en marcha, con una antelación de:',
     opciones: ['Al menos 20 días hábiles', '48 horas', 'Una semana'],
     correcta: 0,
@@ -4775,6 +5371,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 620,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Todo recipiente con productos o materias primas deberá llevar una etiqueta a la vista:',
     opciones: ['Redactada en idioma español, con el nombre, origen y peligros potenciales', 'Solo con el nombre comercial', 'En el idioma del fabricante'],
     correcta: 0,
@@ -4783,6 +5380,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 621,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Según el convenio, el Servicio de Prevención de la FNMT-RCM es:',
     opciones: ['Un Servicio de Prevención propio', 'Un servicio de prevención ajeno contratado', 'Un trabajador designado únicamente'],
     correcta: 0,
@@ -4791,6 +5389,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 622,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El Comité de Seguridad y Salud se define como:',
     opciones: ['El órgano paritario y colegiado de participación para la consulta regular de la prevención', 'Un órgano exclusivo de la Dirección', 'Una comisión de la Inspección de Trabajo'],
     correcta: 0,
@@ -4799,6 +5398,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 623,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El Comité de Seguridad y Salud se reúne, con carácter ordinario:',
     opciones: ['Trimestralmente en Madrid y en Burgos', 'Mensualmente', 'Solo una vez al año'],
     correcta: 0,
@@ -4807,6 +5407,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 624,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La ropa de trabajo entregada por la FNMT-RCM:',
     opciones: ['Debe usarse obligatoriamente durante la jornada de trabajo', 'Es de uso opcional', 'Solo se usa en actos oficiales'],
     correcta: 0,
@@ -4815,6 +5416,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 625,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El plus de trabajo continuado en 4 ó 5 turnos se abona por:',
     opciones: ['Sábado, domingo o festivo trabajados en los sistemas de producción continuado de la Fábrica de Papel de Burgos', 'Cualquier hora extra', 'Trabajar solo de mañana'],
     correcta: 0,
@@ -4823,6 +5425,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 626,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los trabajos de inferior categoría por necesidades perentorias no podrán superar:',
     opciones: ['Cuatro meses dentro del mismo año, salvo adscripción voluntaria o acuerdo de la Comisión Paritaria', 'Seis meses', 'Un año'],
     correcta: 0,
@@ -4831,6 +5434,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 627,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En trabajos de superior categoría, el trabajador tiene derecho a:',
     opciones: ['La diferencia retributiva total entre su categoría y la función que realiza', 'Ninguna diferencia salarial', 'El doble de su salario'],
     correcta: 0,
@@ -4839,6 +5443,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 628,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El trabajador que estime que desempeña funciones de categoría superior debe reclamar ante la Comisión Paritaria en un plazo máximo de:',
     opciones: ['18 semanas desde el inicio de las funciones', '48 horas', 'Un año'],
     correcta: 0,
@@ -4847,6 +5452,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 629,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En comisión de servicio, si se pernocta fuera de la residencia oficial pero dura menos de 24 horas:',
     opciones: ['Se abona únicamente una dieta entera', 'Se abonan dos dietas', 'No se abona nada'],
     correcta: 0,
@@ -4855,6 +5461,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 630,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las dietas por comisión de servicio se rigen por las cuantías del:',
     opciones: ['Real Decreto 462/2002, sobre indemnizaciones por razón del servicio', 'Convenio de la construcción', 'Estatuto de los Trabajadores'],
     correcta: 0,
@@ -4863,6 +5470,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 631,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El permiso por nacimiento de hijo (para el progenitor distinto de la madre biológica) es una suspensión del contrato de:',
     opciones: ['Trece días ininterrumpidos, ampliables en dos días por cada hijo a partir del segundo en parto múltiple', 'Cinco días', 'Un mes'],
     correcta: 0,
@@ -4871,6 +5479,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 632,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El permiso de maternidad es un período de suspensión con reserva de puesto de:',
     opciones: ['Dieciséis semanas ininterrumpidas, ampliables en dos más por discapacidad del hijo o por cada hijo desde el segundo en parto múltiple', 'Doce semanas', 'Veinte semanas'],
     correcta: 0,
@@ -4879,6 +5488,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 633,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Del permiso de maternidad, el período obligatorio para la madre es de:',
     opciones: ['Seis semanas inmediatamente posteriores al parto', 'Dos semanas', 'Diez semanas'],
     correcta: 0,
@@ -4887,6 +5497,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 634,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Si el neonato permanece hospitalizado tras el parto más de siete días, el permiso de maternidad se amplía:',
     opciones: ['En tantos días como esté hospitalizado, con un máximo de trece semanas adicionales', 'Solo dos semanas', 'No se amplía'],
     correcta: 0,
@@ -4895,6 +5506,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 635,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La prestación económica por maternidad, paternidad o riesgo durante el embarazo consiste en un subsidio equivalente al:',
     opciones: ['100 % de la base reguladora', '75 % de la base reguladora', '60 % de la base reguladora'],
     correcta: 0,
@@ -4903,6 +5515,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 636,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En adopción o acogimiento internacional que exija desplazarse al país de origen, se tiene derecho a un permiso adicional de hasta:',
     opciones: ['Dos meses, percibiendo las retribuciones básicas', 'Una semana', 'Seis meses'],
     correcta: 0,
@@ -4911,6 +5524,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 637,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El permiso por lactancia de un hijo menor de doce meses consiste en:',
     opciones: ['Una hora de ausencia diaria, divisible en dos fracciones', 'Dos horas diarias', 'Media jornada'],
     correcta: 0,
@@ -4919,6 +5533,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 638,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Si se renuncia al permiso de lactancia, el trabajador con jornada de 7,5 horas disfruta a cambio de:',
     opciones: ['28 días laborables más continuados', '15 días naturales', '10 días laborables'],
     correcta: 0,
@@ -4927,6 +5542,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 639,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En caso de enfermedad común de hijos menores de 24 meses, el permiso sin sueldo es de:',
     opciones: ['Dos días, con un máximo de uno al mes y ocho al año', 'Cinco días retribuidos', 'Un mes'],
     correcta: 0,
@@ -4935,6 +5551,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 640,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los permisos sin sueldo de varios días completos no se descuentan de las vacaciones salvo que excedan de:',
     opciones: ['30 días naturales', '15 días', '60 días'],
     correcta: 0,
@@ -4943,6 +5560,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 641,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Tienen derecho a suspensión del contrato con reserva de puesto, entre otros, los casos de:',
     opciones: ['Ejercicio de cargo público representativo o funciones sindicales electivas de ámbito provincial o superior', 'Cualquier ausencia sin justificar', 'El disfrute de vacaciones'],
     correcta: 0,
@@ -4951,6 +5569,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 642,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El reingreso tras excedencia forzosa por cargo sindical debe solicitarse:',
     opciones: ['Dentro del mes siguiente al cese en el cargo o función', 'En un plazo de un año', 'No es necesario solicitarlo'],
     correcta: 0,
@@ -4959,6 +5578,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 643,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El tiempo de suspensión por razones disciplinarias superior a un mes, a efectos de antigüedad:',
     opciones: ['No se computa', 'Se computa como el resto de suspensiones', 'Se computa doble'],
     correcta: 0,
@@ -4967,6 +5587,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 644,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La excedencia voluntaria por interés particular se concede siempre que los excedentes no superen:',
     opciones: ['El 10 % de la plantilla del taller o equivalente', 'El 25 % de la plantilla', 'El 50 % del departamento'],
     correcta: 0,
@@ -4975,6 +5596,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 645,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El excedente voluntario que solicita reincorporarse tiene derecho a un puesto de su categoría durante:',
     opciones: ['Los tres primeros años; superado ese tiempo, solo a la primera vacante de su categoría o similar', 'Toda la excedencia', 'Solo el primer mes'],
     correcta: 0,
@@ -4983,6 +5605,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 646,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La excedencia por razón de violencia de género tiene una duración inicial máxima de:',
     opciones: ['Seis meses, prorrogables por el juez por períodos de tres meses hasta dieciocho meses', 'Un año', 'Tres años'],
     correcta: 0,
@@ -4991,6 +5614,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 647,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La movilidad funcional no podrá ser superior a:',
     opciones: ['Seis meses en un año u ocho en dos años, salvo sustitución de otro trabajador', 'Un mes', 'Dos años seguidos'],
     correcta: 0,
@@ -4999,6 +5623,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 648,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La movilidad geográfica se define como:',
     opciones: ['Todo cambio de centro de trabajo que exija a su vez cambio de residencia', 'Cualquier cambio de puesto en el mismo centro', 'El traslado de una máquina'],
     correcta: 0,
@@ -5007,6 +5632,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 649,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En movilidad geográfica forzosa, si ambos cónyuges trabajan en la FNMT-RCM y uno es trasladado:',
     opciones: ['El otro tiene derecho al traslado a la misma localidad', 'El otro debe pedir excedencia', 'No hay ningún derecho para el cónyuge'],
     correcta: 0,
@@ -5015,6 +5641,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 650,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En comisión de servicio, si el desplazamiento supera los tres meses, el trabajador tiene derecho a:',
     opciones: ['Un mínimo de dos días laborables de estancia en su domicilio de origen por cada mes de desplazamiento', 'Un fin de semana libre a la semana', 'Nada adicional'],
     correcta: 0,
@@ -5023,6 +5650,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 651,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El tiempo de desplazamiento en comisión de servicio se considera:',
     opciones: ['Tiempo efectivo de trabajo, sin suplemento aunque supere la jornada en día laborable', 'Tiempo libre no retribuido', 'Doble jornada siempre'],
     correcta: 0,
@@ -5031,6 +5659,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 652,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El trabajador en comisión de servicio percibe por adelantado, previa petición:',
     opciones: ['El 100 % del importe de las dietas y la totalidad de los gastos de viaje', 'Solo el 50 % de las dietas', 'Nada hasta que finalice la comisión'],
     correcta: 0,
@@ -5039,6 +5668,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 653,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La reducción de jornada por cuidado de un menor de doce años o familiar dependiente es:',
     opciones: ['Un derecho individual de los trabajadores, hombres o mujeres, con disminución proporcional de retribuciones', 'Un derecho exclusivo de las mujeres', 'Un permiso plenamente retribuido'],
     correcta: 0,
@@ -5047,6 +5677,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 654,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La reducción de jornada retribuida por enfermedad muy grave de un familiar de primer grado es de:',
     opciones: ['Hasta el 50 % de la jornada, por un plazo máximo de un mes', 'El 100 % durante tres meses', 'El 25 % sin límite'],
     correcta: 0,
@@ -5055,6 +5686,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 655,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La actividad NORMAL de un operario es la que desarrolla:',
     opciones: ['Un operario entrenado y conocedor de su oficio, sin excesiva fatiga y sin estímulo especial en la producción', 'Un operario al máximo de su capacidad', 'Un operario en su primer día'],
     correcta: 0,
@@ -5063,6 +5695,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 656,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El "trabajo libre" es aquel en el que:',
     opciones: ['El operario no queda limitado en su actividad por ninguna circunstancia externa y puede desarrollar la actividad óptima todo el tiempo', 'El trabajador no cobra', 'No hay control de calidad'],
     correcta: 0,
@@ -5071,6 +5704,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 657,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El complemento de productividad se percibe:',
     opciones: ['Por día laborable trabajado, sin servir de base para complementos de puesto ni horas extra', 'Mensualmente aunque no se trabaje', 'Solo en las pagas extraordinarias'],
     correcta: 0,
@@ -5079,6 +5713,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 658,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La retribución variable por consecución de objetivos es una paga extraordinaria del:',
     opciones: ['0,8 % sobre salario base, salario lineal, antigüedad y complemento de productividad anuales', '5 % del salario bruto', '10 % del salario base'],
     correcta: 0,
@@ -5087,6 +5722,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 659,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El período de prueba de las jefaturas y de los técnicos con titulación de grado es de:',
     opciones: ['Seis meses', 'Dos meses', 'Quince días'],
     correcta: 0,
@@ -5095,6 +5731,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 660,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La situación de incapacidad temporal durante el período de prueba:',
     opciones: ['Interrumpe el cómputo del período de prueba', 'No afecta al cómputo', 'Anula el contrato'],
     correcta: 0,
@@ -5103,6 +5740,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 661,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La provisión de vacantes fijas tiene preferencia para:',
     opciones: ['Los trabajadores fijos de igual categoría del centro que hayan solicitado el traslado', 'Cualquier candidato externo', 'Los de menor antigüedad'],
     correcta: 0,
@@ -5111,6 +5749,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 662,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En caso de empate en un concurso-oposición de ascenso, se adjudica la plaza:',
     opciones: ['A la persona del género menos representado en la categoría y, si persiste, por antigüedad en la FNMT', 'Por sorteo', 'A la persona de mayor edad'],
     correcta: 0,
@@ -5119,6 +5758,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 663,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Provee libremente la Dirección, previo informe a los representantes, los puestos de:',
     opciones: ['Personal con mando, técnicos con titulación, cobradores, conserjes y conductores de dirección', 'Todos los operarios', 'Cualquier vacante que surja'],
     correcta: 0,
@@ -5127,6 +5767,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 664,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La excedencia voluntaria por interés particular solo puede volver a solicitarse por el mismo trabajador si han transcurrido:',
     opciones: ['Cuatro años desde el final de la anterior', 'Un año', 'Diez años'],
     correcta: 0,
@@ -5135,6 +5776,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 665,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La FNMT-RCM tramitará como accidente "in itinere" el que sufra el trabajador:',
     opciones: ['En su trayecto habitual de ida o vuelta entre el trabajo y su domicilio (habitual o segunda residencia notificada)', 'Solo dentro del centro de trabajo', 'Durante las vacaciones'],
     correcta: 0,
@@ -5143,6 +5785,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 666,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los días adicionales de permiso por antigüedad empiezan a razón de:',
     opciones: ['Dos días al cumplir dieciocho años de servicios, con un día más por cada tres años a partir de los 24 de antigüedad', 'Un día por cada año trabajado', 'Cinco días a los diez años'],
     correcta: 0,
@@ -5151,6 +5794,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 667,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los días por asuntos particulares se solicitan con una antelación:',
     opciones: ['Máxima y mínima de 15 y 5 días laborables respectivamente', 'De al menos un mes', 'Sin ninguna antelación'],
     correcta: 0,
@@ -5159,6 +5803,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 668,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El permiso por boda de hijos, padres o hermanos es de:',
     opciones: ['Un día natural si es dentro de la provincia y dos si es fuera', 'Tres días en todo caso', 'Una semana'],
     correcta: 0,
@@ -5167,6 +5812,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 669,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En reconversión, si el trabajador solo puede acoplarse a categorías con diferencia salarial igual o superior a tres niveles, dispone de un plazo para optar de:',
     opciones: ['Siete días naturales; de no contestar, se entiende que opta por su reconversión', '48 horas', 'Un mes'],
     correcta: 0,
@@ -5175,6 +5821,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 670,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La formación del personal afectado por cursos de capacitación en procesos de reconversión:',
     opciones: ['Se computa como tiempo efectivo de trabajo', 'Se realiza en tiempo libre del trabajador', 'Corre a cargo económico del trabajador'],
     correcta: 0,
@@ -5183,6 +5830,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 671,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La Comisión de Igualdad de la FNMT-RCM tiene como finalidad:',
     opciones: ['Velar por la igualdad de trato y oportunidades entre mujeres y hombres y el desarrollo del Plan de Igualdad', 'Fijar los salarios anuales', 'Sancionar a los trabajadores'],
     correcta: 0,
@@ -5191,6 +5839,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 672,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La Comisión de Formación de la FNMT-RCM está integrada por:',
     opciones: ['Cuatro representantes de la dirección y un representante por sindicato con representación en los comités de empresa, designados por el comité intercentros', 'Seis representantes de cada parte', 'Solo miembros de la Dirección'],
     correcta: 0,
@@ -5199,6 +5848,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 673,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las acciones formativas necesarias para el puesto que se realicen en día laborable fuera de la jornada laboral:',
     opciones: ['Se compensan con tiempo libre; si fuera en día no laborable, la compensación se incrementa en una hora', 'No dan derecho a ninguna compensación', 'Se pagan siempre como horas extraordinarias'],
     correcta: 0,
@@ -5207,6 +5857,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 674,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El personal que curse estudios para obtener un título oficial tiene preferencia para:',
     opciones: ['Elegir turno de trabajo y adaptar su jornada, además de permisos para exámenes', 'Un aumento automático de sueldo', 'Reducir su jornada a la mitad de forma permanente'],
     correcta: 0,
@@ -5215,6 +5866,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 675,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El disfrute del permiso para exámenes de estudios oficiales comprende:',
     opciones: ['El día del examen, con la justificación posterior de la asistencia', 'Una semana completa', 'Todo el período lectivo'],
     correcta: 0,
@@ -5223,6 +5875,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 676,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La vigencia del convenio, salvo denuncia, se prorroga:',
     opciones: ['Por períodos anuales', 'Por cinco años', 'De forma indefinida sin posibilidad de revisión'],
     correcta: 0,
@@ -5231,6 +5884,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 677,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Si las autoridades competentes no aprobasen algún pacto fundamental a juicio de cualquiera de las partes:',
     opciones: ['El Convenio se considerará nulo y sin eficacia alguna', 'Solo quedará sin efecto el pacto no aprobado', 'El Convenio seguirá vigente íntegramente'],
     correcta: 0,
@@ -5239,6 +5893,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 678,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las condiciones pactadas en el convenio se consideran:',
     opciones: ['Un todo orgánico e indivisible, a efectos de su aplicación práctica', 'Cláusulas independientes que se aplican por separado', 'Meras recomendaciones'],
     correcta: 0,
@@ -5247,6 +5902,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 679,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Según el Anexo I, cuando una resolución judicial sobre calificaciones afecte a la mitad o menos de los trabajadores de una categoría:',
     opciones: ['Se respetará el nivel salarial resultante «ad personam», manteniendo la categoría', 'Se modificará la categoría de todos los trabajadores', 'La resolución no tendrá ningún efecto'],
     correcta: 0,
@@ -5255,6 +5911,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 680,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Cuando se establezcan para los funcionarios públicos medidas correctoras que garanticen el mantenimiento del poder adquisitivo:',
     opciones: ['Se aplicará una fórmula similar, en el mismo sentido, para el personal de la FNMT-RCM, con efectos retroactivos a 1 de enero del ejercicio', 'No afectarán en ningún caso al personal de la FNMT-RCM', 'Solo se aplicarán al personal directivo'],
     correcta: 0,
@@ -5263,6 +5920,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 681,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En lo no previsto en el convenio, el personal se rige por:',
     opciones: ['El Estatuto de los Trabajadores y las normas dictadas en su desarrollo', 'Solo por las órdenes verbales de sus jefes', 'El reglamento de funcionarios exclusivamente'],
     correcta: 0,
@@ -5271,6 +5929,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 682,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El personal interesado en acogerse a la jubilación parcial anticipada debe realizar la petición para el siguiente ejercicio:',
     opciones: ['En el último trimestre de cada año', 'En cualquier momento del año', 'Seis meses antes de cumplir la edad'],
     correcta: 0,
@@ -5279,6 +5938,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 683,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La FNMT-RCM promueve la jubilación parcial ligada a:',
     opciones: ['El contrato de relevo, según la normativa vigente', 'La reducción del salario sin contrapartida', 'La pérdida de todos los derechos'],
     correcta: 0,
@@ -5287,6 +5947,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 684,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las aportaciones de la FNMT-RCM al Plan de Pensiones tienen la naturaleza de:',
     opciones: ['Contribuciones del promotor a favor de los partícipes', 'Un préstamo a devolver', 'Salario en especie de libre disposición inmediata'],
     correcta: 0,
@@ -5295,6 +5956,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 685,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Entre las prestaciones complementarias de acción social de la FNMT-RCM figuran:',
     opciones: ['Ayuda a disminuidos, grupo de empresa y prestaciones de carácter personal a viudas/os y jubiladas/os', 'Comedor de empresa y transporte gratuito', 'Vivienda gratuita para toda la plantilla'],
     correcta: 0,
@@ -5303,6 +5965,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 686,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La interpretación del convenio corresponde, en primera instancia, a:',
     opciones: ['La Comisión Paritaria', 'La Inspección de Trabajo', 'El Ministerio de Hacienda'],
     correcta: 0,
@@ -5311,6 +5974,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 688,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El trabajador tiene derecho al respeto de su intimidad y a la protección frente a:',
     opciones: ['El acoso por razón de origen, religión, sexo, orientación sexual o cualquier otra condición', 'Los cambios de turno', 'La evaluación de su rendimiento'],
     correcta: 0,
@@ -5319,6 +5983,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 689,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El Anexo VIII del convenio recoge:',
     opciones: ['El acta de paritaria sobre retribución variable por objetivos', 'Las bolsas de trabajo', 'El recibo de nómina'],
     correcta: 0,
@@ -5327,6 +5992,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 690,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El anexo VI del convenio regula, entre otras materias:',
     opciones: ['Las bolsas de trabajo', 'El régimen disciplinario', 'El calendario de vacaciones'],
     correcta: 0,
@@ -5335,6 +6001,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 691,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Según el XI Convenio de la FNMT-RCM, la falta de asistencia al trabajo sin causa justificada de uno o dos días al mes se califica como falta:',
     opciones: ['Leve', 'Grave', 'Muy grave'],
     correcta: 0,
@@ -5343,6 +6010,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 692,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las faltas repetidas de puntualidad sin causa justificada de tres a cinco días al mes constituyen falta:',
     opciones: ['Grave', 'Leve', 'Muy grave'],
     correcta: 1,
@@ -5351,6 +6019,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 693,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La falta de asistencia al trabajo sin causa justificada durante tres días al mes se califica como:',
     opciones: ['Leve', 'Muy grave', 'Grave'],
     correcta: 2,
@@ -5359,6 +6028,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 694,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las faltas repetidas de puntualidad sin causa justificada durante más de cinco días y menos de diez días al mes son falta:',
     opciones: ['Grave', 'Leve', 'Muy grave'],
     correcta: 0,
@@ -5367,6 +6037,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 695,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La simulación de enfermedad o accidente está tipificada en el convenio como falta:',
     opciones: ['Leve', 'Grave', 'Muy grave'],
     correcta: 1,
@@ -5375,6 +6046,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 696,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La reincidencia en la comisión de faltas leves, aunque sean de distinta naturaleza, dentro de un mismo trimestre y habiendo mediado sanciones, constituye falta:',
     opciones: ['Muy grave', 'Grave', 'Leve'],
     correcta: 1,
@@ -5383,6 +6055,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 697,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La falta de asistencia al trabajo no justificada durante más de tres días al mes se califica como:',
     opciones: ['Muy grave', 'Grave', 'Leve'],
     correcta: 0,
@@ -5391,6 +6064,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 698,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las faltas reiteradas de puntualidad no justificadas son muy graves cuando se producen:',
     opciones: ['Durante cinco o más días al mes', 'Durante diez o más días al mes, o durante más de veinte días al trimestre', 'Durante más de tres días al mes'],
     correcta: 1,
@@ -5399,6 +6073,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 699,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La reincidencia en faltas graves, aunque sean de distinta naturaleza, habiendo mediado sanciones, es falta muy grave cuando se produce dentro de un periodo de:',
     opciones: ['Un trimestre', 'Un año', 'Seis meses'],
     correcta: 2,
@@ -5407,6 +6082,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 700,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En los casos constatados de acoso, el convenio establece que:',
     opciones: ['Nunca se podrá proceder al traslado forzoso del denunciante ni del acosado', 'Se trasladará forzosamente al acosador y al denunciante', 'El denunciante podrá ser trasladado si lo decide la Dirección'],
     correcta: 0,
@@ -5415,6 +6091,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 701,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La falsa denuncia de acoso hacia cualquier trabajador o trabajadora es una falta:',
     opciones: ['Grave', 'Muy grave', 'Leve'],
     correcta: 1,
@@ -5423,6 +6100,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 702,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las sanciones que pueden imponerse por faltas leves son:',
     opciones: ['Apercibimiento, amonestación por escrito y suspensión de empleo y sueldo de hasta dos días', 'Amonestación por escrito y suspensión de empleo y sueldo de tres a treinta días', 'Solo apercibimiento y amonestación verbal'],
     correcta: 0,
@@ -5431,6 +6109,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 703,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La suspensión de empleo y sueldo por falta grave puede ser de:',
     opciones: ['Hasta dos días', 'Tres a treinta días', 'Treinta y uno a noventa días'],
     correcta: 1,
@@ -5439,6 +6118,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 704,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Entre las sanciones por falta grave figura la suspensión del derecho de concurrir a pruebas selectivas o concurso de ascenso por un periodo de:',
     opciones: ['Dos a seis años', 'Seis meses a un año', 'Uno o dos años'],
     correcta: 2,
@@ -5447,6 +6127,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 705,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La suspensión de empleo y sueldo por falta muy grave puede alcanzar:',
     opciones: ['De treinta y uno a noventa días', 'De tres a treinta días', 'Hasta ciento veinte días'],
     correcta: 0,
@@ -5455,6 +6136,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 706,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La inhabilitación para el ascenso como sanción por falta muy grave tiene una duración de:',
     opciones: ['Uno o dos años', 'Dos a seis años', 'Tres a cinco años'],
     correcta: 1,
@@ -5463,6 +6145,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 707,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La imposición de sanciones por faltas leves se llevará a cabo:',
     opciones: ['Mediante expediente disciplinario completo', 'Por procedimiento sumario con audiencia al interesado', 'Sin ningún trámite previo'],
     correcta: 1,
@@ -5471,6 +6154,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 708,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En el expediente disciplinario por faltas graves o muy graves, el trabajador podrá efectuar alegaciones en el plazo de:',
     opciones: ['Diez días hábiles', 'Siete días naturales', 'Quince días hábiles'],
     correcta: 0,
@@ -5479,6 +6163,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 709,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La suspensión provisional como medida cautelar en la tramitación de un expediente disciplinario no podrá exceder de:',
     opciones: ['Tres meses', 'Un año', 'Seis meses, salvo paralización del procedimiento imputable al interesado'],
     correcta: 2,
@@ -5487,6 +6172,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 710,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Durante la suspensión provisional, el trabajador tendrá derecho a percibir:',
     opciones: ['Salario base, salario lineal y antigüedad', 'La totalidad de sus retribuciones', 'Únicamente el salario base'],
     correcta: 0,
@@ -5495,6 +6181,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 711,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las faltas leves prescriben a los:',
     opciones: ['Veinte días', 'Diez días', 'Sesenta días'],
     correcta: 1,
@@ -5503,6 +6190,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 712,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las faltas muy graves prescriben a los:',
     opciones: ['Sesenta días desde que la FNMT/RCM tuvo conocimiento y, en todo caso, a los seis meses de haberse cometido', 'Noventa días desde su comisión', 'Un año desde su comisión'],
     correcta: 0,
@@ -5511,6 +6199,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 713,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las faltas graves que hayan generado sanción se cancelan por el transcurso de:',
     opciones: ['Seis meses desde su notificación', 'Treinta y seis meses desde su notificación', 'Dieciocho meses desde su notificación'],
     correcta: 2,
@@ -5519,6 +6208,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 714,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Cuando de la instrucción de un procedimiento disciplinario resulten indicios fundados de criminalidad:',
     opciones: ['Se suspenderá su tramitación poniéndolo en conocimiento del Ministerio Fiscal', 'Se continuará el expediente en paralelo al proceso penal', 'Se archivará definitivamente el expediente'],
     correcta: 0,
@@ -5527,6 +6217,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 715,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los trabajadores que indujeren a otros a la realización de actos constitutivos de falta disciplinaria:',
     opciones: ['Quedan exentos de responsabilidad', 'Incurrirán en la misma responsabilidad que éstos', 'Solo responderán si la falta es muy grave'],
     correcta: 1,
@@ -5535,6 +6226,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 716,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Procederá la readmisión del personal laboral fijo cuando:',
     opciones: ['Lo solicite el Comité de Empresa', 'La sanción sea una suspensión superior a treinta días', 'Sea declarado improcedente el despido acordado tras expediente disciplinario por falta muy grave'],
     correcta: 2,
@@ -5543,6 +6235,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 717,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Entre los principios de la potestad disciplinaria del convenio NO figura:',
     opciones: ['Principio de presunción de inocencia', 'Principio de oportunidad', 'Principio de proporcionalidad'],
     correcta: 1,
@@ -5551,6 +6244,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 718,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La jubilación será obligatoria para la persona trabajadora cuando haya cumplido:',
     opciones: ['Los 68 años y reúna los requisitos para el 100% de la pensión ordinaria de jubilación contributiva', 'Los 65 años en todo caso', 'Los 67 años con 15 años cotizados'],
     correcta: 0,
@@ -5559,6 +6253,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 719,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los permisos de los apartados 8 y 10 del artículo 19 podrán disfrutarse, a petición del trabajador, hasta:',
     opciones: ['El 31 de diciembre del mismo año', 'El 31 de enero del siguiente ejercicio', 'El 15 de enero del siguiente ejercicio'],
     correcta: 2,
@@ -5567,6 +6262,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 720,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Desde el 1 de julio de 2025, la jornada semanal en la FNMT-RCM es de:',
     opciones: ['37,5 horas', '35 horas', '40 horas'],
     correcta: 1,
@@ -5575,6 +6271,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 721,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las bolsas de trabajo específicas del Anexo VI se constituyen:',
     opciones: ['Con el personal aprobado sin plaza de las convocatorias de cobertura de vacantes indefinidas (OEP)', 'Por sorteo entre los candidatos inscritos en el SEPE', 'Por designación directa de la Dirección'],
     correcta: 0,
@@ -5583,6 +6280,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 722,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Entre las bolsas específicas y las generales del Anexo VI, tienen prioridad:',
     opciones: ['Las generales en todo caso', 'Las específicas', 'La que decida el departamento solicitante'],
     correcta: 1,
@@ -5591,6 +6289,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 723,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El primer factor de desempate entre integrantes de una bolsa de trabajo es:',
     opciones: ['El género menos representado en la categoría profesional a cubrir', 'La edad del candidato', 'El orden alfabético'],
     correcta: 0,
@@ -5599,6 +6298,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 724,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En cuanto al ámbito territorial de las bolsas de trabajo:',
     opciones: ['Se crean bolsas independientes para los centros de Madrid y Burgos', 'Existe una única bolsa nacional', 'Cada departamento tiene su propia bolsa'],
     correcta: 0,
@@ -5607,6 +6307,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 725,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La vigencia de cada bolsa de trabajo se extiende desde su publicación hasta:',
     opciones: ['La creación de una nueva de la misma categoría, la ausencia de integrantes o transcurridos dos años', 'Un máximo de cinco años en todo caso', 'Que lo decida el Comité de Empresa'],
     correcta: 0,
@@ -5615,6 +6316,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 726,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La gestión de las bolsas de empleo, una vez publicadas, corresponde a:',
     opciones: ['La Dirección de Recursos Humanos', 'El Comité Intercentros', 'La Inspección de Trabajo'],
     correcta: 0,
@@ -5623,6 +6325,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 727,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Si el candidato no responde a una oferta notificada por telegrama en el plazo de 3 días hábiles desde su recepción:',
     opciones: ['Se entiende que renuncia a la oferta y pasa a ocupar la última posición de la bolsa', 'Queda excluido definitivamente de todas las bolsas', 'Mantiene su posición sin consecuencias'],
     correcta: 0,
@@ -5631,6 +6334,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 728,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las contrataciones de una misma persona de la bolsa con duración inferior a 360 jornadas:',
     opciones: ['Mantienen al interesado en el mismo orden de prelación originario', 'Lo llevan a la última posición de todas sus bolsas', 'Lo excluyen de la bolsa'],
     correcta: 0,
@@ -5639,6 +6343,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 729,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Es causa justificada para rechazar una oferta de empleo temporal de la bolsa, entre otras:',
     opciones: ['Enfermedad, accidente, permiso por matrimonio, maternidad, paternidad o violencia de género', 'Tener otra entrevista de trabajo', 'No estar interesado en el turno ofertado'],
     correcta: 0,
@@ -5647,6 +6352,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 730,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Finalizada la causa de suspensión de la bolsa, el interesado debe justificarla a la FNMT-RCM en un plazo de:',
     opciones: ['3 días hábiles', '10 días naturales', 'Un mes'],
     correcta: 0,
@@ -5655,6 +6361,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 731,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Es causa de exclusión de la bolsa de empleo:',
     opciones: ['El despido procedente', 'Rechazar una sola oferta', 'Cambiar de domicilio notificándolo'],
     correcta: 0,
@@ -5663,6 +6370,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 732,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La Comisión de Seguimiento de las bolsas de empleo está compuesta por:',
     opciones: ['Un representante del Comité de Empresa y un representante designado por la Dirección de Recursos Humanos', 'Seis miembros de cada parte', 'Tres representantes sindicales'],
     correcta: 0,
@@ -5671,6 +6379,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 733,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La Dirección de la FNMT-RCM publicará el catálogo de puestos de trabajo y las vacantes existentes:',
     opciones: ['Una vez al año', 'Cada trimestre', 'Cada dos años'],
     correcta: 0,
@@ -5679,6 +6388,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 734,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En la convocatoria de un concurso-oposición debe constar necesariamente, entre otros datos:',
     opciones: ['Número de vacantes, categoría profesional, departamento de destino, composición nominativa del Tribunal, pruebas y programas', 'Solo el número de vacantes', 'El nombre de los candidatos preseleccionados'],
     correcta: 0,
@@ -5687,6 +6397,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 735,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El Tribunal calificador de un concurso-oposición incluye un máximo de:',
     opciones: ['4 miembros propuestos por la Dirección y 3 por los trabajadores', '5 miembros de la Dirección y 2 de los trabajadores', '3 miembros de cada parte'],
     correcta: 0,
@@ -5695,6 +6406,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 736,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La pertenencia a los órganos de selección será siempre:',
     opciones: ['A título individual, sin ostentarse en representación o por cuenta de nadie', 'En representación del sindicato correspondiente', 'Delegable en terceros'],
     correcta: 0,
@@ -5703,6 +6415,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 737,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El plazo de presentación de instancias a un concurso-oposición es de:',
     opciones: ['Siete días naturales desde la publicación de la convocatoria', 'Quince días hábiles', 'Un mes'],
     correcta: 0,
@@ -5711,6 +6424,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 738,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Salvo motivos productivos justificados, la primera prueba del concurso-oposición se iniciará dentro de:',
     opciones: ['Los 14 días naturales siguientes a la finalización del plazo de presentación de instancias', 'Los 30 días naturales siguientes', 'La semana siguiente a la convocatoria'],
     correcta: 0,
@@ -5719,6 +6433,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 739,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La duración máxima del concurso-oposición desde la publicación de la convocatoria es de:',
     opciones: ['Tres meses', 'Seis meses', 'Un año'],
     correcta: 0,
@@ -5727,6 +6442,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 740,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El llamamiento para cada prueba del concurso-oposición se anunciará con una antelación mínima de:',
     opciones: ['3 días laborables', '7 días naturales', '24 horas'],
     correcta: 0,
@@ -5735,6 +6451,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 741,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Publicados los resultados de cada prueba, el plazo para solicitar la revisión del ejercicio es de:',
     opciones: ['3 días laborables, debiendo el tribunal proceder en los 3 días laborables siguientes', '7 días naturales', '10 días hábiles'],
     correcta: 0,
@@ -5743,6 +6460,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 742,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El plazo para presentar impugnación a las pruebas desde la publicación de los resultados finales es de:',
     opciones: ['7 días laborables', '3 días naturales', '15 días hábiles'],
     correcta: 0,
@@ -5751,6 +6469,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 743,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En las pruebas del concurso-oposición, cada ejercicio se puntúa:',
     opciones: ['De 0 a 10, considerándose aprobado a partir de 5 puntos', 'De 0 a 100, aprobando con 60', 'Con apto o no apto únicamente'],
     correcta: 0,
@@ -5759,6 +6478,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 744,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La no comparecencia a alguna de las pruebas del concurso-oposición implica:',
     opciones: ['El desistimiento al proceso por parte del candidato', 'La repetición de la prueba en otra fecha', 'Una penalización de un punto'],
     correcta: 0,
@@ -5767,6 +6487,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 745,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En la corrección de los ejercicios del concurso-oposición:',
     opciones: ['Se utilizará un sistema de letras, números, etc. que impida conocer el nombre de los candidatos', 'El tribunal conoce siempre la identidad del candidato', 'Corrige un único miembro del tribunal'],
     correcta: 0,
@@ -5775,6 +6496,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 746,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La bonificación por antigüedad en la prueba teórica eliminatoria, para una antigüedad efectiva entre 10 y 20 años, es de:',
     opciones: ['1 punto', '1,5 puntos', '2 puntos'],
     correcta: 0,
@@ -5783,6 +6505,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 747,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las bonificaciones por antigüedad del concurso-oposición tienen efectos:',
     opciones: ['Únicamente para el acceso a las siguientes pruebas, sin considerarse en la determinación final de aprobados', 'En la nota final del proceso', 'Solo en la fase de concurso de méritos'],
     correcta: 0,
@@ -5791,6 +6514,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 748,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los aspectos económicos de un concurso-oposición surten efectos:',
     opciones: ['En el plazo de 7 días naturales desde la firma del acta final', 'Desde el primer día de la convocatoria', 'Al mes siguiente de las pruebas'],
     correcta: 0,
@@ -5799,6 +6523,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 749,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En el contrato para la formación del Anexo IV, la retribución pactada del primer año es del:',
     opciones: ['40 por 100 del nivel salarial 1', '50 por 100 del nivel salarial 1', '75 por 100 del nivel salarial 1'],
     correcta: 0,
@@ -5807,6 +6532,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 750,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El número máximo de contratos para la formación no superará:',
     opciones: ['El 2 por 100 de la plantilla total sujeta a Convenio', 'El 10 por 100 de la plantilla', 'El 5 por 100 de cada departamento'],
     correcta: 0,
@@ -5815,6 +6541,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 751,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En el Anexo IV, los titulados universitarios superiores en prácticas perciben el primer año el:',
     opciones: ['Nivel salarial 8', 'Nivel salarial 9', 'Nivel salarial 7'],
     correcta: 0,
@@ -5823,6 +6550,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 752,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En la modificación de jornada por necesidades excepcionales (Anexo VII), el comité de empresa emite su informe en el plazo máximo de:',
     opciones: ['Quince días desde la recepción de la documentación', 'Un mes', 'Siete días naturales'],
     correcta: 0,
@@ -5831,6 +6559,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 753,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En la Semana Industrial del centro de Madrid (Anexo VII), en cada ciclo de cuatro semanas el trabajador afectado:',
     opciones: ['Trabaja tres semanas y descansa la cuarta, en turnos de 8 horas de lunes a sábado', 'Trabaja las cuatro semanas completas', 'Trabaja dos y descansa dos'],
     correcta: 0,
@@ -5839,6 +6568,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 754,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los indicadores de la retribución variable por objetivos del Anexo VIII son:',
     opciones: ['% de beneficios sobre volumen de ventas y ventas por empleado', 'Absentismo y puntualidad', 'Producción por máquina y horas extra'],
     correcta: 0,
@@ -5847,6 +6577,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 755,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Según el Anexo VIII, el trabajador con un índice de ausencias personal superior al 1% por los conceptos previstos devengará:',
     opciones: ['Solo el 80% de la cantidad que le corresponda', 'El 100% en todo caso', 'Nada de la retribución variable'],
     correcta: 0,
@@ -5855,6 +6586,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 756,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El nuevo sistema de clasificación profesional en Grupos Profesionales deberá acordarse antes del:',
     opciones: ['31 de diciembre de 2025', '30 de septiembre de 2024', '1 de enero de 2027'],
     correcta: 0,
@@ -5863,6 +6595,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 757,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los trabajos de superior categoría en casos excepcionales de necesidad y corta duración no podrán superar:',
     opciones: ['Seis meses durante un año u ocho durante dos años', 'Tres meses en un año', 'Un año continuado'],
     correcta: 0,
@@ -5871,6 +6604,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 758,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los casos que permiten realizar trabajos de superior categoría por 6 meses en un año u 8 en dos son:',
     opciones: ['Acumulación de pedidos (AP), variaciones en proceso (VA), vacantes (V) y nueva maquinaria (NM)', 'Enfermedad (EN) y excedencia (EX)', 'Huelga y cierre patronal'],
     correcta: 0,
@@ -5879,6 +6613,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 759,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Si el trabajador no reclama por escrito ante la Comisión Paritaria las funciones de superior categoría en el plazo de 18 semanas:',
     opciones: ['Podrá reclamar las diferencias retributivas ante la Jurisdicción Laboral en cualquier momento, pero no consolidar la categoría por esa vía', 'Pierde todo derecho a reclamar', 'Consolida automáticamente la categoría superior'],
     correcta: 0,
@@ -5887,6 +6622,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 760,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Si la Comisión Paritaria no llega a acuerdo sobre si las funciones reclamadas son de la categoría propia o de la solicitada:',
     opciones: ['Se mantendrá al trabajador sin cambiarle funciones ni puesto durante un plazo no inferior a seis meses, salvo acuerdo con el Comité', 'Se resuelve por sorteo', 'Decide unilateralmente el Director del departamento'],
     correcta: 0,
@@ -5895,6 +6631,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 761,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En trabajos de inferior categoría, cuando el tiempo se estime superior a un mes:',
     opciones: ['La Dirección informará previamente a la Representación de los Trabajadores, aportando la justificación de la necesidad', 'No hay obligación de informar a nadie', 'Se necesita autorización de la Inspección de Trabajo'],
     correcta: 0,
@@ -5903,6 +6640,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 762,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La clave de limitaciones médicas (LM) se aplica, previo acuerdo entre Dirección y Representación, en caso de:',
     opciones: ['Declaración de no aptitud temporal para el puesto por el Servicio Médico de Empresa, revisable cada 6 meses y por un máximo de 18 meses', 'Cualquier baja médica ordinaria', 'Petición del trabajador sin más requisitos'],
     correcta: 0,
@@ -5911,6 +6649,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 763,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La copia de los partes de superior e inferior categoría se remite a la representación de los trabajadores:',
     opciones: ['Mensualmente', 'Cada trimestre', 'Solo a petición del Comité'],
     correcta: 0,
@@ -5919,6 +6658,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 764,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El número máximo de trabajadores desempeñando funciones de Secretario no podrá ser superior a:',
     opciones: ['Un Secretario por persona fuera de Convenio, a excepción del Presidente-Director General', 'Dos por departamento', 'Cinco en toda la FNMT-RCM'],
     correcta: 0,
@@ -5927,6 +6667,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 765,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Para la provisión de plazas de Técnicos con titulación de grado medio, superior o asimilado tendrá preferencia:',
     opciones: ['El personal fijo de plantilla en posesión de la titulación requerida', 'El personal externo con más experiencia', 'El candidato más joven'],
     correcta: 0,
@@ -5935,6 +6676,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 766,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los períodos de prueba exigidos en los ascensos de libre designación son:',
     opciones: ['Los mismos que figuran en el artículo 13 para el personal de nuevo ingreso', 'La mitad de los del nuevo ingreso', 'No existe período de prueba en ascensos'],
     correcta: 0,
@@ -5943,6 +6685,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 767,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En el horario flexible del centro de Madrid, el tramo obligatorio del turno de mañana es:',
     opciones: ['De 09:00 a 13:30 horas', 'De 07:00 a 14:00 horas', 'De 08:00 a 15:00 horas'],
     correcta: 0,
@@ -5951,6 +6694,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 768,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En el horario flexible de Madrid, el tramo obligatorio del turno de tarde es:',
     opciones: ['De 15:00 a 19:30 horas', 'De 14:00 a 21:00 horas', 'De 16:00 a 20:00 horas'],
     correcta: 0,
@@ -5959,6 +6703,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 769,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las horas de exceso de un mes en el horario flexible se podrán compensar:',
     opciones: ['Al mes siguiente al que se hayan producido, siempre fuera del horario obligatorio de cada turno, salvo autorización expresa del responsable', 'En cualquier momento del año', 'Nunca; se pierden'],
     correcta: 0,
@@ -5967,6 +6712,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 770,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En caso de avería de máquina que impida a los operarios desarrollar su trabajo en su turno, la Dirección podrá, previa comunicación al Comité de Empresa:',
     opciones: ['Destinarlos a otro turno donde realicen funciones propias de su categoría mientras dure la avería', 'Suspenderles el contrato sin salario', 'Obligarles a tomar vacaciones'],
     correcta: 0,
@@ -5975,6 +6721,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 771,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Ante pedidos no previstos que exijan incrementar trabajadores en algún turno, la Dirección podrá aplicarlo siempre que lo acuerde con el Comité de Empresa en el plazo de:',
     opciones: ['Tres días', 'Quince días', 'Un mes'],
     correcta: 0,
@@ -5983,6 +6730,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 772,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'A los trabajadores que cursen estudios en Centros Oficiales con horarios incompatibles con su trabajo, previa acreditación:',
     opciones: ['Se les facilitará la rotación en turnos compatibles o su traslado a otras dependencias con igual categoría, durante el curso lectivo', 'Se les reducirá el salario', 'Se les denegará cualquier cambio de turno'],
     correcta: 0,
@@ -5991,6 +6739,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 773,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las bajas por incapacidad temporal que no computan a efectos del descuento de los tres primeros días son:',
     opciones: ['Las de larga enfermedad superiores a tres meses, las producidas por patologías crónicas y las recaídas', 'Únicamente las hospitalizaciones', 'Todas las bajas de menos de una semana'],
     correcta: 0,
@@ -5999,6 +6748,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 774,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El trabajador de baja por enfermedad no puede abandonar su domicilio:',
     opciones: ['Salvo para acudir al médico o por prescripción facultativa, debiendo acreditar estas ausencias si se le requiere', 'Bajo ninguna circunstancia', 'Salvo los fines de semana'],
     correcta: 0,
@@ -6007,6 +6757,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 775,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Si se pernocta fuera de la residencia oficial en comisión de servicio, se abonará:',
     opciones: ['Dieta entera el día de salida y gastos de manutención el día de regreso', 'Media dieta ambos días', 'Solo los gastos de transporte'],
     correcta: 0,
@@ -6015,6 +6766,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 776,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En las comisiones fuera del territorio nacional, las dietas en el extranjero se devengan:',
     opciones: ['Desde el día en que se pase la frontera o se salga del último puerto o aeropuerto nacional', 'Desde que se sale del domicilio', 'Solo los días completos en el país de destino'],
     correcta: 0,
@@ -6023,6 +6775,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 777,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Si en comisión de servicio se usa vehículo propio por autopista de peaje:',
     opciones: ['El gasto de peaje será indemnizable, previa autorización o justificación y presentación de facturas', 'El peaje corre siempre a cargo del trabajador', 'Solo se abona la mitad del peaje'],
     correcta: 0,
@@ -6031,6 +6784,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 778,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Cuando el trabajador no pueda regresar a comer a su domicilio por trabajos de la Fábrica distintos a los habituales, aun dentro de la localidad:',
     opciones: ['Tendrá derecho al abono de media manutención', 'No percibe compensación alguna', 'Percibe dieta entera'],
     correcta: 0,
@@ -6039,6 +6793,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 779,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En caso de fallecimiento de un trabajador de la FNMT/RCM, los operarios podrán designar para asistir al sepelio en representación de sus compañeros hasta:',
     opciones: ['Tres trabajadores', 'Cinco trabajadores', 'Un trabajador'],
     correcta: 0,
@@ -6047,6 +6802,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 780,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'A efectos de los permisos retribuidos del artículo 19, los términos localidad y provincia se refieren:',
     opciones: ['Al lugar de residencia del trabajador', 'Al centro de trabajo', 'Al lugar del hecho causante'],
     correcta: 0,
@@ -6055,6 +6811,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 781,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El rendimiento normal se define como:',
     opciones: ['La cantidad de trabajo que un operario efectúa en una hora cuando trabaja a actividad normal', 'El máximo que puede alcanzar un operario en jornada normal', 'La producción media de toda la plantilla'],
     correcta: 0,
@@ -6063,6 +6820,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 782,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El "tiempo máquina" es:',
     opciones: ['El tiempo de descanso del operario', 'El que emplea una máquina para producir una unidad de tarea en condiciones técnicas determinadas', 'La duración total del turno'],
     correcta: 1,
@@ -6071,6 +6829,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 783,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La limitación en el "trabajo limitado" puede deberse a:',
     opciones: ['La falta de motivación del operario', 'La antigüedad del trabajador', 'El trabajo de las máquinas, el hecho de trabajar en equipo o las condiciones del método operativo'],
     correcta: 2,
@@ -6079,6 +6838,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 784,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Si la FNMT-RCM no determina el rendimiento normal en el momento de aplicación del Convenio:',
     opciones: ['No significa ni puede interpretarse como dejación de ese derecho, al que podrá acogerse previo informe al Comité de Empresa', 'Pierde definitivamente el derecho a exigirlo', 'Debe pactarlo individualmente con cada trabajador'],
     correcta: 0,
@@ -6087,6 +6847,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 785,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Cuando el rendimiento de un puesto de trabajo sea difícilmente medible, la FNMT-RCM podrá:',
     opciones: ['Eximir al trabajador de todo control', 'Establecer un sistema indirecto, previo informe al Comité de Empresa', 'Aplicar el rendimiento de otro puesto cualquiera'],
     correcta: 1,
@@ -6095,6 +6856,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 786,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Al trabajador que no alcance el rendimiento mínimo exigible por declaración de invalidez permanente parcial derivada de accidente de trabajo o enfermedad profesional, la FNMT-RCM:',
     opciones: ['Le ofrecerá una plaza donde pueda desarrollar una actividad eficaz, respetándole categoría y remuneración', 'Le reducirá el salario proporcionalmente', 'Extinguirá su contrato'],
     correcta: 0,
@@ -6103,6 +6865,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 787,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La determinación de los métodos de trabajo más adecuados y su actualización constituye facultad exclusiva de:',
     opciones: ['El Comité de Empresa', 'La Comisión Paritaria', 'La Dirección de la FNMT-RCM'],
     correcta: 2,
@@ -6111,6 +6874,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 788,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El Comité de Empresa será informado de las horas extraordinarias a realizar:',
     opciones: ['Con carácter previo, salvo casos de fuerza mayor, recibiendo mensualmente relación de las realizadas', 'Solo al final de cada año', 'Únicamente si las horas superan un límite'],
     correcta: 0,
@@ -6119,6 +6883,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 789,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El Comité de Empresa, respecto al Consejo de Administración:',
     opciones: ['No tiene ninguna relación con él', 'Estará presente en sus reuniones, con su representante', 'Lo preside'],
     correcta: 1,
@@ -6127,6 +6892,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 790,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El Comité de Empresa emitirá informe con carácter previo a las decisiones sobre:',
     opciones: ['Reestructuración de plantilla, implantación o revisión de sistemas de organización y control, estudio de tiempos y catálogo de puestos', 'La contratación de cada proveedor', 'Los precios de venta de los productos'],
     correcta: 0,
@@ -6135,6 +6901,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 791,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los miembros del Comité de Empresa tendrán acceso a las distintas dependencias de Fábrica en los diferentes horarios de trabajo:',
     opciones: ['Previa comunicación', 'Solo con autorización escrita del Director General', 'Únicamente en su propio turno'],
     correcta: 0,
@@ -6143,6 +6910,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 792,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El Comité de Empresa participará, en la forma que se establezca, en las comisiones de:',
     opciones: ['Seguridad y Salud Laboral, Relaciones Humanas y Sanidad, Sugerencias, Formación y Seguimiento de bolsas de trabajo', 'Compras y ventas internacionales', 'Nombramiento de directivos'],
     correcta: 0,
@@ -6151,6 +6919,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 793,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En el sistema excepcional de provisión de puestos (concurso de méritos interno y OEP externa), se puede aplicar cuando los efectivos en plantilla desciendan por debajo del:',
     opciones: ['10% del número de puestos del catálogo, o del 20% de los puestos de un determinado Departamento', '50% de la plantilla total', '5% del catálogo en todo caso'],
     correcta: 0,
@@ -6159,6 +6928,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 794,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La cobertura temporal de puestos se realiza, en primer lugar:',
     opciones: ['Con personal del propio Departamento, con superior o inferior categoría, designado por la Dirección del mismo', 'Con candidatos del SEPE', 'Mediante proceso de selección libre'],
     correcta: 0,
@@ -6167,6 +6937,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 795,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El personal con contrato temporal, por las características del mismo:',
     opciones: ['No podrá presentarse a un concurso de carácter restringido', 'Tiene preferencia en los concursos restringidos', 'Solo puede presentarse a concursos restringidos'],
     correcta: 0,
@@ -6175,6 +6946,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 796,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Durante el período de prueba, el desistimiento de la prueba y la resolución del contrato:',
     opciones: ['Pueden ejercerse por el trabajador o por la FNMT-RCM, sin preaviso y sin derecho a indemnización para ninguna de las partes', 'Solo corresponden a la empresa, con indemnización', 'Requieren un preaviso de quince días'],
     correcta: 0,
@@ -6183,6 +6955,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 797,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los cambios de puestos por movilidad funcional entre el personal voluntario se realizan teniendo en cuenta:',
     opciones: ['La antigüedad en la categoría, taller y Fábrica y la capacitación; sin voluntarios, corresponde al trabajador más moderno entre los capacitados', 'Exclusivamente la edad', 'Un sorteo entre los interesados'],
     correcta: 0,
@@ -6191,6 +6964,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 798,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En movilidad funcional provisional por falta de trabajo, cuando el cambio de puesto sea superior a un mes:',
     opciones: ['Requerirá comunicación al Comité de Empresa', 'Requerirá autorización de la Inspección de Trabajo', 'No requiere comunicación alguna'],
     correcta: 0,
@@ -6199,6 +6973,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 799,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las trabajadoras en estado gestante, por indicación facultativa y visto bueno del médico, podrán optar a:',
     opciones: ['Un cambio de puesto de trabajo a cualquier otro sin riesgos para su salud o la de su futuro hijo', 'Una excedencia forzosa', 'Una reducción salarial voluntaria'],
     correcta: 0,
@@ -6207,6 +6982,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 800,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En movilidad geográfica forzosa, el trabajador percibe como compensación:',
     opciones: ['Los gastos del traslado (incluidos mobiliario y enseres) y una gratificación por una sola vez de dos mensualidades de su retribución', 'Únicamente el billete de transporte', 'Tres mensualidades y vivienda'],
     correcta: 0,
@@ -6215,6 +6991,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 801,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Una vez acordada la nueva clasificación profesional, en el plazo de un año desde su implantación se negociarán, entre otras adaptaciones:',
     opciones: ['Los sistemas de selección, la adaptación de los conceptos retributivos y los itinerarios profesionales', 'La privatización de la entidad', 'La supresión de la Comisión Paritaria'],
     correcta: 0,
@@ -6223,6 +7000,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 802,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las reclamaciones por valoración presentadas dentro del plazo de 18 semanas desde la variación reclamada tienen efectos:',
     opciones: ['Desde la fecha en que se produjo dicha variación, si hay cambio de nivel', 'Desde el año siguiente', 'Solo desde la resolución de la Comisión'],
     correcta: 0,
@@ -6231,6 +7009,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 803,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Todo trabajador que se considere perjudicado en sus derechos y quiera reclamar ante la Jurisdicción Social competente deberá previamente:',
     opciones: ['Presentar su escrito de reclamación ante la Dirección de la FNMT-RCM con un mes de antelación', 'Acudir directamente al juzgado sin más trámite', 'Obtener autorización del Comité de Empresa'],
     correcta: 0,
@@ -6239,6 +7018,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 804,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'A la entrada en vigor del presente Convenio queda derogado expresamente:',
     opciones: ['El anterior, aprobado por Resolución de 11 de julio de 2006 y publicado en el BOE el 28 de julio de 2006', 'El Estatuto de los Trabajadores', 'Todos los acuerdos de empresa anteriores a 1989'],
     correcta: 0,
@@ -6247,6 +7027,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 805,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los acuerdos de carácter general que adopte la Comisión Paritaria:',
     opciones: ['Serán publicados a la firma del acta correspondiente para conocimiento de toda la plantilla', 'Son secretos entre las partes', 'Solo se comunican a la Dirección'],
     correcta: 0,
@@ -6255,6 +7036,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 806,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La Comisión de Formación se reunirá:',
     opciones: ['Al menos una vez al mes', 'Una vez al trimestre', 'Solo cuando haya vacantes'],
     correcta: 0,
@@ -6263,6 +7045,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 807,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La Comisión paritaria del Plan de Igualdad se compromete a elaborar el Plan en el plazo de:',
     opciones: ['6 meses a partir de la firma del Convenio', 'Un año desde la publicación en el BOE', 'Tres meses desde su constitución'],
     correcta: 0,
@@ -6271,6 +7054,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 808,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las fases de desarrollo del Plan de Igualdad son:',
     opciones: ['Diagnóstico, diseño, implantación y evaluación y seguimiento', 'Propuesta, votación y archivo', 'Estudio y publicación'],
     correcta: 0,
@@ -6279,6 +7063,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 809,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En el calendario laboral, los días de exceso de jornada se fijan con el siguiente orden de prioridad:',
     opciones: ['Un día de exceso entre dos no laborables; el lunes de Pascua; dos días de exceso entre dos no laborables', 'Siempre los viernes', 'Los que decida cada departamento sin criterio común'],
     correcta: 0,
@@ -6287,6 +7072,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 810,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La vigilancia periódica del estado de salud de los trabajadores respetará siempre:',
     opciones: ['El derecho a la intimidad y dignidad del trabajador y la confidencialidad de los resultados', 'El derecho de la empresa a difundir los resultados', 'Solo la normativa interna de la Fábrica'],
     correcta: 0,
@@ -6295,6 +7081,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 811,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Cualquier cambio de método de trabajo, funciones o introducción de nuevas tecnologías deberá comunicarse al Servicio de Prevención con un plazo mínimo, anterior a su implantación, de:',
     opciones: ['15 días, para que emita un dictamen', '20 días hábiles', '48 horas'],
     correcta: 0,
@@ -6303,6 +7090,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 812,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los Delegados de Prevención en el centro de trabajo de Madrid son:',
     opciones: ['Seis, elegidos por el Comité de Empresa, de los que cuatro serán miembros de dicho Comité', 'Tres, elegidos por y entre el Comité de Empresa', 'Diez, designados por la Dirección'],
     correcta: 0,
@@ -6311,6 +7099,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 813,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los acuerdos de las reuniones del Comité de Seguridad y Salud se toman:',
     opciones: ['Por mayoría de los miembros con derecho a voto', 'Por unanimidad en todo caso', 'Por decisión del Presidente'],
     correcta: 0,
@@ -6319,6 +7108,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 814,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La tabla de niveles salariales del Anexo II comprende:',
     opciones: ['16 niveles', '12 niveles', '20 niveles'],
     correcta: 0,
@@ -6327,6 +7117,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 815,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Según el Anexo II (valores 2024), el Plus de Turnicidad asciende a:',
     opciones: ['33,91 euros/mes', '38,66 euros/mes', '45,00 euros/mes'],
     correcta: 1,
@@ -6335,6 +7126,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 816,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Según el Anexo II (valores 2024), el Plus de Movilidad Funcional es de:',
     opciones: ['3,86 euros/jornada', '5,00 euros/jornada', '10,46 euros/jornada'],
     correcta: 0,
@@ -6343,6 +7135,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 817,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Según el Anexo II (valores 2024), la gratificación por trabajo en sábados, domingos o festivos es de:',
     opciones: ['91,77 euros/jornada', '96,04 euros/jornada', '104,62 euros/jornada'],
     correcta: 2,
@@ -6351,6 +7144,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 818,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Según el Anexo II (valores 2024), el Salario Lineal mensual es de:',
     opciones: ['167,26 euros', '146,72 euros', '200,71 euros'],
     correcta: 0,
@@ -6359,6 +7153,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 819,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El Plus de Movilidad Funcional lo perciben los trabajadores que:',
     opciones: ['Se encuentren durante toda su jornada en movilidad funcional desempeñando un puesto de igual o inferior nivel salarial', 'Cambien de turno una vez al mes', 'Realicen horas extraordinarias'],
     correcta: 0,
@@ -6367,6 +7162,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 820,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En la fórmula de cálculo de las horas extraordinarias del Anexo II, el resultado se multiplica por:',
     opciones: ['1,50', '1,75', '2,00'],
     correcta: 1,
@@ -6375,6 +7171,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 821,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En los partes complementarios de nómina de superior categoría se anota exclusivamente el tiempo trabajado, apareciendo como máximo:',
     opciones: ['7 horas de cada día', '8 horas de cada día', '6,5 horas de cada día'],
     correcta: 2,
@@ -6383,6 +7180,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 822,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El complemento de enfermedad común a cargo de la empresa se calcula considerando el 100% de:',
     opciones: ['Salario base, salario lineal y antigüedad, sin complementos de puesto, productividad ni gratificación de 4 ó 5 turnos', 'Todos los conceptos salariales sin excepción', 'Únicamente el salario base'],
     correcta: 0,
@@ -6391,6 +7189,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 823,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En incidencias sin sueldo inferiores a una jornada, la gratificación por trabajo continuado en 4 ó 5 turnos:',
     opciones: ['No se abona cuando la ausencia supera la mitad de la jornada', 'Se abona siempre íntegra', 'Se descuenta al 50% en todo caso'],
     correcta: 0,
@@ -6399,6 +7198,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 824,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En las incidencias sin sueldo superiores a 30 días se aplica, además de los descuentos ordinarios:',
     opciones: ['La parte proporcional de vacaciones correspondiente al número de días trabajados', 'Una penalización del 10% del salario anual', 'La pérdida de las pagas extraordinarias completas'],
     correcta: 0,
@@ -6407,6 +7207,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 825,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En los permisos retribuidos, los descuentos sobre salario base y antigüedad:',
     opciones: ['No se aplican', 'Se aplican al 50%', 'Se aplican sobre el tiempo de incidencia'],
     correcta: 0,
@@ -6415,6 +7216,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 826,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En la tabla de equivalencias del Plan de Pensiones (art. 45), el nivel salarial 7 se corresponde con el grupo profesional de la AGE:',
     opciones: ['C2', 'C1', 'B'],
     correcta: 1,
@@ -6423,6 +7225,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 827,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los niveles salariales 1, 2 y 3 equivalen, en el Plan de Pensiones, al grupo de la AGE:',
     opciones: ['C2', 'B', 'E'],
     correcta: 2,
@@ -6431,6 +7234,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 828,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El Anexo V del convenio contiene:',
     opciones: ['El recibo de nómina', 'Las bolsas de trabajo', 'Las normas sobre concursos'],
     correcta: 0,
@@ -6439,6 +7243,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 829,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'En la Semana Industrial del Anexo VII, el turno de mañana es:',
     opciones: ['De 7,00 a 15,00 horas', 'De 6,00 a 14,00 horas', 'De 8,00 a 16,00 horas'],
     correcta: 0,
@@ -6447,6 +7252,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 830,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Como pruebas definitivas de aptitud y evaluación a efectos del permiso por exámenes deben entenderse:',
     opciones: ['Los exámenes parciales liberatorios', 'Solo los exámenes de septiembre', 'Únicamente las pruebas de acceso a la universidad'],
     correcta: 0,
@@ -6455,6 +7261,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 831,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Si el cumplimiento de un deber inexcusable de carácter público excede del 20 por 100 de la jornada durante un periodo de tres meses:',
     opciones: ['La FNMT/RCM podrá pasar al trabajador a la situación de excedencia forzosa', 'El trabajador pierde su puesto definitivamente', 'Se le descuenta de vacaciones'],
     correcta: 0,
@@ -6463,6 +7270,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 832,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'De los días de asuntos particulares y de los días adicionales por antigüedad se podrán fraccionar, a petición del trabajador:',
     opciones: ['Hasta tres días', 'Hasta cinco días', 'Todos los días'],
     correcta: 0,
@@ -6471,6 +7279,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 833,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Si por probadas razones de organización no puede disfrutarse el día de asuntos particulares solicitado, el Departamento lo comunicará al trabajador:',
     opciones: ['Con un plazo mínimo de dos días de antelación, argumentando las razones', 'El mismo día solicitado', 'Sin necesidad de justificación'],
     correcta: 0,
@@ -6479,6 +7288,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 834,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El permiso retribuido para acompañar a consulta médica alcanza a los hijos:',
     opciones: ['Menores de 14 años, y a familiares de primer grado mayores de catorce años convivientes con justificante de necesidad de acompañamiento', 'Menores de 18 años en todo caso', 'Solo menores de 3 años'],
     correcta: 0,
@@ -6487,6 +7297,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 835,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los trabajadores con hijos de 12 a 14 años a su cargo podrán solicitar reducción de jornada con disminución proporcional del salario:',
     opciones: ['Hasta un máximo de la mitad de su duración, siendo facultad de la FNMT/RCM concederla según las necesidades organizativas', 'De hasta dos tercios, de concesión automática', 'Solo durante los meses de verano'],
     correcta: 0,
@@ -6495,6 +7306,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 836,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La suspensión del contrato por privación de libertad del trabajador se mantiene:',
     opciones: ['Sin retribuciones, mientras no exista sentencia condenatoria firme, incluidas la detención preventiva y la prisión provisional', 'Con salario íntegro durante seis meses', 'Solo si hay condena firme'],
     correcta: 0,
@@ -6503,6 +7315,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 837,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'El permiso por nacimiento de hijo (art. 23) es de dos días naturales, que se amplían:',
     opciones: ['Al siguiente día laborable si recaen en dos días no laborables, y tres días más si hay desplazamiento fuera de la provincia del domicilio', 'A una semana en todo caso', 'Solo si lo autoriza el jefe inmediato'],
     correcta: 0,
@@ -6511,6 +7324,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 838,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Serán retribuidos los permisos motivados por:',
     opciones: ['Las visitas médicas durante la gestación y la asistencia a pruebas y consultas para la obtención del embarazo por nuevas técnicas de fecundación', 'Cualquier gestión personal sin justificar', 'Las vacaciones de los familiares'],
     correcta: 0,
@@ -6519,6 +7333,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 839,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Cuando el periodo vacacional fijado coincida con una IT derivada del embarazo o con la suspensión por maternidad, paternidad o riesgo durante el embarazo:',
     opciones: ['Se tendrá derecho a disfrutar las vacaciones al finalizar la suspensión, aunque haya terminado el año natural', 'Las vacaciones se pierden', 'Se compensan en metálico obligatoriamente'],
     correcta: 0,
@@ -6527,6 +7342,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 840,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Si la suspensión por paternidad se disfruta en régimen de jornada parcial, ésta deberá ser como mínimo del:',
     opciones: ['50% de la jornada', '25% de la jornada', '75% de la jornada'],
     correcta: 0,
@@ -6535,6 +7351,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 841,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Las reclamaciones del personal contra la relación anual del personal las resuelve la Dirección en el plazo de:',
     opciones: ['Siete días', 'Treinta días', 'Tres meses'],
     correcta: 0,
@@ -6543,6 +7360,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 842,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'La determinación y composición del catálogo de puestos de trabajo corresponde a:',
     opciones: ['Los órganos de la Administración competentes, que podrán modificarlo según las necesidades', 'El Comité de Empresa en exclusiva', 'La Comisión Paritaria'],
     correcta: 0,
@@ -6551,6 +7369,7 @@ export const PREGUNTAS: Pregunta[] = [
   {
     id: 843,
     tema: 'convenio',
+    fuente: 'ia',
     enunciado: 'Los acuerdos adoptados por la Comisión Mixta de reconversión y nuevas tecnologías:',
     opciones: ['Se elevarán al Presidente-Director del Ente para su ratificación', 'Son ejecutivos sin más trámite', 'Requieren aprobación del Ministerio de Trabajo'],
     correcta: 0,

@@ -4,6 +4,17 @@ import { PREGUNTAS } from '../data/preguntas';
 
 const CLAVE_VISTAS = 'oposi-test-vistas';
 
+// 'ia' = generada, 'examen' = de examen oficial
+export type Fuente = 'ia' | 'examen';
+
+// Datos que la pantalla necesita para montar un simulacro
+export interface ConfigSimulacro {
+  preguntas: Pregunta[];
+  cantidad: number;
+  minutos: number;
+  penalizacion: number; // lo que resta cada fallo (0 = no resta)
+}
+
 @Injectable({ providedIn: 'root' })
 export class PreguntasService {
   // Devuelve una copia de la pregunta con las 3 opciones desordenadas
@@ -67,15 +78,28 @@ export class PreguntasService {
     return this.getPorTema(tema).length;
   }
 
-  // Devuelve preguntas priorizando las no vistas; si quedan pocas, reinicia el ciclo
-  getAleatorias(tema: string, cantidad: number): Pregunta[] {
-    const todas = this.getPorTema(tema);
-    const vistas = this.getVistas()[tema] ?? [];
+  // Igual que getPorTema pero acotando también por origen
+  getPorTemaYFuente(tema: string, fuente: Fuente): Pregunta[] {
+    return PREGUNTAS.filter((p) => p.tema === tema && p.fuente === fuente);
+  }
+
+  contarPorTemaYFuente(tema: string, fuente: Fuente): number {
+    return this.getPorTemaYFuente(tema, fuente).length;
+  }
+
+  // Devuelve preguntas priorizando las no vistas; si quedan pocas, reinicia el ciclo.
+  // Si se pasa fuente, filtra por ella y lleva su propio ciclo de "vistas".
+  getAleatorias(tema: string, cantidad: number, fuente?: Fuente): Pregunta[] {
+    const todas = fuente ? this.getPorTemaYFuente(tema, fuente) : this.getPorTema(tema);
+
+    // clave distinta por sección para no mezclar lo visto de ia y examen
+    const clave = fuente ? `${tema}-${fuente}` : tema;
+    const vistas = this.getVistas()[clave] ?? [];
     let disponibles = todas.filter((p) => !vistas.includes(p.id));
 
     // Si no quedan suficientes sin ver, reiniciamos el ciclo
     if (disponibles.length < cantidad) {
-      this.reiniciarVistas(tema);
+      this.reiniciarVistas(clave);
       disponibles = [...todas];
     }
 
@@ -85,7 +109,7 @@ export class PreguntasService {
 
     // Marcamos como vistas
     this.marcarVistas(
-      tema,
+      clave,
       elegidas.map((p) => p.id)
     );
 
@@ -97,5 +121,29 @@ export class PreguntasService {
     const copia = [...PREGUNTAS];
     copia.sort(() => Math.random() - 0.5);
     return copia.slice(0, cantidad).map((p) => this.barajarOpciones(p));
+  }
+
+  // Simulacro de práctica: mezcla de todos los temas, da igual el origen
+  getSimulacroPractica(cantidad = 50): ConfigSimulacro {
+    return {
+      preguntas: this.getSimulacro(cantidad),
+      cantidad,
+      minutos: 60,
+      penalizacion: 1 / 3,
+    };
+  }
+
+  // Simulacro de examen real: solo preguntas de examen, 100 preguntas y 2 horas
+  getSimulacroExamen(): ConfigSimulacro {
+    const soloExamen = PREGUNTAS.filter((p) => p.fuente === 'examen');
+    const barajadas = [...soloExamen].sort(() => Math.random() - 0.5);
+    // cogemos hasta 100; de momento habrá menos hasta que metamos las de examen
+    const elegidas = barajadas.slice(0, 100).map((p) => this.barajarOpciones(p));
+    return {
+      preguntas: elegidas,
+      cantidad: 100,
+      minutos: 120,
+      penalizacion: 1 / 3,
+    };
   }
 }
