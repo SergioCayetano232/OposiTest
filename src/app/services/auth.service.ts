@@ -7,6 +7,16 @@ import { RespuestaAuth, Usuario } from '../models/usuario';
 const CLAVE_TOKEN = 'oposi-test-token';
 const CLAVE_USUARIO = 'oposi-test-usuario';
 
+// El backend responde con este codigo cuando la cuenta existe pero no esta verificada
+export const CODIGO_SIN_VERIFICAR = 8;
+
+// Error con el codigo del backend dentro, para poder reaccionar a cada caso
+export class ErrorAuth extends Error {
+  constructor(mensaje: string, public codigo: number) {
+    super(mensaje);
+  }
+}
+
 @Injectable({ providedIn: 'root' })
 export class AuthService {
   private http = inject(HttpClient);
@@ -52,7 +62,7 @@ export class AuthService {
         fallo.status === 0
           ? 'no hemos podido conectar con el servidor, intentalo de nuevo'
           : fallo.error?.mensaje ?? 'ha ocurrido un error inesperado';
-      throw new Error(mensaje);
+      throw new ErrorAuth(mensaje, fallo.error?.codigo ?? 0);
     }
   }
 

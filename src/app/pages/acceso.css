@@ -1,0 +1,126 @@
+/* Estilos compartidos por las tres pantallas de acceso: registro, verificar y login */
+
+.tarjeta-acceso {
+  max-width: 400px;
+  margin: 40px auto;
+  background: #fff;
+  border: 1px solid #e5e9f0;
+  border-radius: 16px;
+  padding: 32px 28px;
+  box-shadow: 0 1px 2px rgba(20, 40, 80, 0.04), 0 8px 24px rgba(20, 40, 80, 0.05);
+}
+
+.tarjeta-acceso h1 {
+  font-size: 26px;
+  color: #1d3a6e;
+  text-align: center;
+}
+
+.subtitulo {
+  color: #64748b;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 6px;
+  margin-bottom: 24px;
+}
+
+.campo {
+  margin-bottom: 16px;
+}
+
+.campo label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #334155;
+}
+
+.campo input {
+  width: 100%;
+  padding: 11px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.campo input:focus {
+  outline: none;
+  border-color: #1d3a6e;
+}
+
+.pista {
+  font-size: 12px;
+  color: #94a3b8;
+  margin-top: 5px;
+}
+
+/* Casilla grande y centrada para los 6 digitos del codigo */
+.campo input.codigo {
+  text-align: center;
+  font-size: 26px;
+  letter-spacing: 10px;
+  padding: 14px 12px;
+}
+
+.btn-principal {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  background: #1d3a6e;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.btn-principal:hover:not(:disabled) {
+  background: #16305c;
+}
+
+.btn-principal:disabled {
+  background: #cbd5e1;
+  cursor: not-allowed;
+}
+
+.error {
+  background: #fdecec;
+  border: 1px solid #f5c2c2;
+  color: #a02020;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.aviso {
+  background: #eef2f9;
+  border: 1px solid #d5deec;
+  color: #1d3a6e;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.pie {
+  text-align: center;
+  font-size: 14px;
+  color: #64748b;
+  margin-top: 20px;
+}
+
+.pie a {
+  color: #1d3a6e;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.pie a:hover {
+  text-decoration: underline;
+}

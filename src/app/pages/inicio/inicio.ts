@@ -2,6 +2,7 @@ import { Component, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { PreguntasService } from '../../services/preguntas.service';
 import { EstadisticasService } from '../../services/estadisticas.service';
+import { AuthService } from '../../services/auth.service';
 
 export interface Tema {
   id: string;
@@ -19,6 +20,8 @@ export interface Tema {
 export class Inicio {
   private preguntasService = inject(PreguntasService);
   private estadisticasService = inject(EstadisticasService);
+  // publico porque la plantilla lee el usuario de la sesion
+  auth = inject(AuthService);
 
   temas: Tema[] = [
     { id: 'convenio', nombre: 'Convenio Colectivo', descripcion: 'XI Convenio de la FNMT-RCM', icono: '📜' },

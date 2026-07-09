@@ -1,3 +1,45 @@
+/* barra de arriba con el acceso a la cuenta */
+.barra-sesion {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.barra-sesion a {
+  color: #1d3a6e;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.barra-sesion .btn-crear {
+  background: #1d3a6e;
+  color: #fff;
+  padding: 7px 14px;
+  border-radius: 8px;
+}
+
+.barra-sesion .quien {
+  color: #64748b;
+}
+
+.btn-salir {
+  background: none;
+  border: 1px solid #cbd5e1;
+  color: #64748b;
+  padding: 6px 13px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn-salir:hover {
+  border-color: #94a3b8;
+}
+
 .cabecera {
   text-align: center;
   margin-bottom: 32px;
