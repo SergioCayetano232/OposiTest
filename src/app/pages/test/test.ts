@@ -3,6 +3,7 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
 import { Pregunta } from '../../models/pregunta';
 import { Fuente, PreguntasService } from '../../services/preguntas.service';
 import { EstadisticasService } from '../../services/estadisticas.service';
+import { CONSTITUCION } from '../../data/constitucion';
 
 @Component({
   selector: 'app-test',
@@ -67,6 +68,16 @@ export class Test implements OnDestroy {
     return this.preguntas[this.indice];
   }
 
+  // texto de la Constitución para las preguntas de comprensión lectora
+  textoConstitucion = CONSTITUCION;
+  // panel del texto abierto/cerrado
+  verConstitucion = false;
+
+  // ¿la pregunta actual necesita el texto de la Constitución?
+  get esConstitucion(): boolean {
+    return this.preguntaActual?.etiqueta === 'constitucion';
+  }
+
   get esUltima(): boolean {
     return this.indice === this.preguntas.length - 1;
   }
@@ -83,10 +94,12 @@ export class Test implements OnDestroy {
 
   siguiente() {
     if (!this.esUltima) this.indice++;
+    this.verConstitucion = false; // cerramos el texto al cambiar de pregunta
   }
 
   anterior() {
     if (this.indice > 0) this.indice--;
+    this.verConstitucion = false; // cerramos el texto al cambiar de pregunta
   }
 
   letra(i: number): string {

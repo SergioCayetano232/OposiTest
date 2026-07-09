@@ -19,6 +19,16 @@
   <section class="pregunta">
     <h2>{{ preguntaActual.enunciado }}</h2>
 
+    <!-- Solo en las preguntas de comprensión lectora de la Constitución -->
+    @if (esConstitucion) {
+      <button class="ver-texto" (click)="verConstitucion = !verConstitucion">
+        📜 {{ verConstitucion ? 'Ocultar' : 'Ver' }} texto de la Constitución
+      </button>
+      @if (verConstitucion) {
+        <pre class="texto-constitucion">{{ textoConstitucion }}</pre>
+      }
+    }
+
     <div class="opciones">
       @for (opcion of preguntaActual.opciones; track $index) {
         <button
