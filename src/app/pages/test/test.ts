@@ -4,6 +4,7 @@ import { Pregunta } from '../../models/pregunta';
 import { Fuente, PreguntasService } from '../../services/preguntas.service';
 import { EstadisticasService } from '../../services/estadisticas.service';
 import { CONSTITUCION } from '../../data/constitucion';
+import { TEXTOS_LECTURA } from '../../data/textos-lectura';
 
 @Component({
   selector: 'app-test',
@@ -70,12 +71,26 @@ export class Test implements OnDestroy {
 
   // texto de la Constitución para las preguntas de comprensión lectora
   textoConstitucion = CONSTITUCION;
-  // panel del texto abierto/cerrado
+  // panel del texto abierto/cerrado (vale para Constitución y textos de lectura)
   verConstitucion = false;
 
   // ¿la pregunta actual necesita el texto de la Constitución?
   get esConstitucion(): boolean {
     return this.preguntaActual?.etiqueta === 'constitucion';
+  }
+
+  // ¿la pregunta actual es de comprensión lectora con texto adjunto?
+  // Se marcan con etiqueta 'lectura:clave' (p. ej. 'lectura:boby').
+  get esLectura(): boolean {
+    return this.preguntaActual?.etiqueta?.startsWith('lectura:') ?? false;
+  }
+
+  // texto de lectura que corresponde a la pregunta actual (o vacío)
+  get textoLectura(): string {
+    const etiqueta = this.preguntaActual?.etiqueta ?? '';
+    if (!etiqueta.startsWith('lectura:')) return '';
+    const clave = etiqueta.slice('lectura:'.length);
+    return TEXTOS_LECTURA[clave] ?? '';
   }
 
   get esUltima(): boolean {

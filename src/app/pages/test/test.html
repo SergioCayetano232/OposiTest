@@ -29,6 +29,16 @@
       }
     }
 
+    <!-- Preguntas de comprensión lectora con texto adjunto -->
+    @if (esLectura) {
+      <button class="ver-texto" (click)="verConstitucion = !verConstitucion">
+        📄 {{ verConstitucion ? 'Ocultar' : 'Ver' }} texto de lectura
+      </button>
+      @if (verConstitucion) {
+        <pre class="texto-constitucion">{{ textoLectura }}</pre>
+      }
+    }
+
     <div class="opciones">
       @for (opcion of preguntaActual.opciones; track $index) {
         <button
