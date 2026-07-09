@@ -24,10 +24,8 @@ export class Inicio {
   auth = inject(AuthService);
   private router = inject(Router);
 
-  // Al salir olvidamos tambien el modo invitado, para volver a la bienvenida
   salir() {
     this.auth.cerrarSesion();
-    this.auth.olvidarInvitado();
     this.router.navigate(['/']);
   }
 

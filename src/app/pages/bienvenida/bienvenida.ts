@@ -1,6 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { Router, RouterLink } from '@angular/router';
-import { AuthService } from '../../services/auth.service';
+import { RouterLink } from '@angular/router';
 import { PreguntasService } from '../../services/preguntas.service';
 
 @Component({
@@ -10,14 +9,7 @@ import { PreguntasService } from '../../services/preguntas.service';
   styleUrl: './bienvenida.css',
 })
 export class Bienvenida {
-  private auth = inject(AuthService);
-  private router = inject(Router);
   private preguntasService = inject(PreguntasService);
 
   totalPreguntas = this.preguntasService.getTodas().length;
-
-  seguirComoInvitado() {
-    this.auth.entrarComoInvitado();
-    this.router.navigate(['/inicio']);
-  }
 }

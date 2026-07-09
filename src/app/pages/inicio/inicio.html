@@ -1,12 +1,7 @@
-<!-- Barra de sesión: cambia sola al entrar o salir -->
+<!-- Aquí solo se llega con sesión iniciada -->
 <nav class="barra-sesion">
-  @if (auth.haEntrado()) {
-    <span class="quien">{{ auth.usuario()?.email }}</span>
-    <button class="btn-salir" (click)="salir()">Salir</button>
-  } @else {
-    <span class="quien">Estás como invitado</span>
-    <a class="btn-crear" routerLink="/registro">Crear cuenta</a>
-  }
+  <span class="quien">{{ auth.usuario()?.email }}</span>
+  <button class="btn-salir" (click)="salir()">Salir</button>
 </nav>
 
 <header class="cabecera">

@@ -6,7 +6,6 @@ import { RespuestaAuth, Usuario } from '../models/usuario';
 
 const CLAVE_TOKEN = 'oposi-test-token';
 const CLAVE_USUARIO = 'oposi-test-usuario';
-const CLAVE_INVITADO = 'oposi-test-invitado';
 
 // El backend responde con este codigo cuando la cuenta existe pero no esta verificada
 export const CODIGO_SIN_VERIFICAR = 8;
@@ -50,20 +49,6 @@ export class AuthService {
     localStorage.removeItem(CLAVE_TOKEN);
     localStorage.removeItem(CLAVE_USUARIO);
     this.usuario.set(null);
-  }
-
-  // Quien elige seguir sin cuenta no vuelve a ver la pantalla de bienvenida
-  entrarComoInvitado() {
-    localStorage.setItem(CLAVE_INVITADO, 'si');
-  }
-
-  esInvitado(): boolean {
-    return localStorage.getItem(CLAVE_INVITADO) === 'si';
-  }
-
-  // Vuelve a mostrar la bienvenida, p. ej. al salir de la sesion
-  olvidarInvitado() {
-    localStorage.removeItem(CLAVE_INVITADO);
   }
 
   // Manda la peticion y saca el mensaje del backend si algo falla
