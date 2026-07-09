@@ -7,6 +7,9 @@ import { RespuestaAuth, Usuario } from '../models/usuario';
 const CLAVE_TOKEN = 'oposi-test-token';
 const CLAVE_USUARIO = 'oposi-test-usuario';
 
+// Si el servidor tarda mas de esto, es que estaba dormido y hay que avisar
+const MS_PARA_AVISAR = 3000;
+
 // El backend responde con este codigo cuando la cuenta existe pero no esta verificada
 export const CODIGO_SIN_VERIFICAR = 8;
 
@@ -25,6 +28,9 @@ export class AuthService {
   // El usuario de la sesion; al cambiar, las pantallas se refrescan solas
   usuario = signal<Usuario | null>(this.leerUsuarioGuardado());
   haEntrado = computed(() => this.usuario() !== null);
+
+  // Se enciende cuando el servidor gratuito de Render esta despertando
+  despertando = signal(false);
 
   private leerUsuarioGuardado(): Usuario | null {
     try {
@@ -53,6 +59,9 @@ export class AuthService {
 
   // Manda la peticion y saca el mensaje del backend si algo falla
   private async llamar(ruta: string, datos: object): Promise<RespuestaAuth> {
+    // Si tarda demasiado avisamos, que el servidor gratuito duerme al rato
+    const aviso = setTimeout(() => this.despertando.set(true), MS_PARA_AVISAR);
+
     try {
       return await firstValueFrom(this.http.post<RespuestaAuth>(`${this.url}/${ruta}`, datos));
     } catch (error) {
@@ -63,6 +72,9 @@ export class AuthService {
           ? 'no hemos podido conectar con el servidor, intentalo de nuevo'
           : fallo.error?.mensaje ?? 'ha ocurrido un error inesperado';
       throw new ErrorAuth(mensaje, fallo.error?.codigo ?? 0);
+    } finally {
+      clearTimeout(aviso);
+      this.despertando.set(false);
     }
   }
 

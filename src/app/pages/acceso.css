@@ -172,3 +172,40 @@
     padding: 30px 22px;
   }
 }
+
+/* Caja de ayuda con lo típico que falla al recibir el código */
+.ayuda {
+  margin-top: 20px;
+  padding: 14px 16px;
+  background: var(--superficie-suave);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+}
+
+.ayuda-titulo {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--texto);
+  margin-bottom: 8px;
+}
+
+.ayuda ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.ayuda li {
+  font-size: 13px;
+  color: var(--texto-suave);
+  margin-bottom: 4px;
+}
+
+.ayuda li:last-child {
+  margin-bottom: 0;
+}
+
+/* El placeholder del código se confundía con un código ya escrito */
+.campo input.codigo::placeholder {
+  color: var(--texto-tenue);
+  opacity: 0.45;
+}

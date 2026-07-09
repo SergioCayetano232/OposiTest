@@ -11,7 +11,8 @@ import { BotonTema } from '../../componentes/boton-tema/boton-tema';
   styleUrl: '../acceso.css',
 })
 export class Login {
-  private auth = inject(AuthService);
+  // publico porque la plantilla mira si el servidor esta despertando
+  auth = inject(AuthService);
   private router = inject(Router);
 
   email = '';

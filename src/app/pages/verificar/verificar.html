@@ -9,8 +9,10 @@
 
   @if (error) {
     <p class="error">{{ error }}</p>
-  } @else {
-    <p class="aviso">Si no lo ves en unos segundos, mira en la carpeta de spam.</p>
+  }
+
+  @if (auth.despertando()) {
+    <p class="aviso">Conectando con el servidor. La primera vez puede tardar un minuto.</p>
   }
 
   <form (ngSubmit)="verificar()">
@@ -33,6 +35,16 @@
       {{ enviando ? 'Comprobando...' : 'Verificar cuenta' }}
     </button>
   </form>
+
+  <!-- Los correos automáticos caen en spam a menudo, más vale avisar -->
+  <div class="ayuda">
+    <p class="ayuda-titulo">¿No te llega el código?</p>
+    <ul>
+      <li>Míralo en la carpeta de <strong>spam</strong> o correo no deseado.</li>
+      <li>En Gmail, revisa la pestaña <strong>Promociones</strong>.</li>
+      <li>El código caduca a los 10 minutos.</li>
+    </ul>
+  </div>
 
   <p class="pie">¿Te has equivocado de correo? <a routerLink="/registro">Empezar de nuevo</a></p>
 </section>

@@ -11,6 +11,10 @@
     <p class="error">{{ error }}</p>
   }
 
+  @if (auth.despertando()) {
+    <p class="aviso">Conectando con el servidor. La primera vez puede tardar un minuto.</p>
+  }
+
   <form (ngSubmit)="registrar()">
     <div class="campo">
       <label for="email">Correo electrónico</label>
