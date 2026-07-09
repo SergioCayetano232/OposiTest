@@ -4,6 +4,7 @@ const bcrypt = require('bcrypt');
 
 const Usuario = require('../../modelos/Usuario.js');
 const otpService = require('../servicios/otpService.js');
+const mailjetService = require('../servicios/mailjetService.js');
 
 const objetoRoutingAuth = express.Router();
 
@@ -35,15 +36,24 @@ objetoRoutingAuth.post('/Registro', async (req, res) => {
 
     const codigo = otpService.generarCodigo();
 
-    await Usuario.create({
+    const usuarioNuevo = await Usuario.create({
       email: emailNormalizado,
       password: bcrypt.hashSync(password, 10),
       codigoOtp: otpService.hashearCodigo(codigo),
       codigoOtpExpira: otpService.calcularCaducidad(),
     });
 
-    // Hasta que montemos Mailjet, el codigo se ve por consola
-    console.log(`Codigo de verificacion para ${emailNormalizado}: ${codigo}`);
+    try {
+      await mailjetService.enviarCodigoBienvenida(emailNormalizado, codigo, otpService.MINUTOS_VALIDEZ);
+    } catch (errorEmail) {
+      // Sin email no puede verificarse, asi que deshacemos el registro y que lo reintente
+      await Usuario.deleteOne({ _id: usuarioNuevo._id });
+      console.log(`Error enviando el email: ${errorEmail.message}`);
+      return res.status(502).send({
+        codigo: 3,
+        mensaje: 'no hemos podido enviarte el email, intentalo de nuevo en un momento',
+      });
+    }
 
     res.status(201).send({
       codigo: 0,
