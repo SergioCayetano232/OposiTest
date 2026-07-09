@@ -1,11 +1,12 @@
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { AuthService } from '../../services/auth.service';
+import { BotonTema } from '../../componentes/boton-tema/boton-tema';
 
 @Component({
   selector: 'app-verificar',
-  imports: [FormsModule],
+  imports: [FormsModule, RouterLink, BotonTema],
   templateUrl: './verificar.html',
   styleUrl: '../acceso.css',
 })

@@ -1,17 +1,40 @@
+<div class="cabecera-flotante">
+  <app-boton-tema />
+</div>
+
 <section class="bienvenida">
-  <h1>Oposi<span>Test</span></h1>
+  <div class="marca">
+    <span class="diana">🎯</span>
+    <h1>Oposi<span>Test</span></h1>
+  </div>
   <p class="lema">Prepara tu examen de Auxiliar de Producción de la FNMT</p>
 
   <ul class="ventajas">
-    <li>📚 {{ totalPreguntas }} preguntas de convenio, PRL, lengua y matemáticas</li>
-    <li>🎯 Simulacros con la puntuación real del examen</li>
-    <li>📈 Guarda tus intentos y tus mejores notas</li>
+    <li>
+      <span class="icono">📚</span>
+      <div>
+        <strong>{{ totalPreguntas }} preguntas</strong>
+        <span>Convenio, PRL, lengua y matemáticas</span>
+      </div>
+    </li>
+    <li>
+      <span class="icono">🎯</span>
+      <div>
+        <strong>Simulacros reales</strong>
+        <span>Con la puntuación de la convocatoria</span>
+      </div>
+    </li>
+    <li>
+      <span class="icono">📈</span>
+      <div>
+        <strong>Tu progreso, guardado</strong>
+        <span>Intentos y mejores notas por tema</span>
+      </div>
+    </li>
   </ul>
 
   <div class="botones">
-    <a class="btn-entrar" routerLink="/login">Entrar</a>
     <a class="btn-crear" routerLink="/registro">Crear cuenta</a>
+    <a class="btn-entrar" routerLink="/login">Ya tengo cuenta</a>
   </div>
-
-  <p class="nota">Necesitas una cuenta para hacer los tests.</p>
 </section>

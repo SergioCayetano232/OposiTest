@@ -2,10 +2,11 @@ import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Router, RouterLink } from '@angular/router';
 import { AuthService, CODIGO_SIN_VERIFICAR, ErrorAuth } from '../../services/auth.service';
+import { BotonTema } from '../../componentes/boton-tema/boton-tema';
 
 @Component({
   selector: 'app-login',
-  imports: [FormsModule, RouterLink],
+  imports: [FormsModule, RouterLink, BotonTema],
   templateUrl: './login.html',
   styleUrl: '../acceso.css',
 })

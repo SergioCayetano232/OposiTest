@@ -1,3 +1,93 @@
+/* Variables de color de toda la app.
+   Se nombran por su funcion (fondo, texto, borde) y no por su color,
+   asi el modo oscuro solo tiene que cambiar los valores. */
+:root {
+  /* marca. El "-boton" es el mismo color pero pensado para usarse de fondo:
+     en modo oscuro se separan, porque un azul claro no aguanta texto blanco. */
+  --azul: #1d3a6e;
+  --azul-boton: #1d3a6e;
+  --azul-oscuro: #16305c;
+  --azul-claro: #2d4a7e;
+  /* el dorado de fondo lleva SIEMPRE texto oscuro encima; el blanco no se lee */
+  --dorado: #c98f2d;
+  --dorado-oscuro: #bb8527;
+  /* variante mas apagada para cuando el dorado es el color del texto */
+  --dorado-texto: #a9741f;
+
+  /* fondos y superficies */
+  --fondo: #f4f5f7;
+  --superficie: #ffffff;
+  --superficie-suave: #f6f8fb;
+  --superficie-marca: #eef2f9;
+
+  /* textos */
+  --texto: #1c2434;
+  --texto-suave: #5c6b82;
+  --texto-tenue: #78879c;
+  --texto-sobre-color: #ffffff;
+  --texto-sobre-dorado: #1c2434;
+  --texto-inactivo: #4a5769;
+
+  /* bordes */
+  --borde: #e5e9f0;
+  --borde-fuerte: #cbd5e1;
+
+  /* estados */
+  --exito: #237a45;
+  --exito-fondo: #ecf7f0;
+  --error: #c13448;
+  --error-fondo: #fdeef0;
+  --error-borde: #f5c2c2;
+
+  /* sombras y curvas */
+  --sombra: 0 1px 2px rgba(20, 40, 80, 0.04), 0 8px 24px rgba(20, 40, 80, 0.05);
+  --sombra-alta: 0 4px 12px rgba(20, 40, 80, 0.08), 0 16px 40px rgba(20, 40, 80, 0.08);
+  --radio: 12px;
+  --radio-grande: 18px;
+  --transicion: 0.18s ease;
+  --halo-foco: rgba(29, 58, 110, 0.16);
+}
+
+/* Los mismos nombres, otros valores. Un azul mas luminoso porque el
+   original se apaga sobre fondo oscuro. */
+:root[data-tema='oscuro'] {
+  /* El azul de los textos es claro para leerse sobre el fondo; el de los
+     botones es mas oscuro para que el texto blanco de encima se lea. */
+  --azul: #7ba4de;
+  --azul-boton: #2f5f9e;
+  --azul-oscuro: #26507f;
+  --azul-claro: #3d6bb0;
+  --dorado: #e0a844;
+  --dorado-oscuro: #c98f2d;
+  --dorado-texto: #e0a844;
+
+  --fondo: #10151f;
+  --superficie: #1a2130;
+  --superficie-suave: #222b3d;
+  --superficie-marca: #232f45;
+
+  --texto: #e8ecf3;
+  --texto-suave: #9aa8bd;
+  --texto-tenue: #6b7a92;
+  --texto-sobre-color: #ffffff;
+  /* sobre el dorado luminoso del modo oscuro, el blanco no se lee */
+  --texto-sobre-dorado: #10151f;
+  --texto-inactivo: #b3bdcb;
+
+  --borde: #2b3547;
+  --borde-fuerte: #3d4a61;
+
+  --exito: #4bbd7a;
+  --exito-fondo: #1b2f24;
+  --error: #e4697a;
+  --error-fondo: #2f1c21;
+  --error-borde: #4a2b32;
+
+  --sombra: 0 1px 2px rgba(0, 0, 0, 0.2), 0 8px 24px rgba(0, 0, 0, 0.24);
+  --sombra-alta: 0 4px 12px rgba(0, 0, 0, 0.3), 0 16px 40px rgba(0, 0, 0, 0.35);
+  --halo-foco: rgba(123, 164, 222, 0.24);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,10 +95,19 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  background-color: #f4f5f7;
-  color: #1c2434;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--fondo);
+  color: var(--texto);
   padding: 32px 20px 60px;
-  line-height: 1.4;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  transition: background-color var(--transicion), color var(--transicion);
+}
+
+/* Quien prefiera que no se mueva nada, que no se mueva */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
 }

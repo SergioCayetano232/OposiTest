@@ -9,26 +9,26 @@
 }
 
 .barra-sesion a {
-  color: #1d3a6e;
+  color: var(--azul);
   text-decoration: none;
   font-weight: 600;
 }
 
 .barra-sesion .btn-crear {
-  background: #1d3a6e;
-  color: #fff;
+  background: var(--azul-boton);
+  color: var(--texto-sobre-color);
   padding: 7px 14px;
   border-radius: 8px;
 }
 
 .barra-sesion .quien {
-  color: #64748b;
+  color: var(--texto-suave);
 }
 
 .btn-salir {
   background: none;
-  border: 1px solid #cbd5e1;
-  color: #64748b;
+  border: 1px solid var(--borde-fuerte);
+  color: var(--texto-suave);
   padding: 6px 13px;
   border-radius: 8px;
   font-size: 14px;
@@ -37,7 +37,7 @@
 }
 
 .btn-salir:hover {
-  border-color: #94a3b8;
+  border-color: var(--texto-tenue);
 }
 
 .cabecera {
@@ -48,15 +48,15 @@
 .cabecera h1 {
   font-size: 42px;
   letter-spacing: -1px;
-  color: #1d3a6e;
+  color: var(--azul);
 }
 
 .cabecera h1 span {
-  color: #c98f2d;
+  color: var(--dorado-texto);
 }
 
 .cabecera p {
-  color: #64748b;
+  color: var(--texto-suave);
   margin-top: 6px;
 }
 
@@ -67,20 +67,33 @@
 }
 
 .tarjeta-tema {
-  background: #fff;
-  border: 1px solid #e5e9f0;
-  border-radius: 16px;
-  padding: 24px 20px;
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio-grande);
+  padding: 26px 20px;
   text-align: center;
-  box-shadow: 0 1px 2px rgba(20, 40, 80, 0.04), 0 8px 24px rgba(20, 40, 80, 0.05);
+  box-shadow: var(--sombra);
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 8px;
+  transition: transform var(--transicion), box-shadow var(--transicion),
+    border-color var(--transicion);
+}
+
+.tarjeta-tema:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--sombra-alta);
+  border-color: var(--borde-fuerte);
 }
 
 .icono {
   font-size: 34px;
+  transition: transform var(--transicion);
+}
+
+.tarjeta-tema:hover .icono {
+  transform: scale(1.12);
 }
 
 .tarjeta-tema h2 {
@@ -88,7 +101,7 @@
 }
 
 .tarjeta-tema p {
-  color: #64748b;
+  color: var(--texto-suave);
   font-size: 14px;
   flex: 1;
 }
@@ -108,52 +121,55 @@
   border-radius: 10px;
   font-size: 14px;
   font-family: inherit;
-  color: #fff;
+  color: var(--texto-sobre-color);
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 6px;
-  transition: background-color 0.15s;
+  transition: background-color var(--transicion);
 }
 
 /* IA en azul, Examen en dorado */
 .btn-ia {
-  background: #1d3a6e;
+  background: var(--azul-boton);
 }
 .btn-ia:hover {
-  background: #16305c;
+  background: var(--azul-oscuro);
 }
 .btn-examen {
-  background: #c98f2d;
+  background: var(--dorado);
+  color: var(--texto-sobre-dorado);
 }
 .btn-examen:hover {
-  background: #b07c22;
+  background: var(--dorado-oscuro);
 }
 
-/* contador pequeño dentro del botón */
+/* contador pequeño dentro del botón. El fondo se tiñe con el color del
+   texto, así vale igual sobre el azul (texto blanco) que sobre el dorado. */
 .accesos .mini {
   font-size: 12px;
-  background: rgba(255, 255, 255, 0.22);
+  background: color-mix(in srgb, currentColor 22%, transparent);
   border-radius: 999px;
   padding: 1px 7px;
 }
 
 .contador {
   font-size: 13px;
-  color: #94a3b8;
+  color: var(--texto-tenue);
 }
 
 .stats {
   font-size: 13px;
-  color: #1d3a6e;
-  background: #eef2f9;
+  color: var(--azul);
+  background: var(--superficie-marca);
   border-radius: 8px;
   padding: 5px 10px;
 }
 
 button:disabled {
-  background: #cbd5e1;
+  background: var(--borde-fuerte);
+  color: var(--texto-inactivo);
   cursor: not-allowed;
 }
 
@@ -165,28 +181,30 @@ button:disabled {
 }
 
 .tarjeta-simulacro {
-  background: linear-gradient(135deg, #1d3a6e 0%, #2d4a7e 100%);
-  color: #fff;
-  border-radius: 16px;
-  padding: 24px;
+  background: linear-gradient(135deg, var(--azul-boton) 0%, var(--azul-claro) 100%);
+  color: var(--texto-sobre-color);
+  border-radius: var(--radio-grande);
+  padding: 26px;
   display: flex;
   align-items: center;
   gap: 16px;
   flex-wrap: wrap;
-  box-shadow: 0 4px 20px rgba(29, 58, 110, 0.25);
+  box-shadow: var(--sombra-alta);
 }
 
 /* el simulacro real lo diferenciamos con el dorado */
 .tarjeta-simulacro.examen {
-  background: linear-gradient(135deg, #a9741f 0%, #c98f2d 100%);
-  box-shadow: 0 4px 20px rgba(201, 143, 45, 0.3);
+  background: linear-gradient(135deg, var(--dorado-oscuro) 0%, var(--dorado) 100%);
+  box-shadow: var(--sombra-alta);
+  color: var(--texto-sobre-dorado);
 }
 
 .tarjeta-simulacro.examen button {
-  background: #1d3a6e;
+  background: var(--azul-boton);
+  color: var(--texto-sobre-color);
 }
 .tarjeta-simulacro.examen button:hover {
-  background: #16305c;
+  background: var(--azul-oscuro);
 }
 
 /* nº de preguntas de examen disponibles */
@@ -210,8 +228,10 @@ button:disabled {
   font-size: 14px;
 }
 
+/* el velo se tiñe con el color del texto: blanco en la azul, oscuro en la dorada */
 .tarjeta-simulacro .stats {
-  background: rgba(255, 255, 255, 0.15);
+  background: color-mix(in srgb, currentColor 16%, transparent);
+  color: inherit;
   padding: 6px 12px;
   border-radius: 8px;
   font-size: 13px;
@@ -220,19 +240,19 @@ button:disabled {
 
 .tarjeta-simulacro button {
   padding: 12px 24px;
-  background: #c98f2d;
-  color: #fff;
+  background: var(--dorado);
+  color: var(--texto-sobre-dorado);
   border: none;
   border-radius: 10px;
   font-size: 15px;
   font-family: inherit;
   cursor: pointer;
   font-weight: 600;
-  transition: background-color 0.15s;
+  transition: background-color var(--transicion);
 }
 
 .tarjeta-simulacro button:hover {
-  background: #b07c22;
+  background: var(--dorado-oscuro);
 }
 
 @media (max-width: 560px) {

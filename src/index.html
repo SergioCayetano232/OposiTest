@@ -7,6 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Tests para preparar el examen de Auxiliar de Producción de la FNMT: convenio, PRL, lengua y matemáticas.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>">
+  <script>
+    // Se aplica el tema antes de pintar nada, para que no de un fogonazo blanco
+    (function () {
+      var guardado = localStorage.getItem('oposi-test-tema');
+      var oscuro = guardado
+        ? guardado === 'oscuro'
+        : window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.dataset.tema = oscuro ? 'oscuro' : 'claro';
+    })();
+  </script>
 </head>
 <body>
   <app-root></app-root>

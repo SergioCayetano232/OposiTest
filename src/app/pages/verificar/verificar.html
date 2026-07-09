@@ -1,11 +1,16 @@
+<div class="cabecera-flotante">
+  <a class="volver-inicio" routerLink="/">← Volver</a>
+  <app-boton-tema />
+</div>
+
 <section class="tarjeta-acceso">
   <h1>Revisa tu correo</h1>
-  <p class="subtitulo">Te hemos enviado un código de 6 dígitos a {{ email }}</p>
+  <p class="subtitulo">Te hemos enviado un código de 6 dígitos a <strong>{{ email }}</strong></p>
 
   @if (error) {
     <p class="error">{{ error }}</p>
   } @else {
-    <p class="aviso">Si no lo ves, mira en la carpeta de spam.</p>
+    <p class="aviso">Si no lo ves en unos segundos, mira en la carpeta de spam.</p>
   }
 
   <form (ngSubmit)="verificar()">
@@ -28,4 +33,6 @@
       {{ enviando ? 'Comprobando...' : 'Verificar cuenta' }}
     </button>
   </form>
+
+  <p class="pie">¿Te has equivocado de correo? <a routerLink="/registro">Empezar de nuevo</a></p>
 </section>

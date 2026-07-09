@@ -1,13 +1,13 @@
 .volver {
   display: inline-block;
-  color: #64748b;
+  color: var(--texto-suave);
   text-decoration: none;
   font-size: 14px;
   margin-bottom: 16px;
 }
 
 .volver:hover {
-  color: #1d3a6e;
+  color: var(--azul);
 }
 
 .fila-progreso {
@@ -18,17 +18,17 @@
 
 .progreso p {
   font-size: 14px;
-  color: #64748b;
+  color: var(--texto-suave);
   margin-bottom: 6px;
 }
 
 .reloj {
   font-weight: 700;
-  color: #1d3a6e;
+  color: var(--azul);
 }
 
 .reloj.apurado {
-  color: #d1495b;
+  color: var(--error);
   animation: parpadeo 1s infinite;
 }
 
@@ -38,7 +38,7 @@
 
 .barra {
   height: 8px;
-  background: #e2e8f0;
+  background: var(--borde);
   border-radius: 99px;
   overflow: hidden;
   margin-bottom: 24px;
@@ -46,17 +46,17 @@
 
 .relleno {
   height: 100%;
-  background: #1d3a6e;
+  background: var(--azul-boton);
   border-radius: 99px;
   transition: width 0.25s;
 }
 
 .pregunta {
-  background: #fff;
-  border: 1px solid #e5e9f0;
+  background: var(--superficie);
+  border: 1px solid var(--borde);
   border-radius: 16px;
   padding: 24px;
-  box-shadow: 0 1px 2px rgba(20, 40, 80, 0.04), 0 8px 24px rgba(20, 40, 80, 0.05);
+  box-shadow: var(--sombra);
   animation: aparecer 0.18s ease-out;
 }
 
@@ -86,8 +86,8 @@
 .opcion {
   text-align: left;
   padding: 13px 15px;
-  background: #f8fafc;
-  border: 1px solid #dbe2ea;
+  background: var(--superficie-suave);
+  border: 1px solid var(--borde);
   border-radius: 10px;
   font-size: 15px;
   font-family: inherit;
@@ -96,17 +96,17 @@
 }
 
 .opcion:hover {
-  border-color: #1d3a6e;
+  border-color: var(--azul);
 }
 
 .opcion.elegida {
-  background: #e8eef9;
-  border-color: #1d3a6e;
+  background: var(--superficie-marca);
+  border-color: var(--azul);
   font-weight: 600;
 }
 
 .letra {
-  color: #1d3a6e;
+  color: var(--azul);
   font-weight: 700;
   margin-right: 6px;
 }
@@ -124,50 +124,51 @@
   font-size: 15px;
   font-family: inherit;
   cursor: pointer;
-  background: #1d3a6e;
-  color: #fff;
+  background: var(--azul-boton);
+  color: var(--texto-sobre-color);
 }
 
 .navegacion button:hover {
-  background: #16305c;
+  background: var(--azul-oscuro);
 }
 
 .navegacion .secundario {
-  background: #fff;
-  color: #1d3a6e;
-  border: 1px solid #cbd5e1;
+  background: var(--superficie);
+  color: var(--azul);
+  border: 1px solid var(--borde-fuerte);
 }
 
 .navegacion .secundario:hover {
-  background: #f1f5f9;
+  background: var(--superficie-suave);
 }
 
 .navegacion button:disabled {
-  background: #cbd5e1;
-  color: #fff;
+  background: var(--borde-fuerte);
+  color: var(--texto-inactivo);
   border: none;
   cursor: not-allowed;
 }
 
 .terminar {
-  background: #c98f2d !important;
+  background: var(--dorado) !important;
+  color: var(--texto-sobre-dorado) !important;
 }
 
 .terminar:hover {
-  background: #b07c22 !important;
+  background: var(--dorado-oscuro) !important;
 }
 
 .resultados {
-  background: #fff;
-  border: 1px solid #e5e9f0;
+  background: var(--superficie);
+  border: 1px solid var(--borde);
   border-radius: 16px;
   padding: 32px 24px;
   text-align: center;
-  box-shadow: 0 1px 2px rgba(20, 40, 80, 0.04), 0 8px 24px rgba(20, 40, 80, 0.05);
+  box-shadow: var(--sombra);
 }
 
 .resultados h2 {
-  color: #64748b;
+  color: var(--texto-suave);
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -176,13 +177,13 @@
 .nota {
   font-size: 64px;
   font-weight: 800;
-  color: #1d3a6e;
+  color: var(--azul);
   line-height: 1.1;
   margin-top: 8px;
 }
 
 .sobre {
-  color: #94a3b8;
+  color: var(--texto-tenue);
   margin-bottom: 20px;
 }
 
@@ -194,13 +195,13 @@
   margin-bottom: 16px;
 }
 
-.desglose .ok { color: #2e9e5b; }
-.desglose .ko { color: #d1495b; }
-.desglose .blanco { color: #94a3b8; }
+.desglose .ok { color: var(--exito); }
+.desglose .ko { color: var(--error); }
+.desglose .blanco { color: var(--texto-tenue); }
 
 .formula {
   font-size: 14px;
-  color: #64748b;
+  color: var(--texto-suave);
   margin-bottom: 24px;
 }
 
@@ -213,8 +214,8 @@
 
 .acciones button {
   padding: 12px 22px;
-  background: #1d3a6e;
-  color: #fff;
+  background: var(--azul-boton);
+  color: var(--texto-sobre-color);
   border: none;
   border-radius: 10px;
   font-size: 15px;
@@ -223,11 +224,11 @@
 }
 
 .acciones button:hover {
-  background: #16305c;
+  background: var(--azul-oscuro);
 }
 
 .enlace-inicio {
-  color: #64748b;
+  color: var(--texto-suave);
   font-size: 14px;
 }
 
@@ -239,12 +240,12 @@
 .repaso h3 {
   font-size: 17px;
   margin-bottom: 14px;
-  color: #1c2434;
+  color: var(--texto);
 }
 
 .fallo {
-  background: #fff;
-  border: 1px solid #e5e9f0;
+  background: var(--superficie);
+  border: 1px solid var(--borde);
   border-radius: 14px;
   padding: 18px;
   margin-bottom: 14px;
@@ -267,18 +268,18 @@
   padding: 9px 12px;
   border-radius: 8px;
   font-size: 14px;
-  background: #f8fafc;
-  border: 1px solid #edf1f5;
+  background: var(--superficie-suave);
+  border: 1px solid var(--borde);
 }
 
 .opcion-repaso.correcta {
-  background: #ecf7f0;
-  border-color: #2e9e5b;
+  background: var(--exito-fondo);
+  border-color: var(--exito);
 }
 
 .opcion-repaso.marcada-mal {
-  background: #fdeef0;
-  border-color: #d1495b;
+  background: var(--error-fondo);
+  border-color: var(--error);
 }
 
 .etiqueta {
@@ -287,25 +288,25 @@
   margin-left: 8px;
 }
 
-.etiqueta.ok { color: #2e9e5b; }
-.etiqueta.ko { color: #d1495b; }
+.etiqueta.ok { color: var(--exito); }
+.etiqueta.ko { color: var(--error); }
 
 .explicacion {
   font-size: 14px;
-  color: #475569;
-  background: #f6f8fb;
-  border-left: 3px solid #c98f2d;
+  color: var(--texto-suave);
+  background: var(--superficie-suave);
+  border-left: 3px solid var(--dorado);
   border-radius: 0 8px 8px 0;
   padding: 10px 12px;
   line-height: 1.5;
 }
 
 .nota.aprobado {
-  color: #2e9e5b;
+  color: var(--exito);
 }
 
 .nota.suspenso {
-  color: #d1495b;
+  color: var(--error);
 }
 
 @media (max-width: 560px) {
@@ -332,9 +333,9 @@
 .ver-texto {
   margin-bottom: 16px;
   padding: 8px 14px;
-  background: #eef2f9;
-  color: #1d3a6e;
-  border: 1px solid #c98f2d;
+  background: var(--superficie-marca);
+  color: var(--azul);
+  border: 1px solid var(--dorado);
   border-radius: 10px;
   font-size: 14px;
   font-family: inherit;
@@ -343,7 +344,7 @@
 }
 
 .ver-texto:hover {
-  background: #e2e8f0;
+  background: var(--borde);
 }
 
 /* Panel con el texto de la Constitución, con scroll propio */
@@ -352,14 +353,14 @@
   padding: 16px;
   max-height: 320px;
   overflow-y: auto;
-  background: #fbfaf6;
-  border: 1px solid #e5e9f0;
-  border-left: 4px solid #c98f2d;
+  background: var(--superficie-suave);
+  border: 1px solid var(--borde);
+  border-left: 4px solid var(--dorado);
   border-radius: 10px;
   font-family: inherit;
   font-size: 13px;
   line-height: 1.5;
-  color: #334155;
+  color: var(--texto);
   white-space: pre-wrap;
   word-break: break-word;
 }

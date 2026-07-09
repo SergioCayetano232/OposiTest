@@ -1,6 +1,7 @@
 <!-- Aquí solo se llega con sesión iniciada -->
 <nav class="barra-sesion">
   <span class="quien">{{ auth.usuario()?.email }}</span>
+  <app-boton-tema />
   <button class="btn-salir" (click)="salir()">Salir</button>
 </nav>
 

@@ -3,6 +3,7 @@ import { Router, RouterLink } from '@angular/router';
 import { PreguntasService } from '../../services/preguntas.service';
 import { EstadisticasService } from '../../services/estadisticas.service';
 import { AuthService } from '../../services/auth.service';
+import { BotonTema } from '../../componentes/boton-tema/boton-tema';
 
 export interface Tema {
   id: string;
@@ -13,7 +14,7 @@ export interface Tema {
 
 @Component({
   selector: 'app-inicio',
-  imports: [RouterLink],
+  imports: [RouterLink, BotonTema],
   templateUrl: './inicio.html',
   styleUrl: './inicio.css',
 })

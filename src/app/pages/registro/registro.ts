@@ -2,10 +2,11 @@ import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Router, RouterLink } from '@angular/router';
 import { AuthService } from '../../services/auth.service';
+import { BotonTema } from '../../componentes/boton-tema/boton-tema';
 
 @Component({
   selector: 'app-registro',
-  imports: [FormsModule, RouterLink],
+  imports: [FormsModule, RouterLink, BotonTema],
   templateUrl: './registro.html',
   styleUrl: '../acceso.css',
 })
