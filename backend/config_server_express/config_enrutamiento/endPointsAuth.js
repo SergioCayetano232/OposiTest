@@ -12,6 +12,10 @@ const objetoRoutingAuth = express.Router();
 // Al menos 8 caracteres, con una letra y un numero
 const REGEX_PASSWORD = /^(?=.*[A-Za-z])(?=.*\d).{8,}$/;
 
+// Hash de mentira contra el que comparar cuando el email no existe.
+// Asi el login tarda lo mismo exista o no, y nadie averigua quien tiene cuenta.
+const HASH_SEÑUELO = bcrypt.hashSync('contraseña que nadie va a usar', 10);
+
 // POST /api/auth/Registro -> crea el usuario y le genera un codigo de verificacion
 objetoRoutingAuth.post('/Registro', async (req, res) => {
   try {
@@ -113,6 +117,46 @@ objetoRoutingAuth.post('/Verificar', async (req, res) => {
   }
 });
 
-// Aqui ira /Login en el siguiente paso
+// POST /api/auth/Login -> entra un usuario que ya verifico su cuenta
+objetoRoutingAuth.post('/Login', async (req, res) => {
+  try {
+    const { email, password } = req.body;
+
+    if (!email || !password) {
+      return res.status(400).send({ codigo: 1, mensaje: 'faltan el email o la contraseña' });
+    }
+
+    const emailNormalizado = email.trim().toLowerCase();
+    const usuario = await Usuario.findOne({ email: emailNormalizado });
+
+    // Si el email no existe comparamos igual contra un hash falso, para
+    // que la respuesta tarde lo mismo y nadie deduzca quien esta registrado
+    const hashAComparar = usuario ? usuario.password : HASH_SEÑUELO;
+    const passwordCorrecta = bcrypt.compareSync(password, hashAComparar);
+
+    if (!usuario || !passwordCorrecta) {
+      return res.status(401).send({ codigo: 7, mensaje: 'email o contraseña incorrectos' });
+    }
+
+    if (!usuario.verificado) {
+      return res.status(403).send({
+        codigo: 8,
+        mensaje: 'tu cuenta no esta verificada, revisa el codigo que te enviamos por email',
+      });
+    }
+
+    const token = jwtService.crearToken({ idUsuario: usuario._id, email: usuario.email });
+
+    res.status(200).send({
+      codigo: 0,
+      mensaje: 'has entrado correctamente',
+      token,
+      usuario: { email: usuario.email },
+    });
+  } catch (error) {
+    console.log(`Error en el login: ${error.message}`);
+    res.status(500).send({ codigo: 9, mensaje: 'error al iniciar sesion' });
+  }
+});
 
 module.exports = objetoRoutingAuth;
