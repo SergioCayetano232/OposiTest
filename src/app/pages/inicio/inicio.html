@@ -2,9 +2,9 @@
 <nav class="barra-sesion">
   @if (auth.haEntrado()) {
     <span class="quien">{{ auth.usuario()?.email }}</span>
-    <button class="btn-salir" (click)="auth.cerrarSesion()">Salir</button>
+    <button class="btn-salir" (click)="salir()">Salir</button>
   } @else {
-    <a routerLink="/login">Entrar</a>
+    <span class="quien">Estás como invitado</span>
     <a class="btn-crear" routerLink="/registro">Crear cuenta</a>
   }
 </nav>

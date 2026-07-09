@@ -33,7 +33,7 @@ export class Verificar {
 
     try {
       await this.auth.verificar(this.email, this.codigo);
-      this.router.navigate(['/']);
+      this.router.navigate(['/inicio']);
     } catch (fallo) {
       this.error = (fallo as Error).message;
       this.codigo = '';

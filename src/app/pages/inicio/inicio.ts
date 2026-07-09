@@ -1,5 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { PreguntasService } from '../../services/preguntas.service';
 import { EstadisticasService } from '../../services/estadisticas.service';
 import { AuthService } from '../../services/auth.service';
@@ -22,6 +22,14 @@ export class Inicio {
   private estadisticasService = inject(EstadisticasService);
   // publico porque la plantilla lee el usuario de la sesion
   auth = inject(AuthService);
+  private router = inject(Router);
+
+  // Al salir olvidamos tambien el modo invitado, para volver a la bienvenida
+  salir() {
+    this.auth.cerrarSesion();
+    this.auth.olvidarInvitado();
+    this.router.navigate(['/']);
+  }
 
   temas: Tema[] = [
     { id: 'convenio', nombre: 'Convenio Colectivo', descripcion: 'XI Convenio de la FNMT-RCM', icono: '📜' },

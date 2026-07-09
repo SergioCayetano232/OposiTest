@@ -1,0 +1,96 @@
+.bienvenida {
+  max-width: 440px;
+  margin: 60px auto;
+  background: #fff;
+  border: 1px solid #e5e9f0;
+  border-radius: 20px;
+  padding: 40px 32px;
+  text-align: center;
+  box-shadow: 0 1px 2px rgba(20, 40, 80, 0.04), 0 8px 24px rgba(20, 40, 80, 0.05);
+}
+
+.bienvenida h1 {
+  font-size: 42px;
+  letter-spacing: -1px;
+  color: #1d3a6e;
+}
+
+.bienvenida h1 span {
+  color: #c98f2d;
+}
+
+.lema {
+  color: #64748b;
+  margin-top: 6px;
+}
+
+.ventajas {
+  list-style: none;
+  text-align: left;
+  margin: 28px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ventajas li {
+  font-size: 14px;
+  color: #334155;
+  background: #f6f8fb;
+  border-radius: 10px;
+  padding: 11px 14px;
+}
+
+.botones {
+  display: flex;
+  gap: 10px;
+}
+
+.botones a {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.15s;
+}
+
+.btn-entrar {
+  background: #eef2f9;
+  color: #1d3a6e;
+}
+.btn-entrar:hover {
+  background: #e2e8f2;
+}
+
+.btn-crear {
+  background: #1d3a6e;
+  color: #fff;
+}
+.btn-crear:hover {
+  background: #16305c;
+}
+
+.btn-invitado {
+  width: 100%;
+  margin-top: 12px;
+  padding: 11px;
+  background: none;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  color: #64748b;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn-invitado:hover {
+  border-color: #94a3b8;
+}
+
+.nota {
+  font-size: 12px;
+  color: #94a3b8;
+  margin-top: 14px;
+}

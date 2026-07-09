@@ -1,0 +1,18 @@
+<section class="bienvenida">
+  <h1>Oposi<span>Test</span></h1>
+  <p class="lema">Prepara tu examen de Auxiliar de Producción de la FNMT</p>
+
+  <ul class="ventajas">
+    <li>📚 {{ totalPreguntas }} preguntas de convenio, PRL, lengua y matemáticas</li>
+    <li>🎯 Simulacros con la puntuación real del examen</li>
+    <li>📈 Guarda tus intentos y tus mejores notas</li>
+  </ul>
+
+  <div class="botones">
+    <a class="btn-entrar" routerLink="/login">Entrar</a>
+    <a class="btn-crear" routerLink="/registro">Crear cuenta</a>
+  </div>
+
+  <button class="btn-invitado" (click)="seguirComoInvitado()">Seguir como invitado</button>
+  <p class="nota">Sin cuenta, tus notas solo se guardan en este navegador.</p>
+</section>

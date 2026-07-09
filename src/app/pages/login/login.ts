@@ -24,7 +24,7 @@ export class Login {
 
     try {
       await this.auth.entrar(this.email, this.password);
-      this.router.navigate(['/']);
+      this.router.navigate(['/inicio']);
     } catch (fallo) {
       const error = fallo as ErrorAuth;
 
