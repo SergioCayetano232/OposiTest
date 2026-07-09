@@ -5,6 +5,7 @@ const bcrypt = require('bcrypt');
 const Usuario = require('../../modelos/Usuario.js');
 const otpService = require('../servicios/otpService.js');
 const mailjetService = require('../servicios/mailjetService.js');
+const jwtService = require('../servicios/jwtService.js');
 
 const objetoRoutingAuth = express.Router();
 
@@ -65,6 +66,53 @@ objetoRoutingAuth.post('/Registro', async (req, res) => {
   }
 });
 
-// Aqui iran /Verificar y /Login en los siguientes pasos
+// POST /api/auth/Verificar -> comprueba el codigo del email y da acceso
+objetoRoutingAuth.post('/Verificar', async (req, res) => {
+  try {
+    const { email, codigo } = req.body;
+
+    if (!email || !codigo) {
+      return res.status(400).send({ codigo: 1, mensaje: 'faltan el email o el codigo' });
+    }
+
+    const emailNormalizado = email.trim().toLowerCase();
+    const usuario = await Usuario.findOne({ email: emailNormalizado });
+
+    // Mismo mensaje si el email no existe o si el codigo falla,
+    // para que nadie pueda averiguar quien esta registrado
+    const codigoCorrecto = usuario && otpService.comprobarCodigo(codigo, usuario.codigoOtp);
+    if (!codigoCorrecto) {
+      return res.status(401).send({ codigo: 4, mensaje: 'el codigo no es correcto' });
+    }
+
+    if (usuario.verificado) {
+      return res.status(409).send({ codigo: 5, mensaje: 'esta cuenta ya estaba verificada' });
+    }
+
+    if (usuario.codigoOtpExpira < new Date()) {
+      return res.status(410).send({ codigo: 6, mensaje: 'el codigo ha caducado, pide uno nuevo' });
+    }
+
+    // Cuenta activada y codigo borrado, que ya no sirve de nada
+    usuario.verificado = true;
+    usuario.codigoOtp = null;
+    usuario.codigoOtpExpira = null;
+    await usuario.save();
+
+    const token = jwtService.crearToken({ idUsuario: usuario._id, email: usuario.email });
+
+    res.status(200).send({
+      codigo: 0,
+      mensaje: 'cuenta verificada, ya puedes entrar',
+      token,
+      usuario: { email: usuario.email },
+    });
+  } catch (error) {
+    console.log(`Error al verificar el codigo: ${error.message}`);
+    res.status(500).send({ codigo: 9, mensaje: 'error al verificar el codigo' });
+  }
+});
+
+// Aqui ira /Login en el siguiente paso
 
 module.exports = objetoRoutingAuth;
