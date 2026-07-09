@@ -1,0 +1,4 @@
+node_modules/
+
+# El .env lleva claves, nunca se sube a GitHub
+.env
